@@ -18,7 +18,7 @@ owner:
   bio: Master student at Tsinghua Shenzhen International Graduate School
   email: chelseyhu111@gmail.com
   # cv: https://github.com/HU-Qiqi/huqiqi.net/blob/main/file/CV-QiqiHu.pdf
-  cv: file/Huqiqi_CV.pdf
+  cv: /file/Huqiqi_CV.pdf
 
 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
