@@ -80,7 +80,8 @@ highlighter: rouge               # Code highlighter; Rouge is default in MM
 # --------------------------------------------------
 #  PERMALINK STRUCTURE
 # --------------------------------------------------
-permalink: /:categories/:title    # e.g. /tech/my-post/
+#permalink: /:categories/:title    # e.g. /tech/my-post/
+permalink: /:categories/:title
 
 
 # --------------------------------------------------
