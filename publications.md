@@ -6,7 +6,7 @@ title: Publications
 
 
 ## Projects
-- Hybrid thermal management scheme combining PCM and air cooling for suppressing thermal runaway in LIBs <br>
+- Hybrid thermal management strategy combining PCM and air cooling in LIBs <br>
 - [WM_encoder_decoder for copyright protection in image-to-image based on diffusion models](https://github.com/HU-Qiqi/WM_encoder_decoder) [PPT](https://github.com/HU-Qiqi/WM_encoder_decoder/blob/main/Introduction.pptx)<br>
   - This project addresses image security and copyright issues caused by generative models (such as diffusion models) by proposing a dual-protection scheme that integrates digital watermarking with adversarial perturbations.
   - The approach suppresses tampering and generative manipulation through adversarial attacks in the latent space of images, while employing a pre-trained encoder-decoder network to achieve highly accurate watermark embedding and extraction.
