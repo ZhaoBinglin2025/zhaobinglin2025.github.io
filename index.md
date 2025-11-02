@@ -8,9 +8,14 @@ layout: page
 
 Here is **Qiqi Hu (Chelsey, 胡齐齐)**.<br>
 
-I am a master student at Tsinghua University. I work in Guangdong Provincial Key Laboratory of Thermal Management Engineering and Materials in Shenzhen Intrnational Graduate School, supervised by [Prof. Hongda Du](https://www.sigs.tsinghua.edu.cn/dhd/list.htm). I also used to be a visiting student in Southern University of Science and Technology, advised by [Prof. Feng Zheng](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en).  Before that, I got my undergraduate degree from Qingdao University of School of Computer Science and Technology, and fortunately supervised by [Prof. Hanlin Zhang](https://cst.qdu.edu.cn/info/1072/7423.htm).
+I am currently a Master's student at Tsinghua University, working in the **Guangdong Provincial Key Laboratory of Thermal Management Engineering and Materials** at the Shenzhen International Graduate School. My research is supervised by [**Prof. Hongda Du**](https://www.sigs.tsinghua.edu.cn/dhd/list.htm).
 
-My research interests mainly include **thermal management of lithium-ion batteries under high-rate discharge conditions, trustworthy diffusion models and content security in AIGC**.
+Previously, I was a visiting research student at the **Southern University of Science and Technology**, advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en), where I worked on trustworthy diffusion models and content security in AIGC.
+
+I received my Bachelor's degree from the School of Computer Science and Technology at **Qingdao University**. As an undergraduate, I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) (Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), NSF CAREER Awardee, Towson University). In his group, I worked on privacy-preserving outsourcing computation and secure IoT systems. This experience provided me with hands-on research training and sparked my long-term interest in **cybersecurity and trustworthy AI**.
+
+
+My research interests mainly include **thermal management of lithium-ion batteries, trustworthy AI**.
 
 For a short summary CV, see my [Google Sites page](https://sites.google.com/view/huqiqi).
 
