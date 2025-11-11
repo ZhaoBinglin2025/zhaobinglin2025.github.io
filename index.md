@@ -33,7 +33,7 @@ I aim to bridge the gap between *materials, systems, and decision-making* throug
 
 ## 🔬 Research Interests
 
-- **Thermal Management and Energy Safety**  
+### Thermal Management and Energy Safety
   - Investigating mechanisms for suppressing thermal runaway in lithium-ion batteries and developing immersion cooling strategies
   - Thermal management of lithium-ion batteries under high-power discharge conditions
   - Conducting finite element modeling and thermal simulations  
