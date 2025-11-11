@@ -11,7 +11,7 @@ title: 主页中文版
 
 我目前的研究聚焦于**人工智能与可持续能源系统的交叉领域（AI for Energy Systems & Low-carbon Innovation）**，探索利用数据驱动与优化方法推动低碳能源技术创新。  
 
-此前，我曾在**南方科技大学**[**郑锋教授**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=2)领导的视觉智能与感知课题组访问交流，研究可信扩散模型与AIGC内容安全。 本科毕业于**青岛大学计算机科学技术学院信息安全专业**，在[**张翰林教授**](https://cst.qdu.edu.cn/info/1072/7423.htm)指导下从事**隐私保护与物联网安全**研究。 张教授师从[**Wei Yu 教授**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html)（NSF CAREER Award获得者）。 这段经历为我奠定了扎实的算法与安全研究基础，也激发了我将**人工智能方法应用于能源科学与低碳系统建模**的兴趣。
+此前，我曾在南方科技大学[**郑锋教授**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=2)领导的视觉智能与感知课题组访问交流，研究可信扩散模型与AIGC内容安全。 本科毕业于青岛大学计算机科学技术学院信息安全专业，在[**张翰林教授**](https://cst.qdu.edu.cn/info/1072/7423.htm)指导下从事隐私保护与物联网安全研究。 张教授师从[**Wei Yu 教授**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html)（NSF CAREER Award获得者）。 这段经历为我奠定了扎实的算法与安全研究基础，也激发了我将**人工智能方法应用于能源科学与低碳系统建模**的兴趣。
 
 欢迎通过[**邮件**](mailto:chelseyhu111@gmail.com)与我联系，无论是科研合作还是学术讨论。
 
