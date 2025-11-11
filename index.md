@@ -9,9 +9,7 @@ Here is **Qiqi Hu (Chelsey, 胡齐齐)**.<br>
 
 I am currently a **Master’s student at Tsinghua University**, working in the *Guangdong Provincial Key Laboratory of Thermal Management Engineering and Materials* at the Shenzhen International Graduate School, supervised by [**Prof. Hongda Du**](https://www.sigs.tsinghua.edu.cn/dhd/list.htm).
 
-Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en), where I worked on **trustworthy diffusion models** and **content security in AIGC**.
-
-I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems.  
+Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en), where I worked on trustworthy diffusion models and content security in AIGC.I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems.  
 This experience provided me with rigorous research training in cybersecurity and trustworthy AI, forming a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.
 
 ---
