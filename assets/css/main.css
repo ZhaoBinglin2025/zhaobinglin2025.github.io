@@ -394,3 +394,38 @@ p {
   text-align: justify;
   text-justify: inter-ideograph;
 }
+
+
+/* 覆盖 Markdown 主体的段落、列表、引用中的段落 */
+.markdown-body p,
+.markdown-body li,
+.markdown-body blockquote p,
+.post-content p,
+.post-content li,
+.post-content blockquote p {
+  text-align: justify;
+  text-justify: inter-ideograph; /* CJK 更自然 */
+  word-break: break-word;        /* 防长词/URL 破坏排版 */
+}
+
+/* 不要对齐代码、表格等（避免奇怪拉伸） */
+.markdown-body code,
+.markdown-body pre,
+.markdown-body kbd,
+.post-content code,
+.post-content pre,
+.post-content kbd,
+.markdown-body table,
+.post-content table {
+  text-align: initial;
+}
+
+/* 可选：需要“最后一行也对齐”的区域，再额外加一个类来控制 */
+.justify-all p,
+.justify-all li,
+.justify-all blockquote p {
+  text-align: justify;
+  text-align-last: justify;      /* 让最后一行也拉伸（Chrome/Firefox 支持）*/
+  -moz-text-align-last: justify; /* 兼容旧 Firefox */
+}
+
