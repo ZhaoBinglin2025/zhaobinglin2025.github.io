@@ -53,9 +53,9 @@ I aim to bridge the gap between *materials, systems, and decision-making* throug
 ---
 
 ## 🧩 Academic Background
-- **M.Eng. in Environmental Science and New Energy Technology**, *Tsinghua University*  
-- **Visiting Research Student**, *SUSTech*  
-- **B.Eng. in Computer Science and Technology**, *Qingdao University*
+- **M.Eng. in Environmental Science and New Energy Technology**,School of International Graduate School,*Tsinghua University*  
+- **Visiting Research Student**, Department of Computer Science and Engineering, *SUSTech*  
+- **B.Eng. in Information Security**, School of Computer and Technology, *Qingdao University*
 
 ---
 
