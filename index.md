@@ -32,6 +32,7 @@ I aim to bridge the gap between *materials, systems, and decision-making* throug
 ## 🔬 Research Interests
 
 ### Thermal Management and Energy Safety
+Previously, my research focused on thermal management of lithium-ion batteries, which naturally motivated my current interest in **AI-driven energy systems**.
 - Investigating mechanisms for suppressing thermal runaway in lithium-ion batteries and developing **PCM-based hybrid cooling strategies**  
 - Thermal management of LIBs under high-power discharge conditions using **finite-element modeling** and **multiphysics simulation**  
 - Applications in energy storage and electronic thermal control  
