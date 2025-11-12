@@ -7,44 +7,66 @@ author_profile: true      # 打开左侧个人卡片（含站内链接）
 breadcrumbs: true         # 页面顶部显示 Home › Publications
 ---
 
-
 <style>
+/* 控制页面主体宽度，默认太宽可适当缩窄 */
 .page__content {
-  max-width: 1200px !important;
+  max-width: 1000px !important;   /* 原 1200px 改为 1000px */
 }
+
+/* 每个 publication 的布局 */
 .pub {
   display: flex;
   align-items: flex-start;
   gap: 24px;
   margin-bottom: 2rem;
 }
-.pub .thumb { flex: 0 0 300px; }
+
+/* 调整图片区域宽度（放大一些） */
+.pub .thumb {
+  flex: 0 0 360px;   /* 原 300px → 360px，让图更大 */
+}
+
 .pub .thumb img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-.pub .body { flex: 1; min-width: 0; }
-.pub .title { margin: 0; font-weight: 700; }
-.pub .meta { margin: .3rem 0 .5rem; font-style: italic; color: #555; }
+
+/* 文字内容区 */
+.pub .body {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub .title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.pub .meta {
+  margin: .3rem 0 .5rem;
+  font-style: italic;
+  color: #555;
+}
+
+/* 响应式，在小屏幕上上下排列 */
 @media (max-width: 768px){
   .pub { flex-direction: column; }
   .pub .thumb { flex: auto; }
 }
 
-/* 提高该页的内容容器宽度 */
+/* 主体容器整体调宽或调窄 */
 .layout--single .page__inner,
 .page__content,
 .initial-content {
-  max-width: 1200px !important;
+  max-width: 1000px !important;  /* 同步为 1000px */
 }
 
-/* （可选）让侧栏窄一点，给正文多点空间 */
-.sidebar { width: 240px !important; }
-/* 让左右间隙小一点（视主题而定，可选） */
-/* .sidebar + .archive, .sidebar + .page { margin-left: 260px !important; } */
-  
+/* 侧栏窄一点，正文区更平衡 */
+.sidebar {
+  width: 240px !important;
+}
 </style>
 
 
