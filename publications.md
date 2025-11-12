@@ -10,7 +10,7 @@ breadcrumbs: true         # 页面顶部显示 Home › Publications
 <style>
 /* 控制页面主体宽度，默认太宽可适当缩窄 */
 .page__content {
-  max-width: 1000px !important;   /* 原 1200px 改为 1000px */
+  max-width: 800px !important;   /* 原 1200px 改为 1000px */
 }
 
 /* 每个 publication 的布局 */
