@@ -70,13 +70,23 @@ breadcrumbs: true
   width: 240px !important;
 }
 
-/* ==== 控制整页宽度（优先级最高） ==== */
-.layout--single .page__inner,
-.page__content,
-.initial-content,
-.page {
-  max-width: 850px !important; /* 改这个数值控制整体宽度 */
-  margin: 0 auto !important;
+/* === 只控制本页 publications 的宽度 === */
+.pub-wrap{
+  max-width: 920px;      /* 想更窄就 880/900，想更宽就 960/1000 */
+  margin: 0 auto;
+}
+
+/* 左图右文布局（你原来的保持不变，略调大小即可） */
+.pub{ display:flex; gap:24px; align-items:flex-start; margin-bottom:2rem; }
+.pub .thumb{ flex:0 0 440px; }   /* 想把图再大一点就 440/460；再小一点就 380/400 */
+.pub .thumb img{ width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.1); }
+.pub .body{ flex:1; min-width:0; line-height:1.55; }
+.pub .title{ margin:0; font-weight:700; }
+.pub .meta{ margin:.3rem 0 .5rem; font-style:italic; color:#555; }
+
+@media (max-width:768px){
+  .pub{ flex-direction:column; }
+  .pub .thumb{ flex:auto; }
 }
 
 </style>
@@ -85,7 +95,8 @@ breadcrumbs: true
 ## Publications / Projects
 
 [← Back to Home](/)
-
+<div class="pub-wrap">
+  
 <div class="pub">
   <div class="thumb">
     <img src="/images/pcm_air_libs.png" alt="Hybrid BTMS">
@@ -132,4 +143,6 @@ breadcrumbs: true
     <p>Secure outsourcing for image denoising using <strong>Householder transformation</strong> and optimal-probability verification; maintains accuracy (<strong>PSNR ≈ 20–21 dB</strong>) while greatly reducing client computation.</p>
     <p>面向物联网图像去噪的<strong>安全外包方案</strong>，以豪斯霍尔德变换保护隐私并可验证结果；在 <strong>PSNR 约 20–21 dB</strong> 下显著降低端侧计算。</p>
   </div>
+</div>
+
 </div>
