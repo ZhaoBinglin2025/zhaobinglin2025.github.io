@@ -9,6 +9,11 @@ breadcrumbs: true         # 页面顶部显示 Home › Publications
 
 <style>
 /* 控制页面主体宽度，默认太宽可适当缩窄 */
+  /* 全面控制单页内容宽度 */
+.layout--single .page__inner {
+  max-width: 850px !important;   /* 改这里最有效 */
+}
+
 .page__content {
   max-width: 800px !important;   /* 原 1200px 改为 1000px */
 }
