@@ -1,11 +1,11 @@
 ---
-layout: single            # 使用 Single 布局（支持面包屑等）
+layout: single
 title: Publications
-permalink: /publications/ # 建议目录式永久链接
-classes: wide             # 主题内置宽版
-author_profile: true      # 打开左侧个人卡片（含站内链接）
-breadcrumbs: true         # 页面顶部显示 Home › Publications
+permalink: /publiclications/
+author_profile: true
+breadcrumbs: true
 ---
+
 
 <style>
 /* 控制页面主体宽度，默认太宽可适当缩窄 */
