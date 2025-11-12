@@ -41,7 +41,7 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 - Data-driven modeling and optimization of **energy and multi-energy systems**  
 - Machine-learning-based **design of sustainable materials and energy devices**  
 - Carbon-footprint modeling, emission prediction, and **AI-driven low-carbon decision support**  
-- Digital-twin modeling and intelligent optimization for **carbon-neutral energy transition**
+- Intelligent optimization for **carbon-neutral energy transition**
 
 ### Trustworthy AI & Secure Generative Models
 - **Content safety for AIGC** using diffusion models — PGD-based adversarial defense and encoder–decoder watermarking  
