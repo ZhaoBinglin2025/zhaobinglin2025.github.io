@@ -14,9 +14,6 @@ breadcrumbs: true         # 页面顶部显示 Home › Publications
   max-width: 850px !important;   /* 改这里最有效 */
 }
 
-.page__content {
-  max-width: 800px !important;   /* 原 1200px 改为 1000px */
-}
 
 /* 每个 publication 的布局 */
 .pub {
@@ -72,6 +69,16 @@ breadcrumbs: true         # 页面顶部显示 Home › Publications
 .sidebar {
   width: 240px !important;
 }
+
+/* ==== 控制整页宽度（优先级最高） ==== */
+.layout--single .page__inner,
+.page__content,
+.initial-content,
+.page {
+  max-width: 850px !important; /* 改这个数值控制整体宽度 */
+  margin: 0 auto !important;
+}
+
 </style>
 
 
