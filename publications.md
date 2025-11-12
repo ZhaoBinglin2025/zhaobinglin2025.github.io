@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: Publications
 permalink: /publications/
 author_profile: true
@@ -94,10 +94,9 @@ breadcrumbs: true
 
 ## Publications / Projects
 
-<div class="pub-wrap">
-  
 [← Back to Home](/)
 
+<div class="pub-wrap">
   
 <div class="pub">
   <div class="thumb">
