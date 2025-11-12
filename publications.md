@@ -28,6 +28,19 @@ title: Publications
   .pub { flex-direction: column; }
   .pub .thumb { flex: auto; }
 }
+
+/* 提高该页的内容容器宽度 */
+.layout--single .page__inner,
+.page__content,
+.initial-content {
+  max-width: 1200px !important;
+}
+
+/* （可选）让侧栏窄一点，给正文多点空间 */
+.sidebar { width: 240px !important; }
+/* 让左右间隙小一点（视主题而定，可选） */
+/* .sidebar + .archive, .sidebar + .page { margin-left: 260px !important; } */
+  
 </style>
 
 
