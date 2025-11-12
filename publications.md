@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Publications
-permalink: /publiclications/
+permalink: /publications/
 author_profile: true
 breadcrumbs: true
 ---
