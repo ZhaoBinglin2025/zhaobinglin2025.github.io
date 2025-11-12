@@ -7,8 +7,6 @@ author_profile: true      # 打开左侧个人卡片（含站内链接）
 breadcrumbs: true         # 页面顶部显示 Home › Publications
 ---
 
-[← Back to Home](/)
-
 
 <style>
 .page__content {
@@ -51,6 +49,8 @@ breadcrumbs: true         # 页面顶部显示 Home › Publications
 
 
 ## Publications / Projects
+
+[← Back to Home](/)
 
 <div class="pub">
   <div class="thumb">
