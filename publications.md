@@ -1,8 +1,11 @@
 ---
-layout: page
-permalink: /publications/index.html
+layout: single           # 用单页布局
 title: Publications
+permalink: /publications/
+classes: wide            # 主题内置的“加宽”类
+author_profile: false    # 可选：关闭左侧个人卡片，让内容更宽
 ---
+
 
 <style>
 .page__content {
