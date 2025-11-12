@@ -9,7 +9,7 @@ breadcrumbs: true
 <style>
 /* ===== 仅控制本页 Publications 容器宽度 ===== */
 .pub-wrap{
-  max-width: 920px;      /* 想更窄 880/900，想更宽 960/1000 */
+  max-width: 960px;      /* 想更窄 880/900，想更宽 960/1000 */
   margin: 0 auto;
 }
 
@@ -56,7 +56,7 @@ breadcrumbs: true
 
 .page__content h2:first-of-type,
 .page__content p:first-of-type {
-  margin-left: calc((100% - 920px) / 2);  /* 这里的 920 与 .pub-wrap 相同 */
+  margin-left: calc((100% - 960px) / 2);  /* 这里的 920 与 .pub-wrap 相同 */
   max-width: 920px;
 }
 
@@ -67,6 +67,12 @@ breadcrumbs: true
 /* 返回链接样式（可选） */
 .pub-wrap > p a { color:#2a59ff; text-decoration:none; border-bottom:1px dashed rgba(42,89,255,.5); }
 .pub-wrap > p a:hover{ opacity:.85; }
+
+  .pub .body p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
 
 
 </style>
