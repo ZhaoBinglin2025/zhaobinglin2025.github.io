@@ -13,6 +13,8 @@ title: 主页中文版
 
 此前，我曾在南方科技大学[**郑锋教授**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=2)领导的视觉智能与感知课题组访问交流，研究可信扩散模型与AIGC内容安全。 本科毕业于青岛大学计算机科学技术学院信息安全专业，在[**张翰林教授**](https://cst.qdu.edu.cn/info/1072/7423.htm)指导下从事隐私保护与物联网安全研究。 张教授师从[**Wei Yu 教授**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html)（NSF CAREER Award获得者）。 这段经历为我奠定了扎实的算法与安全研究基础，也激发了我将**人工智能方法应用于能源科学与低碳系统建模**的兴趣。
 
+> 🧭 *我正在寻求博士阶段的研究机会，希望在**能源系统建模**与**机器学习优化**等方向继续深入探索，致力于推动**碳中和与可持续能源系统**的发展。*
+
 欢迎通过[**邮件**](mailto:chelseyhu111@gmail.com)与我联系，无论是科研合作还是学术讨论。
 
 ---
