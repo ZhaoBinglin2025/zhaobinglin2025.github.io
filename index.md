@@ -17,7 +17,7 @@ Previously, I was a visiting research student at the Southern University of Scie
 
 For a concise CV, please visit my [**Google Sites page**](https://sites.google.com/view/huqiqi).  
 
-> 🧭 *I am seeking **PhD opportunities** to advance research in **energy system modeling** and **machine-learning optimization** toward achieving **carbon-neutral and sustainable energy systems.***
+> 🧭 *I am seeking **PhD opportunities（2027 fall）** to advance research in **energy system modeling** and **machine-learning optimization** toward achieving **carbon-neutral and sustainable energy systems.***
 
 I am always open to discussions and collaborations — feel free to [**email me**](mailto:chelseyhu111@gmail.com).
 
