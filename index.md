@@ -65,4 +65,11 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 
 ---
 
+## 🧠 Skills / Research Toolkit
+- **Programming:** Python, MATLAB, C, LaTeX  
+- **Frameworks:** PyTorch, TensorFlow (for deep learning), scikit-learn (for machine learning) 
+- **Tools:** Linux, VSCode, Anaconda, COMSOL, Microsoft Office  
+- **Languages:** Chinese (Native), English (Fluent)
+
+
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=uv82N_7dV3rkBt0dfztE_3a8xjOEZQwsnE6OqptIpDE&cl=ffffff&w=a"></script>
