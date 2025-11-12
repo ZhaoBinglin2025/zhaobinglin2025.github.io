@@ -42,7 +42,7 @@ A hybrid strategy integrating **phase-change materials (PCM)** and **air cooling
 锂离子电池**相变材料 + 风冷**的混合热管理方案，兼顾温度均匀性、能效与系统阻力。 |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-| ![WM encoder-decoder](/images/wm_encoder_decoder.jpg) | **[WM_encoder_decoder for copyright protection in image-to-image tasks (diffusion)](https://github.com/HU-Qiqi/WM_encoder_decoder)** · [PPT](https://github.com/HU-Qiqi/WM_encoder_decoder/blob/main/Introduction.pptx)  
+| ![WM encoder-decoder](/images/wm_encoder_decoder.jpg) | **[WM_encoder_decoder for copyright protection in image-to-image tasks (diffusion)](https://github.com/HU-Qiqi/WM_encoder_decoder)** · [PPT](huqiqi.net/file/WM_encoder_decoder.pptx)  
 *Project / Code*  
 Dual-protection scheme combining **digital watermarking** and **adversarial perturbations** in the latent space; precise watermark embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.  
 提出**数字水印 + 对抗扰动**的双重保护方案，在隐空间抑制篡改与生成操控；无需微调模型、具有良好迁移性与鲁棒性。 |
