@@ -94,8 +94,10 @@ breadcrumbs: true
 
 ## Publications / Projects
 
-[← Back to Home](/)
 <div class="pub-wrap">
+  
+[← Back to Home](/)
+
   
 <div class="pub">
   <div class="thumb">
