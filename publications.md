@@ -53,6 +53,14 @@ breadcrumbs: true
   .pub{ flex-direction: column; }
   .pub .thumb{ flex: auto; }
 }
+
+.page__content h2:first-of-type,
+.page__content p:first-of-type {
+  margin-left: calc((100% - 920px) / 2);  /* 这里的 920 与 .pub-wrap 相同 */
+  max-width: 920px;
+}
+
+
 </style>
 
 ## Publications / Projects
