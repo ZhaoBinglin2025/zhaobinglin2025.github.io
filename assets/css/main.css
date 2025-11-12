@@ -429,3 +429,17 @@ p {
   -moz-text-align-last: justify; /* 兼容旧 Firefox */
 }
 
+
+/* ===== 让 About/Research 等正文里的分点(li)也左右对齐 ===== */
+.page__content li {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.6;
+}
+
+/* （可选）让 li 中的最后一行稍微收紧一点 */
+.page__content li::marker {
+  font-size: 0.85em;
+  color: #555;
+}
+
