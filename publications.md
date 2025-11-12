@@ -39,7 +39,7 @@ title: Publications
   </div>
   <div class="body">
     <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy <em>(Advisor: Hongda Du)</em></p>
-    <p class="meta">Project · 2024–present</p>
+    <p class="meta">Project · 2025–present</p>
     <p>Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature (below 46.8 °C)</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization using an <strong>entropy–TOPSIS</strong> framework ensures a balance between cooling performance and lightweight design.</p>
     <p>提出了一种用于无人机锂离子电池的<strong>相变材料–风冷混合热管理系统（BTMS）</strong>，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 且保持低于 46.8 °C；通过 TOPSIS 优化实现轻量化与散热性能的平衡。</p>
   </div>
