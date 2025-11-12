@@ -23,7 +23,7 @@ breadcrumbs: true         # 页面顶部显示 Home › Publications
 
 /* 调整图片区域宽度（放大一些） */
 .pub .thumb {
-  flex: 0 0 360px;   /* 原 300px → 360px，让图更大 */
+  flex: 0 0 480px;   /* 原 300px → 360px，让图更大 */
 }
 
 .pub .thumb img {
