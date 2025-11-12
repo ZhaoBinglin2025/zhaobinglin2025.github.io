@@ -1,11 +1,9 @@
 ---
-layout: page
+layout: single
 permalink: /publications/index.html
 classes: wide            # 主题内置的“加宽”类
-author_profile: false    # 可选：关闭左侧个人卡片，让内容更宽
 title: Publications
 ---
-
 
 
 <style>
