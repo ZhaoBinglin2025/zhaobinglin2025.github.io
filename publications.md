@@ -2,6 +2,7 @@
 layout: single
 permalink: /publications/index.html
 classes: wide            # 主题内置的“加宽”类
+author_profile: true
 title: Publications
 ---
 
