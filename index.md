@@ -43,10 +43,10 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 - Carbon-footprint modeling, emission prediction, and **AI-driven low-carbon decision support**  
 - Digital-twin modeling and intelligent optimization for **carbon-neutral energy transition**
 
-### Scientific Machine Learning & Trustworthy AI
-- Physics-informed, graph-based, and generative models for **scientific and energy data**  
-- Uncertainty quantification and **interpretable AI for scientific applications**  
-- Trustworthy learning methods for **energy and environmental systems**
+### Trustworthy AI & Secure Generative Models
+- **Content safety for AIGC** using diffusion models — PGD-based adversarial defense and encoder–decoder watermarking  
+- **Privacy-preserving in cloud computing and Internt of Things**, including cloud-assisted and IoT security with Hausdorff-transform methods for image denoising and segmentation  
+- Extending **trustworthy machine learning** and robust optimization techniques toward **digital low-carbon energy applications**
 
 ---
 
