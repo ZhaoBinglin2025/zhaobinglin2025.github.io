@@ -32,3 +32,29 @@ title: Publications
   <br>该项目提出了一种面向物联网图像去噪的安全外包方案，将计算密集的矩阵分解和相似性评估任务卸载至云端处理，同时通过豪斯霍尔德变换保护数据隐私。该方案采用可验证机制，能以最优概率检测云端返回的无效计算结果，在显著降低客户端计算开销的同时保持去噪精度（PSNR ≈ 20–21 dB），为医疗影像和智能监控等物联网应用提供了实用解决方案。
 
 <br>
+
+
+## Publications / Projects
+
+| ![Hybrid TMS](/images/pcm_air_libs.png) | **Hybrid thermal management strategy combining PCM and air cooling in LIBs**  
+*Project*, 2024–present  
+A hybrid strategy integrating **phase-change materials (PCM)** and **air cooling** for Li-ion battery thermal management; evaluates trade-offs among temperature uniformity, pressure drop, and energy efficiency.  
+锂离子电池**相变材料 + 风冷**的混合热管理方案，兼顾温度均匀性、能效与系统阻力。 |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| ![WM encoder-decoder](/images/wm_encoder_decoder.jpg) | **[WM_encoder_decoder for copyright protection in image-to-image tasks (diffusion)](https://github.com/HU-Qiqi/WM_encoder_decoder)** · [PPT](https://github.com/HU-Qiqi/WM_encoder_decoder/blob/main/Introduction.pptx)  
+*Project / Code*  
+Dual-protection scheme combining **digital watermarking** and **adversarial perturbations** in the latent space; precise watermark embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.  
+提出**数字水印 + 对抗扰动**的双重保护方案，在隐空间抑制篡改与生成操控；无需微调模型、具有良好迁移性与鲁棒性。 |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| ![SSNN](/images/SSNN.png) | **[SSNN: Privacy-Preserving Secure Shared Nearest Neighbor Clustering in IoT](https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things)**  
+*Research Project*  
+Cloud-assisted, privacy-preserving **SNN clustering** using **orthogonal matrix transformation** and lightweight verification; cuts the most complex step from **10.859s → 1.183s** while preserving accuracy.  
+云辅助的**隐私保护 SNN 聚类**，外包前以正交矩阵加密并可验证返回结果；在保持精度下显著降低本地计算开销。 |
+|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| ![SNLM](/images/SNLM.png) | **SNLM: A secure and efficient image denoising algorithm in IoT** *(Advisor: Hanlin Zhang)*  
+*Degree Thesis*  
+Secure outsourcing for image denoising using **Householder transformation** and optimal-probability verification; maintains accuracy (**PSNR ≈ 20–21 dB**) while greatly reducing client computation.  
+面向物联网图像去噪的**安全外包方案**，以豪斯霍尔德变换保护隐私并可验证结果；在**PSNR 约 20–21 dB**下显著降低端侧计算。 |
