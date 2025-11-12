@@ -66,7 +66,7 @@ title: Publications
     <img src="/images/WM_encoder_decoder.png" alt="WM encoder-decoder">
   </div>
   <div class="body">
-    <p class="title"><a href="https://github.com/HU-Qiqi/WM_encoder_decoder">WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)</a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a> <em>(Advisor: Feng Zheng)</em></p>
+    <p class="title"><a href="https://github.com/HU-Qiqi/WM_encoder_decoder">WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks based on Diffusion Model)</a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a> <em>(Advisor: Feng Zheng)</em></p>
     <p class="meta">Project / Code</p>
     <p>Dual-protection scheme combining <strong>digital watermarking</strong> and <strong>adversarial perturbations</strong> in the latent space; precise embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.</p>
     <p>提出<strong>数字水印 + 对抗扰动</strong>的双重保护方案，在隐空间抑制篡改与生成操控；无需微调、具有良好迁移性与鲁棒性。</p>
