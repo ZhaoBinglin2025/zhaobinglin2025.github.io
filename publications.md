@@ -5,31 +5,21 @@ title: Publications
 ---
 
 <style>
-.pub{display:flex; gap:16px; align-items:flex-start; margin:18px 0;}
-.pub .thumb{flex:0 0 240px;}           /* 左侧图宽度，可改成 200/220 等 */
-.pub .thumb img{width:100%; height:auto; border-radius:8px;}
-.pub .body{flex:1; min-width:0;}
-.pub .title{margin:0; font-weight:700;}
-.pub .meta{margin:.2rem 0 .4rem; font-style:italic; color:#555;}
-.pub .links a{margin-right:10px; border-bottom:1px dashed #888; text-decoration:none;}
-@media (max-width:680px){ .pub{flex-direction:column;} .pub .thumb{flex:auto;} }
-</style>
-
-<style>
 .page__content {
-  max-width: 1100px !important;   /* 默认大约720px，这里放宽 */
+  max-width: 1200px !important;
 }
 .pub {
   display: flex;
   align-items: flex-start;
-  gap: 20px;
+  gap: 24px;
   margin-bottom: 2rem;
 }
-.pub .thumb { flex: 0 0 300px; }   /* 原来240，可改到260~320 */
+.pub .thumb { flex: 0 0 300px; }
 .pub .thumb img {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 .pub .body { flex: 1; min-width: 0; }
 .pub .title { margin: 0; font-weight: 700; }
