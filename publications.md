@@ -36,25 +36,25 @@ title: Publications
 
 ## Publications / Projects
 
-| ![Hybrid TMS](/images/pcm_air_libs.png) | **Hybrid thermal management strategy combining PCM and air cooling in LIBs**  
+| ![Hybrid BTMS](/images/pcm_air_libs.png) | **Design and Multi-Objective Optimization of efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy**  *(Advisor: Hongda Du)*
 *Project*, 2024–present  
-A hybrid strategy integrating **phase-change materials (PCM)** and **air cooling** for Li-ion battery thermal management; evaluates trade-offs among temperature uniformity, pressure drop, and energy efficiency.  
-锂离子电池**相变材料 + 风冷**的混合热管理方案，兼顾温度均匀性、能效与系统阻力。 |
+Developed a **PCM–air hybrid battery thermal management system (BTMS)** for UAV lithium-ion batteries, achieving **43.3% lower peak temperature (below 46.8 °C)** with only **22.2 wt% mass increase**. Multi-factor optimization using an **entropy–TOPSIS** framework ensures a balance between cooling performance and lightweight design.  
+提出了一种用于无人机锂离子电池的**相变材料–风冷混合热管理系统（BTMS）**，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 并保持低于 46.8 °C，通过 TOPSIS 优化实现轻量化与散热性能的平衡。 |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-| ![WM encoder-decoder](/images/WM_encoder_decoder.png) | **[WM_encoder_decoder for copyright protection in image-to-image tasks (diffusion)](https://github.com/HU-Qiqi/WM_encoder_decoder)** · [PPT](huqiqi.net/file/WM_encoder_decoder.pptx)  
+| ![WM encoder-decoder](/images/WM_encoder_decoder.png) | **[WM_encoder_decoder for copyright protection in image-to-image tasks based on diffusion model)](https://github.com/HU-Qiqi/WM_encoder_decoder)** · [PPT](huqiqi.net/file/WM_encoder_decoder.pptx)  *(Advisor: Feng Zheng)*  
 *Project / Code*  
 Dual-protection scheme combining **digital watermarking** and **adversarial perturbations** in the latent space; precise watermark embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.  
 提出**数字水印 + 对抗扰动**的双重保护方案，在隐空间抑制篡改与生成操控；无需微调模型、具有良好迁移性与鲁棒性。 |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-| ![SSNN](/images/SSNN.png) | **[SSNN: Privacy-Preserving Secure Shared Nearest Neighbor Clustering in IoT](https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things)**  
+| ![SSNN](/images/SSNN.png) | **[Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in internet of things](https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things)**  *(Advisor: Hanlin Zhang)*  
 *Research Project*  
 Cloud-assisted, privacy-preserving **SNN clustering** using **orthogonal matrix transformation** and lightweight verification; cuts the most complex step from **10.859s → 1.183s** while preserving accuracy.  
 云辅助的**隐私保护 SNN 聚类**，外包前以正交矩阵加密并可验证返回结果；在保持精度下显著降低本地计算开销。 |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
-| ![SNLM](/images/SNLM.png) | **SNLM: A secure and efficient image denoising algorithm in IoT** *(Advisor: Hanlin Zhang)*  
+| ![SNLM](/images/SNLM.png) | **Secure and efficient image denoising algorithm in internet of things** *(Advisor: Hanlin Zhang)*  
 *Degree Thesis*  
 Secure outsourcing for image denoising using **Householder transformation** and optimal-probability verification; maintains accuracy (**PSNR ≈ 20–21 dB**) while greatly reducing client computation.  
 面向物联网图像去噪的**安全外包方案**，以豪斯霍尔德变换保护隐私并可验证结果；在**PSNR 约 20–21 dB**下显著降低端侧计算。 |
