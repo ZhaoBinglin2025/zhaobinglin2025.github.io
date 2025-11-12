@@ -106,7 +106,9 @@ kramdown:
 #  DISQUS COMMENT SYSTEM
 # --------------------------------------------------
 disqus:
-  shortname: lancecai
+  shortname: chelsey
+
+breadcrumbs: true
 
 
 # include: [".htaccess"]
