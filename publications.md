@@ -60,13 +60,20 @@ breadcrumbs: true
   max-width: 920px;
 }
 
+/* 让标题和返回链接与正文节奏一致 */
+.pub-wrap > h2 { margin: 0 0 8px; }
+.pub-wrap > p { margin: 0 0 16px; }
+
+/* 返回链接样式（可选） */
+.pub-wrap > p a { color:#2a59ff; text-decoration:none; border-bottom:1px dashed rgba(42,89,255,.5); }
+.pub-wrap > p a:hover{ opacity:.85; }
+
 
 </style>
 
-## Publications / Projects
-[← Back to Home](/)
-
 <div class="pub-wrap">
+  <h2>Publications / Projects</h2>
+  <p><a href="/">← Back to Home</a></p>
 
   <div class="pub">
     <div class="thumb">
