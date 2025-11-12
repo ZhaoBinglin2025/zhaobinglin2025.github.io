@@ -15,6 +15,32 @@ title: Publications
 @media (max-width:680px){ .pub{flex-direction:column;} .pub .thumb{flex:auto;} }
 </style>
 
+<style>
+.page__content {
+  max-width: 1100px !important;   /* 默认大约720px，这里放宽 */
+}
+.pub {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 2rem;
+}
+.pub .thumb { flex: 0 0 300px; }   /* 原来240，可改到260~320 */
+.pub .thumb img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.pub .body { flex: 1; min-width: 0; }
+.pub .title { margin: 0; font-weight: 700; }
+.pub .meta { margin: .3rem 0 .5rem; font-style: italic; color: #555; }
+@media (max-width: 768px){
+  .pub { flex-direction: column; }
+  .pub .thumb { flex: auto; }
+}
+</style>
+
+
 ## Publications / Projects
 
 <div class="pub">
