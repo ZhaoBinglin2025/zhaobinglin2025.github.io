@@ -5,7 +5,7 @@ title: 主页中文版
 ---
 ### 关于我
 
-<img src="/images/2.jpg" class="floatpic">
+<img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
 <br>你好，我是**胡齐齐**，2002年生，目前就读于**清华大学深圳国际研究生院**，攻读环境科学与新能源技术专业硕士学位，师从[**杜鸿达教授**](https://www.sigs.tsinghua.edu.cn/dhd/list.htm)，在**广东省热管理工程与材料重点实验室**开展研究。
 我目前的研究聚焦于**人工智能与可持续能源系统的交叉领域（AI for Energy Systems & Low-carbon Innovation）**，探索利用数据驱动与优化方法推动低碳能源技术创新。  
 
