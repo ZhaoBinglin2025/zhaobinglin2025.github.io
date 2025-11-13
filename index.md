@@ -6,7 +6,7 @@ layout: page
 <img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
 
 
-<br>## Qiqi Hu (胡齐齐)  
+<br>**Qiqi Hu (胡齐齐)**  
 <br>**AI for Energy Systems · Low-Carbon Innovation**  
 <br>*MSc Student @ Tsinghua University (SIGS)*  
 
