@@ -1,6 +1,12 @@
 ---
 layout: page
 ---
+# 🔍 Quick Summary
+- 🎓 *Master’s student at Tsinghua University (SIGS), focusing on AI for Energy & Sustainability*
+- 🔬 *Research:* data-driven thermal safety modeling, AI-accelerated low-carbon energy systems, trustworthy & physics-aligned diffusion models
+- 🧰 *Technical strengths:* PyTorch, optimization, scientific ML, thermal modeling & simulation, ML systems
+- 🎯 **Seeking PhD (Fall 2027)** in *energy-AI, scientific machine learning, reliable generative modeling,* or *AI for physical systems*
+
 # About Me
 
 <img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
