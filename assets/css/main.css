@@ -475,3 +475,28 @@ p {
   line-height: 1.7 !important;
   margin-bottom: 0.5rem;
 }
+
+
+/* ===== 正文段落 + 分点统一左右对齐 ===== */
+
+/* 段落 */
+.page__content p {
+  line-height: 1.8;
+  margin: 0 0 1.2em;
+  text-align: justify;
+  text-justify: inter-ideograph;  /* 中英文混排更自然 */
+}
+
+/* 分点（li） */
+.page__content li {
+  line-height: 1.7;
+  margin-bottom: 0.5rem;
+  text-align: justify;            /* 左右两边都对齐 */
+  text-justify: inter-ideograph;  /* CJK 文字按字间距拉伸 */
+}
+
+/* （如果你希望“最后一行也对齐”，可以再加这段，可选） */
+.page__content li {
+  text-align-last: justify;
+  -moz-text-align-last: justify;  /* 兼容旧 Firefox */
+}
