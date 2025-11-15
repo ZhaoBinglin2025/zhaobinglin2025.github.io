@@ -393,6 +393,8 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 p {
   text-align: justify;
   text-justify: inter-ideograph;
+  line-height: 1.8 !important;        /* 比默认 1.65 松很多，肉眼可见 */
+  margin: 0 0 1.2em !important;       /* 段落之间拉开一点 */
 }
 
 
