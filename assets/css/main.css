@@ -501,8 +501,26 @@ p {
   -moz-text-align-last: justify;  /* 兼容旧 Firefox */
 }
 
-
-body {
-  border: 6px solid red !important;
+/* ===== 主页正文：段落行间距 + 两端对齐 ===== */
+#main article p {
+  line-height: 1.8 !important;       /* 比默认 1.65 更松 */
+  margin: 0 0 1.2em !important;      /* 稍微拉开段落距离 */
+  text-align: justify;
+  text-justify: inter-ideograph;     /* 中英文混排更自然 */
 }
+
+/* 取消前面 p+p 里用负 margin 把段落挤在一起的效果 */
+#main article p + p {
+  margin-top: 0 !important;
+  text-indent: 0 !important;         /* 不做首行缩进，学术主页更清爽 */
+}
+
+/* ===== 主页正文：分点（li）行间距 + 两端对齐 ===== */
+#main article li {
+  line-height: 1.7 !important;
+  margin-bottom: 0.5rem !important;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
 
