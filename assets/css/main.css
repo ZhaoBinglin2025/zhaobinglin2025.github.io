@@ -443,3 +443,17 @@ p {
   color: #555;
 }
 
+
+/* 控制正文行距 */
+.post-content p {
+    line-height: 1.7;  /* 默认大概是 1.5 */
+    margin-bottom: 0.8rem;  /* 调整段间距，让页面更轻松 */
+}
+
+/* 控制列表项（比如 Quick Summary）行距 */
+.post-content ul li {
+    line-height: 1.6;
+    margin-bottom: 0.4rem;
+}
+
+
