@@ -461,3 +461,14 @@ body {
     border: 5px solid red;
 }
 
+
+.post-content p {
+    line-height: 1.75 !important;
+    margin-bottom: 1rem;
+}
+
+.post-content ul li {
+    line-height: 1.7 !important;
+    margin-bottom: 0.5rem;
+}
+
