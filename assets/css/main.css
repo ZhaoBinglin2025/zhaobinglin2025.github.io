@@ -456,3 +456,22 @@ p {
     margin-bottom: 0.5rem;
 }
 
+/* ===== 统一调整正文行距（覆盖前面的全局设置） ===== */
+
+/* 段落行距 */
+.page__content p {
+  line-height: 1.8 !important;   /* 比 1.65 明显松一些 */
+  margin: 0 0 1.2em;             /* 取消负 margin 的影响 */
+  text-indent: 0;                /* 不要首行缩进，学术网站更清爽 */
+}
+
+/* 段落与段落之间不要再用负 margin 叠在一起 */
+.page__content p + p {
+  margin-top: 0;
+}
+
+/* 列表项行距（比如 Quick Summary、Research Interests） */
+.page__content li {
+  line-height: 1.7 !important;
+  margin-bottom: 0.5rem;
+}
