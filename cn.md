@@ -10,7 +10,7 @@ title: 主页中文版
 - 🧰 *技术特长：* PyTorch、优化算法、Scientific ML、热管理建模与仿真、ML系统开发
 - 🎯 **目标申请 2027 Fall PhD**，方向包括：*能源AI、科学机器学习、可信生成模型、物理系统智能化*
 
-
+<br>
 ### 关于我
 
 <img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
