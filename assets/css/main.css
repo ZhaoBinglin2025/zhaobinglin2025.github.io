@@ -500,3 +500,9 @@ p {
   text-align-last: justify;
   -moz-text-align-last: justify;  /* 兼容旧 Firefox */
 }
+
+
+body {
+  border: 6px solid red !important;
+}
+
