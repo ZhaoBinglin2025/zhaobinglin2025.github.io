@@ -141,3 +141,9 @@ plugins:
   - jekyll-seo-tag       # Adds SEO meta tags & JSON-LD
 #   - jekyll-picture-tag   # Responsive images & WebP/AVIF
   # - jekyll-archives      # Year/month archive pages
+
+params:
+assets:
+   css:
+     - assets/css/main.css
+
