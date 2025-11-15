@@ -524,3 +524,30 @@ p {
 }
 
 
+
+/* ===== 覆盖全局段间距的老规则 ===== */
+
+/* 取消前面 p+p 的负 margin 和首行缩进 */
+p + p {
+  margin-top: 0 !important;
+  text-indent: 0 !important;
+}
+
+/* ===== 正文区域：统一行间距 + 两端对齐 ===== */
+
+/* About / 首页正文都在 #main 里面，所以直接锁定 #main */
+#main p {
+  line-height: 1.8 !important;        /* 比默认 1.65 松很多，肉眼可见 */
+  margin: 0 0 1.2em !important;       /* 段落之间拉开一点 */
+  text-align: justify;
+  text-justify: inter-ideograph;      /* 中英文混排更自然 */
+}
+
+/* 分点（Quick Summary / Research Interests 等） */
+#main li {
+  line-height: 1.7 !important;
+  margin-bottom: 0.5rem !important;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
