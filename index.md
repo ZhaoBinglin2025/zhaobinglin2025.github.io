@@ -60,7 +60,6 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 ---
 
 ## 🗞 News and Updates
-- 2025.11 – Started preliminary study on machine-learning based carbon footprint modeling for multi-energy systems
 - 2025.09 – Studied thermal management of lithium-ion batteries under high-rate discharge using PCM and air-cooling coupling  
 - 2025.05 – Investigated effects of PCM-assisted air cooling on thermal runaway propagation in LIB modules  
 - 2024.03 – Explored copyright protection in diffusion-based image-to-image generation  
