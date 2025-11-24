@@ -5,7 +5,7 @@ layout: page
 - 🎓 *Master’s student at Tsinghua University (SIGS), focusing on AI for Energy & Sustainability*
 - 🔬 *Research:* thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning
 - 🧰 *Technical strengths:* PyTorch, optimization, scientific ML, thermal modeling & simulation, ML systems
-- 🎯 **Seeking PhD (Fall 2027)** in *energy-AI, scientific machine learning, robust generative modeling,* or *AI for physical systems*
+- 🎯 **Seeking PhD (Fall 2027)** in *AI for Energy Systems, Battery Energy Storage, Generative Models for Physical Systems*
 
 <br>
 # About Me
@@ -39,11 +39,12 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 - Thermal management of LIBs under high-power discharge conditions using **finite element modeling** and **multiphysics simulation**  
 - Applications in energy storage and electronic thermal control  
 
-### AI for Energy and Low-carbon Systems
-- Data-driven modeling and optimization of **energy and multi-energy systems**  
-- Machine-learning-based **design of sustainable materials and energy devices**  
-- Carbon-footprint modeling, emission prediction, and **AI-driven low-carbon decision support**  
-- Intelligent optimization for **carbon-neutral energy transition**
+### AI for Energy Systems & Battery Storage
+- Data-driven modeling and intelligent prediction of **battery energy storage safety**
+- Intelligent optimization for **low-carbon, safe, and stable energy operation**
+- ML-based modeling and optimization of energy systems and multi-energy networks 
+- Scientific ML & generative models for physical processes in energy devices  
+
 
 ### Trustworthy AI & Secure Generative Models
 - **Content safety for AIGC** using diffusion models — PGD-based adversarial defense and encoder–decoder watermarking  
