@@ -11,6 +11,7 @@ title: 主页中文版
 - 🎯 **目标申请 2027 Fall PhD**，方向包括：*能源系统人工智能（AI for Energy Systems）、储能电池热安全建模（Battery Safety & Thermal Modeling）、科学机器学习与物理生成式模型（Scientific ML & Generative Models for Physical Systems）*
 
 <br>
+
 ### 关于我
 
 <img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
