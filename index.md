@@ -6,6 +6,7 @@ layout: page
 - 🔬 *Research:* thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning
 - 🧰 *Technical strengths:* PyTorch, optimization, scientific ML, thermal modeling & simulation, ML systems
 - 🎯 **Seeking PhD (Fall 2027)** in *Energy-AI, Battery Safety & Thermal Modeling, Scientific ML for Multiphysics Systems, and Physical Generative Models*
+- 📧 *Email:* chelseyhu111@gmail.com
 
 <br>
 # About Me
