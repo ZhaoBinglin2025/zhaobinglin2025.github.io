@@ -9,6 +9,7 @@ title: 主页中文版
 - 🔬 *研究方向：* 热安全建模、AI助力的低碳能源系统优化、可信人工智能、扩散模型
 - 🧰 *技术特长：* PyTorch、优化算法、Scientific ML、热管理建模与仿真、ML系统开发
 - 🎯 **目标申请 2027 Fall PhD**，方向包括：*能源系统人工智能（AI for Energy Systems）、储能电池热安全建模（Battery Safety & Thermal Modeling）、科学机器学习与物理生成式模型（Scientific ML & Generative Models for Physical Systems）*
+- Email：chelseyhu111@gmail.com
 
 <br>
 
