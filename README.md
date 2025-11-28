@@ -1,4 +1,4 @@
-# QiqiHu.github.io/ huqiqi.net
+# huqiqi.net
 
 Here is **Qiqi Hu (Chelsey, 胡齐齐)**. 
 
