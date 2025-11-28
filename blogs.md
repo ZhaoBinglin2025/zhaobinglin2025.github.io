@@ -8,7 +8,7 @@ title: Blogs
 
 ### 2025
 
-- [25 Nov](https://huqiqi.net/blogs/25Nov/)<br>
+- [25 Nov](https://huqiqi.net/blogs/2025_Nov.md)<br>
 
 <br>
 
