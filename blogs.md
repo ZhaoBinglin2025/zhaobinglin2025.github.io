@@ -8,7 +8,7 @@ title: Blogs
 
 ### 2025
 
-- [25Fall](https://caihanlin.com/blogs/25fall/)<br>
+- [25 Nov](https://caihanlin.com/blogs/25fall/)<br>
 
 <br>
 
