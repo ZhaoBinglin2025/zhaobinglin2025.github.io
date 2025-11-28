@@ -553,3 +553,9 @@ p + p {
   text-justify: inter-ideograph;
 }
 
+
+/* 11月28日，调节行宽
+.container, .page-body {
+    max-width: 1200px !important;
+}
+
