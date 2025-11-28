@@ -559,7 +559,7 @@ p + p {
 /* 单篇文章、About 页等正文部分 */
 @media only screen and (min-width: 48em) {
   #main article {
-    width: 58% !important;
+    width: 55% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     float: left !important;
@@ -568,6 +568,6 @@ p + p {
 
 /* ===== 全站基础字体调大一点：更舒服、更专业 ===== */
 body {
-  font-size: 1.05rem !important;   /* 默认 1rem（约16px）→ 17px */
+  font-size: 1.1rem !important;   /* 默认 1rem（约16px）→ 17px */
   line-height: 1.75 !important;    /* 行距保持适中 */
 }
