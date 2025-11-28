@@ -560,7 +560,7 @@ p + p {
 #main article,
 #index {
   float: none !important;              /* 不再多列浮动 */
-  width: 80% !important;               /* 内容宽度：你可以改 80 -> 85 或 90 */
+  width: 65% !important;               /* 内容宽度：你可以改 80 -> 85 或 90 */
   margin-left: auto !important;        /* 居中 */
   margin-right: auto !important;
 }
@@ -569,9 +569,9 @@ p + p {
 @media only screen and (min-width: 37.5em) {
   #main article,
   #index {
-    width: 80% !important;
-    margin-left: 10% !important;
-    margin-right: 10% !important;
+    width: 65% !important;
+    margin-left: auto !important;        /* 居中 */
+    margin-right: auto !important;
     float: none !important;
   }
 }
