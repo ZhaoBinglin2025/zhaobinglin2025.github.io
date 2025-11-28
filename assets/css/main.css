@@ -555,7 +555,13 @@ p + p {
 
 
 /* 11月28日，调节行宽
-.container, .page-body {
-    max-width: 1200px !important;
+/* ===== 让正文区域更宽（覆盖上面的布局） ===== */
+/* 单篇文章、About 页等正文部分 */
+#main article,
+#index {
+  float: none !important;              /* 不再多列浮动 */
+  width: 80% !important;               /* 内容宽度：你可以改 80 -> 85 或 90 */
+  margin-left: auto !important;        /* 居中 */
+  margin-right: auto !important;
 }
 
