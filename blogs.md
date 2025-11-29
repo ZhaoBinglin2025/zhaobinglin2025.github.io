@@ -8,7 +8,7 @@ title: Blogs
 
 ### 2025
 
-- [11研究月报·稳步推进中的清晰与积累](https://huqiqi.net/blogs/2025_Nov)<br>
+- [11月研究月报·稳步推进中的清晰与积累](https://huqiqi.net/blogs/2025_Nov)<br>
 
 <br>
 
