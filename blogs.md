@@ -8,7 +8,7 @@ title: Blogs
 
 ### 2025
 
-- [11月月报：充实又带点温度的一月](https://huqiqi.net/blogs/2025_Nov)<br>
+- [11研究月报·稳步推进中的清晰与积累](https://huqiqi.net/blogs/2025_Nov)<br>
 
 <br>
 
