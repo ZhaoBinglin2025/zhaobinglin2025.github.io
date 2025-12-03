@@ -83,7 +83,7 @@ breadcrumbs: true
 
   <div class="pub">
     <div class="thumb">
-      <img src="/images/pcm_air_libs.png" alt="Hybrid BTMS" loading="lazy">
+      <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
     </div>
     <div class="body">
       <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy <em>(Advisor: Hongda Du)</em></p>
