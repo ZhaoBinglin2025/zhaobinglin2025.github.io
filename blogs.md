@@ -2,6 +2,7 @@
 layout: page
 permalink: /blogs/index.html
 title: Blogs
+comments: true
 ---
 
 ## Chinese Blogs 中文博客
