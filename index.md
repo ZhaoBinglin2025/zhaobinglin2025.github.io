@@ -4,7 +4,7 @@ layout: page
 # Quick Summary
 - 🎓 *Master’s student at Tsinghua University (SIGS), working on AI for Energy & Sustainability*
 - 🔬 *Research:* thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning
-- 🧰 *Technical strengths: * PyTorch, scientific ML, optimization, thermal modeling and multiphysics simulation
+- 🧰 *Technical strengths:* PyTorch, scientific ML, optimization, thermal modeling and multiphysics simulation
 - 🎯 **Seeking PhD (Fall 2027)** in *Energy-AI, Battery Safety & Thermal Modeling, Scientific ML for Multiphysics Systems, and Physical Generative Models*
 - 📧 **Email:** chelseyhu111@gmail.com
 
