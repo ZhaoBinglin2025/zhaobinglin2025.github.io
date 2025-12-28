@@ -9,7 +9,7 @@ comments: true
 
 ### 2025
 
-- [12月实践记录 · 南京与苏州：城市、行业与个人选择](https://huqiqi.net/blogs/2025_Dec)<br>
+- [12月实践记录·南京与苏州：城市、行业与个人选择](https://huqiqi.net/blogs/2025_Dec)<br>
 - [11月研究月报·稳步推进中的清晰与积累](https://huqiqi.net/blogs/2025_Nov)<br>
 <br>
 
