@@ -96,7 +96,7 @@ breadcrumbs: true
       </a>
       <em>(Advisor: Minqiang Wu, Hongda Du)</em>
     </p>
-    <p class="meta">Journal Article · 2026 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
+    <p class="meta">Journal Article · 2025.11-2026.01 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
     <p>
       Proposed an <strong>interpretable machine-learning framework</strong> for <strong>pre-event prediction</strong> of lithium-ion battery thermal runaway severity using only structural and engineering metadata. 
       Constructed a hazard-oriented <strong>Severity Index</strong> integrating heat release and material ejection indicators, and developed a <strong>CatBoost-based classifier</strong> achieving <strong>81% accuracy</strong> with <strong>100% recall for High-severity events</strong>. 
@@ -116,8 +116,8 @@ breadcrumbs: true
       <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
     </div>
     <div class="body">
-      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy <em>(Advisor: Hongda Du)</em></p>
-      <p class="meta">Project · 2025.09-2025.12</p>
+      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy <em>(Advisor: Minqiang Wu, Hongda Du)</em></p>
+    <p class="meta">Journal Article · 2025.09-2025.12 · Submitted to Applied Thermal Engineering (IF=6.9)</p>
       <p>Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature (below 46.8 °C)</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization using an <strong>entropy–TOPSIS</strong> framework ensures a balance between cooling performance and lightweight design.</p>
       <p>提出了一种用于无人机锂离子电池的<strong>相变材料–风冷混合热管理系统（BTMS）</strong>，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 且保持低于 46.8 °C；通过 TOPSIS 优化实现轻量化与散热性能的平衡。</p>
     </div>
@@ -134,7 +134,7 @@ breadcrumbs: true
         </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a>
         <em>(Advisor: Feng Zheng)</em>
       </p>
-      <p class="meta">Project / Code</p>
+      <p class="meta">Project / Code · 2024.03-2024.12 </p>
       <p>Dual-protection scheme combining <strong>digital watermarking</strong> and <strong>adversarial perturbations</strong> in the latent space; precise embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.</p>
       <p>提出<strong>数字水印 + 对抗扰动</strong>的双重保护方案，在隐空间抑制篡改与生成操控；无需微调、具有良好迁移性与鲁棒性。</p>
     </div>
