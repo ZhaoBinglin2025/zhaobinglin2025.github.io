@@ -84,13 +84,40 @@ breadcrumbs: true
   <h2>Publications / Projects</h2>
   <p><a href="/">← Back to Home</a></p>
 
+
+<div class="pub">
+  <div class="thumb">
+    <img src="/images/thermal_runaway_ml.png" alt="Thermal runaway severity ML framework" loading="lazy">
+  </div>
+  <div class="body">
+    <p class="title">
+      <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
+        Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
+      </a>
+      <em>(Advisor: Minqiang Wu, Hongda Du)</em>
+    </p>
+    <p class="meta">Journal Article · 2026 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
+    <p>
+      Proposed an <strong>interpretable machine-learning framework</strong> for <strong>pre-event prediction</strong> of lithium-ion battery thermal runaway severity using only structural and engineering metadata. 
+      Constructed a hazard-oriented <strong>Severity Index</strong> integrating heat release and material ejection indicators, and developed a <strong>CatBoost-based classifier</strong> achieving <strong>81% accuracy</strong> with <strong>100% recall for High-severity events</strong>. 
+      SHAP analysis provides physics-consistent interpretability to support safety-oriented decision-making.
+    </p>
+    <p>
+      提出一种基于<strong>结构与工程元数据</strong>的锂离子电池<strong>热失控事前严重度预测框架</strong>，构建融合放热与喷射特征的<strong>危险导向严重度指数（Severity Index）</strong>，并基于 <strong>CatBoost</strong> 实现多分类预测，整体准确率达 <strong>81%</strong>，对高危事件识别率 <strong>100%</strong>。通过 SHAP 可解释分析揭示关键安全影响因素，支持风险导向电池安全评估。
+    </p>
+  </div>
+</div>
+
+
+
+
   <div class="pub">
     <div class="thumb">
       <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
     </div>
     <div class="body">
       <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy <em>(Advisor: Hongda Du)</em></p>
-      <p class="meta">Project · 2025–present</p>
+      <p class="meta">Project · 2025.09-2025.12</p>
       <p>Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature (below 46.8 °C)</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization using an <strong>entropy–TOPSIS</strong> framework ensures a balance between cooling performance and lightweight design.</p>
       <p>提出了一种用于无人机锂离子电池的<strong>相变材料–风冷混合热管理系统（BTMS）</strong>，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 且保持低于 46.8 °C；通过 TOPSIS 优化实现轻量化与散热性能的平衡。</p>
     </div>
