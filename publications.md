@@ -96,7 +96,7 @@ breadcrumbs: true
       </a>
       <em>(Advisor: Minqiang Wu, Hongda Du)</em>
     </p>
-    <p class="meta">Journal Article · 2025.11-2026.01 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
+    <p class="meta">Journal Article · 2025.11-2026.02 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
     <p>
       Proposed an <strong>interpretable machine-learning framework</strong> for <strong>pre-event prediction</strong> of lithium-ion battery thermal runaway severity using only structural and engineering metadata. 
       Constructed a hazard-oriented <strong>Severity Index</strong> integrating heat release and material ejection indicators, and developed a <strong>CatBoost-based classifier</strong> achieving <strong>81% accuracy</strong> with <strong>100% recall for High-severity events</strong>. 
