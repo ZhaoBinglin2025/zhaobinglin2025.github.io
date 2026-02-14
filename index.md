@@ -60,6 +60,7 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 ---
 
 ## 🗞 News and Updates
+- 2026.02 – Started preparing a comprehensive review on phase-change-material-based thermal management strategies for lithium-ion batteries
 - 2025.11 – Initiated research on AI-driven early warning of lithium-ion battery thermal runaway
 - 2025.09 – Studied thermal management of lithium-ion batteries under high-rate discharge using PCM and air-cooling coupling  
 - 2025.05 – Investigated effects of PCM-assisted air cooling on thermal runaway propagation in LIB modules  
