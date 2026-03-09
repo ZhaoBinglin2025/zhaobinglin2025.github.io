@@ -47,7 +47,7 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 
 ### Trustworthy AI & Secure Generative Models
 - **Content safety for AIGC** using diffusion models — PGD-based adversarial defense and encoder–decoder watermarking  
-- **Privacy-preserving in cloud computing and Internt of Things**, including cloud-assisted and IoT security with matrix transformation methods for image denoising and segmentation  
+- **Privacy-preserving in cloud computing and Internet of Things**, including cloud-assisted and IoT security with matrix transformation methods for image denoising and segmentation  
 - Extending **trustworthy machine learning** and robust optimization techniques toward **digital low-carbon energy applications**
 
 ---
