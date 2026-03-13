@@ -1,4 +1,4 @@
-﻿/*global jQuery */
+/*global jQuery */
 /*jshint multistr:true browser:true */
 /*!
 * FitVids 1.0
@@ -1883,41 +1883,48 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
 // Magnific-Popup options
 $(document).ready(function() {
-  // Add image-popup class to all image links dynamically
+  // 1. 自动为文章中的图片添加灯箱包裹 (Automation for Blogs & Pages)
+  $('.article-wrap img').each(function() {
+    var $img = $(this);
+    // 如果图片还没有被链接包裹，则自动包裹它
+    if (!$img.parent('a').length) {
+      $img.wrap('<a href="' + $img.attr('src') + '" class="image-popup" title="' + ($img.attr('alt') || '') + '"></a>');
+    }
+  });
+
+  // 重新给新包裹的链接添加类（以防万一）
   $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
-  // Multi-group initialization strategy
+  // 通用画廊配置
   var galleryOptions = {
     delegate: '.image-popup',
     type: 'image',
     gallery: {
       enabled: true,
       navigateByImgClick: true,
-      preload: [0,1]
+      preload: [0, 1]
     },
     image: {
-      titleSrc: 'title'
+      titleSrc: function(item) {
+        return item.el.attr('title') || item.el.find('img').attr('alt') || '';
+      }
     },
     removalDelay: 300,
     mainClass: 'mfp-fade',
     fixedContentPos: true
   };
 
-  // 1. Publications Gallery
-  if ($('.pub-wrap').length) {
-    $('.pub-wrap').magnificPopup(galleryOptions);
-  }
+  // 为不同的容器初始化独立的画廊 (Ensures grouped navigation)
+  $('.pub-wrap, .hobby-grid, .article-wrap').each(function() {
+    $(this).magnificPopup(galleryOptions);
+  });
 
-  // 2. Hobbies Gallery
-  if ($('.hobby-grid').length) {
-    $('.hobby-grid').magnificPopup(galleryOptions);
-  }
-
-  // 3. Fallback for individual images not in galleries
+  // 兜底：处理不在上述容器中的零散图片
   $('.image-popup').each(function() {
-    var $parent = $(this).closest('.pub-wrap, .hobby-grid');
-    if ($parent.length === 0) {
-      $(this).magnificPopup({
+    var $item = $(this);
+    // 如果没有任何父级容器被初始化过画廊
+    if (!$item.closest('.pub-wrap, .hobby-grid, .article-wrap').length) {
+      $item.magnificPopup({
         type: 'image',
         removalDelay: 300,
         mainClass: 'mfp-fade'

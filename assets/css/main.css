@@ -3424,6 +3424,21 @@ body .site-name a {
   line-height: 1 !important;
 }
 
+/* 防止灯箱图片链接出现下划线/虚线 */
+.article-wrap a.image-popup {
+  border-bottom: none !important;
+  cursor: zoom-in !important;
+}
+
+.article-wrap a.image-popup img {
+  cursor: zoom-in !important;
+  transition: opacity 0.3s ease;
+}
+
+.article-wrap a.image-popup:hover img {
+  opacity: 0.95;
+}
+
 body .top-navigation {
   width: 90% !important;
   max-width: 1400px;
