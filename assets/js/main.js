@@ -1883,20 +1883,40 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
 // Magnific-Popup options
 $(document).ready(function() {
-  $('.image-popup').magnificPopup({
+  // Group publications
+  $('.pub-wrap').magnificPopup({
+    delegate: '.image-popup',
     type: 'image',
     tLoading: 'Loading image #%curr%...',
     gallery: {
       enabled: true,
       navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+      preload: [0,1]
     },
     image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.',
+      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
     },
-    removalDelay: 300, // Delay in milliseconds before popup is removed
-    // Class that is added to body when popup is open. 
-    // make it unique to apply your CSS animations just to this exact popup
+    removalDelay: 300,
+    mainClass: 'mfp-fade'
+  });
+
+  // Group hobbies
+  $('.hobby-grid').magnificPopup({
+    delegate: '.image-popup',
+    type: 'image',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0,1]
+    },
+    removalDelay: 300,
+    mainClass: 'mfp-fade'
+  });
+
+  // Fallback
+  $('.image-popup').not('.pub-wrap .image-popup, .hobby-grid .image-popup').magnificPopup({
+    type: 'image',
+    removalDelay: 300,
     mainClass: 'mfp-fade'
   });
 });

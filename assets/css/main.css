@@ -739,3 +739,106 @@ body {
   left: 0;
   font-weight: bold;
 }
+
+/* 
+==========================================================================
+   UI BUG FIXES: Lightbox Controls & Navigation Centering
+========================================================================== 
+*/
+
+/* 强制导航栏 2.0 样式生效 (更高优先级) */
+body .navigation-wrapper {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--glass-blur) !important;
+  -webkit-backdrop-filter: var(--glass-blur) !important;
+  min-height: 80px !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05) !important;
+}
+
+body .top-navigation {
+  width: 90% !important;
+  max-width: 1400px;
+  margin: 0 auto !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  float: none !important;
+}
+
+body .top-navigation ul {
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body .top-navigation li a {
+  display: flex !important;
+  align-items: center !important;
+  height: 80px !important; /* 与容器同高，确保绝对居中 */
+  font-size: 1.1rem !important;
+  font-weight: 700 !important;
+  padding: 0 15px !important;
+}
+
+/* Lightbox 按钮强制可见性与层级 */
+.mfp-wrap {
+  z-index: 10001 !important; /* 必须高于导航栏 (1000) */
+}
+
+.mfp-bg {
+  z-index: 10000 !important;
+}
+
+/* 关闭按钮 (X) */
+.mfp-close {
+  width: 60px !important;
+  height: 60px !important;
+  line-height: 60px !important;
+  font-size: 40px !important;
+  opacity: 1 !important;
+  color: #fff !important;
+  background: rgba(0,0,0,0.5) !important; /* 加个半透明底座防止在白色图上看不见 */
+  border-radius: 50% !important;
+  top: 20px !important;
+  right: 20px !important;
+  text-align: center !important;
+  padding: 0 !important;
+  z-index: 10002 !important;
+}
+
+/* 导航箭头 (Prev/Next) */
+.mfp-arrow {
+  opacity: 1 !important;
+  z-index: 10002 !important;
+}
+
+.mfp-arrow:before {
+  border-top-width: 30px !important;
+  border-bottom-width: 30px !important;
+  opacity: 1 !important;
+}
+
+.mfp-arrow-left:after {
+  border-right-color: #fff !important;
+  margin-left: 20px !important;
+}
+
+.mfp-arrow-right:after {
+  border-left-color: #fff !important;
+  margin-left: 35px !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  body .navigation-wrapper {
+    min-height: 60px !important;
+  }
+  body .top-navigation li a {
+    height: 60px !important;
+    font-size: 0.9rem !important;
+  }
+}
