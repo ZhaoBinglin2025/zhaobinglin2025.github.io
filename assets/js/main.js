@@ -1,4 +1,4 @@
-/*global jQuery */
+﻿/*global jQuery */
 /*jshint multistr:true browser:true */
 /*!
 * FitVids 1.0
@@ -1883,40 +1883,46 @@ $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
 // Magnific-Popup options
 $(document).ready(function() {
-  // Group publications
-  $('.pub-wrap').magnificPopup({
+  // Add image-popup class to all image links dynamically
+  $("a[href$='.jpg'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
+
+  // Multi-group initialization strategy
+  var galleryOptions = {
     delegate: '.image-popup',
     type: 'image',
-    tLoading: 'Loading image #%curr%...',
     gallery: {
       enabled: true,
       navigateByImgClick: true,
       preload: [0,1]
     },
     image: {
-      tError: '<a href="%url%">Image #%curr%</a> could not be loaded.'
+      titleSrc: 'title'
     },
     removalDelay: 300,
-    mainClass: 'mfp-fade'
-  });
+    mainClass: 'mfp-fade',
+    fixedContentPos: true
+  };
 
-  // Group hobbies
-  $('.hobby-grid').magnificPopup({
-    delegate: '.image-popup',
-    type: 'image',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1]
-    },
-    removalDelay: 300,
-    mainClass: 'mfp-fade'
-  });
+  // 1. Publications Gallery
+  if ($('.pub-wrap').length) {
+    $('.pub-wrap').magnificPopup(galleryOptions);
+  }
 
-  // Fallback
-  $('.image-popup').not('.pub-wrap .image-popup, .hobby-grid .image-popup').magnificPopup({
-    type: 'image',
-    removalDelay: 300,
-    mainClass: 'mfp-fade'
+  // 2. Hobbies Gallery
+  if ($('.hobby-grid').length) {
+    $('.hobby-grid').magnificPopup(galleryOptions);
+  }
+
+  // 3. Fallback for individual images not in galleries
+  $('.image-popup').each(function() {
+    var $parent = $(this).closest('.pub-wrap, .hobby-grid');
+    if ($parent.length === 0) {
+      $(this).magnificPopup({
+        type: 'image',
+        removalDelay: 300,
+        mainClass: 'mfp-fade'
+      });
+    }
   });
+});
 });

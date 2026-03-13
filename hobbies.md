@@ -70,7 +70,7 @@ title: Hobbies
 
 <div class="hobby-grid">
   <div class="hobby-item">
-    <a href="/images/cycling1.jpg" title="Riverside Routes">
+    <a href="/images/cycling1.jpg" class="image-popup" title="Riverside Routes">
       <img src="/images/cycling1.jpg" alt="Cycling by the lakeside" loading="lazy">
     </a>
     <div class="hobby-content">
@@ -79,7 +79,7 @@ title: Hobbies
     </div>
   </div>
   <div class="hobby-item">
-    <a href="/images/cycling3.jpg" title="Sunset Rides">
+    <a href="/images/cycling3.jpg" class="image-popup" title="Sunset Rides">
       <img src="/images/cycling3.jpg" alt="Golden hour cycling" loading="lazy">
     </a>
     <div class="hobby-content">
@@ -88,7 +88,7 @@ title: Hobbies
     </div>
   </div>
   <div class="hobby-item">
-    <a href="/images/cycling2.jpg" title="Stay Active">
+    <a href="/images/cycling2.jpg" class="image-popup" title="Stay Active">
       <img src="/images/cycling2.jpg" alt="Cycling in the city" loading="lazy">
     </a>
     <div class="hobby-content">
@@ -102,7 +102,7 @@ title: Hobbies
 
 <div class="hobby-grid">
   <div class="hobby-item" style="grid-column: 1 / -1;">
-    <a href="/images/guitar1.jpg" title="A Channel for Creativity">
+    <a href="/images/guitar1.jpg" class="image-popup" title="A Channel for Creativity">
       <img src="/images/guitar1.jpg" alt="Playing guitar" loading="lazy" style="height: 350px;">
     </a>
     <div class="hobby-content">

@@ -138,7 +138,7 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <a href="/images/thermal_runaway_ml.png" title="Thermal runaway severity ML framework">
+    <a href="/images/thermal_runaway_ml.png" class="image-popup" title="Thermal runaway severity ML framework">
       <img src="/images/thermal_runaway_ml.png" alt="Thermal runaway severity ML framework" loading="lazy">
     </a>
   </div>
@@ -166,7 +166,7 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <a href="/images/BTMS.png" title="Hybrid BTMS">
+    <a href="/images/BTMS.png" class="image-popup" title="Hybrid BTMS">
       <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
     </a>
   </div>
@@ -189,7 +189,7 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <a href="/images/WM_encoder_decoder.png" title="WM encoder-decoder schematic">
+    <a href="/images/WM_encoder_decoder.png" class="image-popup" title="WM encoder-decoder schematic">
       <img src="/images/WM_encoder_decoder.png" alt="WM encoder-decoder schematic" loading="lazy">
     </a>
   </div>
@@ -211,7 +211,7 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <a href="/images/SSNN.png" title="SSNN framework">
+    <a href="/images/SSNN.png" class="image-popup" title="SSNN framework">
       <img src="/images/SSNN.png" alt="SSNN framework" loading="lazy">
     </a>
   </div>
@@ -232,7 +232,7 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <a href="/images/SNLM.png" title="SNLM denoising outsourcing">
+    <a href="/images/SNLM.png" class="image-popup" title="SNLM denoising outsourcing">
       <img src="/images/SNLM.png" alt="SNLM denoising outsourcing" loading="lazy">
     </a>
   </div>
