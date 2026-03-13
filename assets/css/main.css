@@ -3618,3 +3618,38 @@ body .top-navigation li a {
     padding: 6px 10px !important;
   }
 }
+
+/* 
+==========================================================================
+   GLOBAL Centering Fix: Sidebar + Content
+   (Replacing legacy grid with a balanced, centered Flexbox layout)
+========================================================================== 
+*/
+@media only screen and (min-width: 62em) {
+  #main, #index {
+    display: flex !important;
+    justify-content: center !important; /* 整体居中 */
+    align-items: flex-start !important;
+    width: 95% !important;
+    max-width: 1400px !important;
+    margin: 2em auto !important;
+    float: none !important;
+    gap: 60px !important; 
+  }
+
+  .article-author-top {
+    display: block !important;
+    float: none !important;
+    width: 280px !important; 
+    margin: 0 !important;
+    flex-shrink: 0 !important;
+  }
+
+  #main article, #index article {
+    float: none !important;
+    width: 850px !important; 
+    max-width: 75% !important;
+    margin: 0 !important;
+    flex-grow: 1 !important; 
+  }
+}

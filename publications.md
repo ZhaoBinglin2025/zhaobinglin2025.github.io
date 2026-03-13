@@ -2,14 +2,16 @@
 layout: page
 title: Publications
 permalink: /publications/
+author_profile: false
 ---
 
 <style>
 /* ===== 仅控制本页 Publications 容器宽度 ===== */
 .pub-wrap {
-  max-width: 1000px;
+  width: 85%;
+  max-width: 1400px; /* 极端大屏保护 */
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0;
 }
 
 /* ===== 论文卡片样式 ===== */
