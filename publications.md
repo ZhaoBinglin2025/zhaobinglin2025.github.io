@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Publications
 permalink: /publications/
 author_profile: false
@@ -7,9 +7,13 @@ author_profile: false
 
 <style>
 /* ===== 仅控制本页 Publications 容器宽度 ===== */
+#main article {
+  width: 85% !important;
+  max-width: 1400px !important;
+}
+
 .pub-wrap {
-  width: 85%;
-  max-width: 1400px; /* 极端大屏保护 */
+  width: 100%;
   margin: 0 auto;
   padding: 0;
 }
