@@ -3395,6 +3395,9 @@ body .navigation-wrapper {
   background: var(--glass-bg) !important;
   backdrop-filter: var(--glass-blur) !important;
   -webkit-backdrop-filter: var(--glass-blur) !important;
+  position: sticky !important; /* 恢复电脑端悬浮 */
+  top: 0 !important;
+  z-index: 1000 !important;
   min-height: 80px !important;
   display: flex !important;
   align-items: center !important;
