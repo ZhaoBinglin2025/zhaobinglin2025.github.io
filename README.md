@@ -27,7 +27,8 @@ A modern, high-end, and minimalist personal website template designed specifical
 ---
 
 ## 🧠 AI Customization (The "Future" Way)
-Check out the [**Antigravity 实战指南**](./ANTIGRAVITY_GUIDE.md) to learn how to use AI to add new sections, change colors, or update papers without touching any complex code.
+
+Check out the [**Antigravity 실전指南**](./ANTIGRAVITY_GUIDE.md) to larn how to use AI to add new sections, change colors, or update papers without touching any complex code.
 
 ---
 
