@@ -14,12 +14,23 @@ url: https://huqiqi.net
 # --------------------------------------------------
 owner:
   name: Qiqi Hu
+  name_cn: 胡齐齐
+  nickname: Chelsey
   avatar: Huqiqi.jpg
   bio: Master @ Tsinghua SIGS | AI for Energy Systems & Low-Carbon Innovation
-  #cv:  https://github.com/HU-Qiqi/huqiqi.net/blob/main/file/Hu_Qiqi_CV.pdf
+  bio_cn: 清华大学深圳国际研究生院硕士生，关注能源系统智能化与低碳可持续方向
+  university: Tsinghua University
+  university_cn: 清华大学
+  department: Shenzhen International Graduate School
+  department_cn: 深圳国际研究生院
+  lab: Guangdong Provincial Key Laboratory of Thermal Management Engineering and Materials
+  lab_cn: 广东省热管理工程与材料重点实验室
+  advisor: Prof. Hongda Du
+  advisor_cn: 杜鸿达副研究员
+  advisor_url: https://www.sigs.tsinghua.edu.cn/dhd/list.htm
+  email: chelseyhu111@gmail.com
   cv: https://huqiqi.net/file/CV_Huqiqi1.pdf
   cv2: https://huqiqi.net/file/CV_Huqiqi2.pdf
-  email: chelseyhu111@gmail.com
   # cv: https://github.com/HU-Qiqi/huqiqi.net/blob/main/file/CV-QiqiHu.pdf
 
 

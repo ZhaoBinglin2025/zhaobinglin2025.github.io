@@ -5,25 +5,25 @@ title: 主页中文版
 ---
 
 ### 🔍 核心概览
-- 🎓 *清华大学深圳国际研究生院硕士生，关注能源系统智能化与低碳可持续方向*
+- 🎓 *{{ site.owner.bio_cn }}*
 - 🔬 *研究方向：* 热安全建模、AI助力的低碳能源系统优化、可信人工智能、扩散模型
 - 🧰 *技术特长：* PyTorch、优化算法、Scientific ML、热管理建模与仿真、ML系统开发
 - 🎯 **目标申请 2027 Fall PhD**，方向包括：*能源系统人工智能（AI for Energy Systems）、储能电池热安全建模（Battery Safety & Thermal Modeling）、科学机器学习与物理生成式模型（Scientific ML & Generative Models for Physical Systems）*
-- 📧 **联系邮箱（Email）：** chelseyhu111@gmail.com
+- 📧 **联系邮箱（Email）：** {{ site.owner.email }}
 
 <br>
 
 ### 个人介绍
 
 <img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
-<br>你好，我是**胡齐齐**，2002年生，目前就读于**清华大学深圳国际研究生院**，攻读环境科学与新能源技术专业硕士学位，师从[**杜鸿达副研究员**](https://www.sigs.tsinghua.edu.cn/dhd/list.htm)，在**广东省热管理工程与材料重点实验室**开展研究。
+<br>你好，我是**{{ site.owner.name_cn }}**，2002年生，目前就读于**{{ site.owner.university_cn }}{{ site.owner.department_cn }}**，攻读环境科学与新能源技术专业硕士学位，师从[**{{ site.owner.advisor_cn }}**]({{ site.owner.advisor_url }})，在**{{ site.owner.lab_cn }}**开展研究。
 我目前的研究聚焦于**人工智能与可持续能源系统的交叉领域（AI for Energy Systems & Low-carbon Innovation）**，探索利用数据驱动与优化方法推动低碳能源技术创新。  
 
 <br>此前，我曾在南方科技大学[**郑锋教授**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=2)领导的视觉智能与感知课题组访问交流，研究可信扩散模型与AIGC内容安全。 本科毕业于青岛大学计算机科学技术学院信息安全专业，在[**张翰林教授**](https://cst.qdu.edu.cn/info/1072/7423.htm)指导下从事隐私保护与物联网安全研究。 张教授师从[**Wei Yu 教授**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html)（NSF CAREER Award获得者）。 这段经历为我奠定了扎实的算法与安全研究基础，也激发了我将**人工智能方法应用于能源科学与低碳系统建模**的兴趣。
 
 > 🧭 *我正在积极寻求博士阶段的研究机会（2027年秋季学期入学），希望在**能源系统与储能电池的人工智能**，以及**物理系统的生成式模型**等方向继续深入探索，致力于推动**碳中和与可持续能源系统**的发展。*
 
-欢迎通过[**邮件**](mailto:chelseyhu111@gmail.com)与我联系，无论是科研合作还是学术讨论。
+欢迎通过[**邮件**](mailto:{{ site.owner.email }})与我联系，无论是科研合作还是学术讨论。
 
 ---
 

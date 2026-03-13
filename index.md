@@ -2,25 +2,25 @@
 layout: page
 ---
 # Quick Summary
-- 🎓 *Master’s student at Tsinghua University (SIGS), working on AI for Energy & Sustainability*
+- 🎓 *{{ site.owner.bio }}*
 - 🔬 *Research:* thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning
 - 🧰 *Technical strengths:* PyTorch, scientific ML, optimization, thermal modeling and multiphysics simulation
 - 🎯 **Seeking PhD (Fall 2027)** in *Energy-AI, Battery Safety & Thermal Modeling, Scientific ML for Multiphysics Systems, and Physical Generative Models*
-- 📧 **Email:** chelseyhu111@gmail.com
+- 📧 **Email:** {{ site.owner.email }}
 
 <br>
 # About Me
 
 <img src="/images/2.jpg" class="floatpic" style="border-radius: 6px; opacity:0.92;">
-Here is **Qiqi Hu (Chelsey, 胡齐齐)**.
-<br>I am currently a **Master’s student at Tsinghua University**, working in the *Guangdong Provincial Key Laboratory of Thermal Management Engineering and Materials* at the Shenzhen International Graduate School, supervised by [**Prof. Hongda Du**](https://www.sigs.tsinghua.edu.cn/dhd/list.htm).
+Here is **{{ site.owner.name }} ({{ site.owner.nickname }})**.
+<br>I am currently a **Master’s student at {{ site.owner.university }}**, working in the *{{ site.owner.lab }}* at the {{ site.owner.department }}, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}).
 <br>Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en)(a recipient of the National Excellent Young Scientist Award), where I worked on trustworthy diffusion models and content security in AIGC. I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems.  These experiences equipped me with solid research training in cybersecurity and trustworthy AI, providing a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.
 
 ---
 
 > 🧭 *I am seeking **PhD opportunities（2027 fall）** to advance research in **energy system modeling** and **machine-learning optimization** toward achieving **carbon-neutral and sustainable energy systems.***
 
-I am always open to discussions and collaborations — feel free to [**email me**](mailto:chelseyhu111@gmail.com).
+I am always open to discussions and collaborations — feel free to [**email me**](mailto:{{ site.owner.email }}).
 
 ---
 
