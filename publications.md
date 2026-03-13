@@ -1,9 +1,7 @@
 ---
-layout: single
+layout: page
 title: Publications
 permalink: /publications/
-author_profile: true
-breadcrumbs: true
 ---
 
 <style>

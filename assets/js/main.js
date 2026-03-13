@@ -1925,4 +1925,3 @@ $(document).ready(function() {
     }
   });
 });
-});
