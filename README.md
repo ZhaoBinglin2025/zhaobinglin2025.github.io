@@ -34,5 +34,5 @@ Check out the [**Antigravity 实战指南**](./ANTIGRAVITY_GUIDE.md) to learn ho
 
 ## Statement
 
-© 2025 Qiqi Hu. Based on the [Minimal Mistakes](https://mademistakes.com/) theme.
+© 2026 Qiqi Hu. Based on the [Minimal Mistakes](https://mademistakes.com/) theme.
 Inspired by researchers worldwide. Optimized with ❤️ and **Antigravity**.
