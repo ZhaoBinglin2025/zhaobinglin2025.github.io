@@ -3402,6 +3402,23 @@ body .navigation-wrapper {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05) !important;
 }
 
+/* 电脑端：强制站点名称居中且无多余间距 */
+body .site-name {
+  display: flex !important;
+  align-items: center !important;
+  height: 80px !important; /* 与导航高度一致 */
+  margin: 0 !important;   /* 移除导致偏移的 margin */
+  padding-left: 5% !important; /* 保持与容器 90% 宽度的对齐感 */
+  float: none !important;
+}
+
+body .site-name a {
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  color: var(--text-main) !important;
+  line-height: 1 !important;
+}
+
 body .top-navigation {
   width: 90% !important;
   max-width: 1400px;
@@ -3485,11 +3502,33 @@ body .top-navigation li a {
 /* 移动端适配 2.0: 针对导航栏乱码与卡片布局优化 */
 @media (max-width: 768px) {
   body .navigation-wrapper {
+    position: static !important; /* 移动端取消悬浮 (Non-sticky) */
     min-height: auto !important;
     /* 允许内容撑开高度 */
     flex-direction: column !important;
     /* 纵向排列：标题在上，导航在下 */
     padding: 15px 0 !important;
+    box-shadow: none !important; /* 移除阴影 */
+    border-bottom: 1px solid var(--border-color) !important;
+  }
+
+  /* 移除卡片感，变为无缝一页 */
+  .page__content article, #main article, .pub, .hobby-item {
+    background: transparent !important;
+    padding: 20px 0 !important; /* 减少内边距 */
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-bottom: 1px solid var(--border-color) !important; /* 仅用细线分隔 */
+    animation: none !important; /* 移除移动端动画 */
+  }
+
+  /* 修复内容容器的间距 */
+  .page__content, #main article {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   body .site-name {
