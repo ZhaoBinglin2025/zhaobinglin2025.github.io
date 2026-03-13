@@ -8,7 +8,7 @@ author_profile: false
 <style>
 /* ===== 仅控制本页 Publications 容器宽度 ===== */
 #main article {
-  width: 85% !important;
+  width: 75% !important;
   max-width: 1400px !important;
 }
 
