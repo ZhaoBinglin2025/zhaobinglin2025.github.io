@@ -432,11 +432,14 @@ p {
 }
 
 
-/* ===== 让 About/Research 等正文里的分点(li)也左右对齐 ===== */
-.page__content li {
-  text-align: justify;
-  text-justify: inter-word;
-  line-height: 1.6;
+/* 让侧边栏在桌面端悬停 */
+@media only screen and (min-width: 37.5em) {
+  .article-author-top {
+    position: sticky !important;
+    top: 100px !important; /* 避开导航栏 */
+    height: fit-content !important;
+    z-index: 10;
+  }
 }
 
 /* （可选）让 li 中的最后一行稍微收紧一点 */
@@ -647,7 +650,7 @@ body {
   background-color: var(--bg-soft) !important;
 }
 
-/* 导航栏 2.0：更加空灵 */
+/* 导航栏 2.0：更加空灵与完美的垂直居中 */
 .navigation-wrapper {
   background: var(--glass-bg) !important;
   backdrop-filter: var(--glass-blur);
@@ -655,21 +658,43 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  padding: 1.2em 0 !important;
+  padding: 0 !important; /* 让内部居中控制高度 */
+  min-height: 80px;      /* 适度增加高度 */
+  display: flex !important;
+  align-items: center !important;
   border-bottom: 1px solid rgba(0,0,0,0.03);
   box-shadow: 0 1px 0 rgba(0,0,0,0.01);
 }
 
+.top-navigation {
+  margin: 0 auto !important;
+  width: 90% !important; /* 宽度稍微放宽 */
+  display: flex !important;
+  justify-content: flex-end !important; /* 链接靠右 */
+  align-items: center !important;
+  float: none !important; /* 弃用旧浮动 */
+}
+
+.top-navigation ul {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.top-navigation li {
+  margin-right: 35px !important; /* 链接间距加大 */
+}
+
 .top-navigation li a {
-  font-weight: 600 !important;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
-  transition: all 0.3s ease;
+  font-weight: 700 !important;
+  font-size: 1.1rem !important; /* 稍微大一些 */
+  letter-spacing: 0.8px !important;
+  text-transform: uppercase;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .top-navigation li a:hover {
   color: var(--accent-color) !important;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 /* 头像与卡片立体感 */

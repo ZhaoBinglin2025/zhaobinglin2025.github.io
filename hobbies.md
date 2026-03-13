@@ -70,21 +70,27 @@ title: Hobbies
 
 <div class="hobby-grid">
   <div class="hobby-item">
-    <img src="/images/cycling1.jpg" alt="Cycling by the lakeside" loading="lazy">
+    <a href="/images/cycling1.jpg" title="Riverside Routes">
+      <img src="/images/cycling1.jpg" alt="Cycling by the lakeside" loading="lazy">
+    </a>
     <div class="hobby-content">
       <h3>Riverside Routes</h3>
       <p>Discovering new trails and breathtaking views along the water.</p>
     </div>
   </div>
   <div class="hobby-item">
-    <img src="/images/cycling3.jpg" alt="Golden hour cycling" loading="lazy">
+    <a href="/images/cycling3.jpg" title="Sunset Rides">
+      <img src="/images/cycling3.jpg" alt="Golden hour cycling" loading="lazy">
+    </a>
     <div class="hobby-content">
       <h3>Sunset Rides</h3>
       <p>Finding peace in the movement and the changing light of the day.</p>
     </div>
   </div>
   <div class="hobby-item">
-    <img src="/images/cycling2.jpg" alt="Cycling in the city" loading="lazy">
+    <a href="/images/cycling2.jpg" title="Stay Active">
+      <img src="/images/cycling2.jpg" alt="Cycling in the city" loading="lazy">
+    </a>
     <div class="hobby-content">
       <h3>Stay Active</h3>
       <p>Cycling and jogging are key to maintaining my physical and mental energy.</p>
@@ -96,7 +102,9 @@ title: Hobbies
 
 <div class="hobby-grid">
   <div class="hobby-item" style="grid-column: 1 / -1;">
-    <img src="/images/guitar1.jpg" alt="Playing guitar" loading="lazy" style="height: 350px;">
+    <a href="/images/guitar1.jpg" title="A Channel for Creativity">
+      <img src="/images/guitar1.jpg" alt="Playing guitar" loading="lazy" style="height: 350px;">
+    </a>
     <div class="hobby-content">
       <h3>A Channel for Creativity</h3>
       <p>Playing the guitar is a form of meditation for me. It allows me to explore musical textures and find solace in creativity after a long day of research.</p>

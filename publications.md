@@ -138,7 +138,9 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <img src="/images/thermal_runaway_ml.png" alt="Thermal runaway severity ML framework" loading="lazy">
+    <a href="/images/thermal_runaway_ml.png" title="Thermal runaway severity ML framework">
+      <img src="/images/thermal_runaway_ml.png" alt="Thermal runaway severity ML framework" loading="lazy">
+    </a>
   </div>
   <div class="body">
     <div class="title">
@@ -164,7 +166,9 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
+    <a href="/images/BTMS.png" title="Hybrid BTMS">
+      <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
+    </a>
   </div>
   <div class="body">
     <div class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy</div>
@@ -185,7 +189,9 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <img src="/images/WM_encoder_decoder.png" alt="WM encoder-decoder schematic" loading="lazy">
+    <a href="/images/WM_encoder_decoder.png" title="WM encoder-decoder schematic">
+      <img src="/images/WM_encoder_decoder.png" alt="WM encoder-decoder schematic" loading="lazy">
+    </a>
   </div>
   <div class="body">
     <div class="title">
@@ -205,7 +211,9 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <img src="/images/SSNN.png" alt="SSNN framework" loading="lazy">
+    <a href="/images/SSNN.png" title="SSNN framework">
+      <img src="/images/SSNN.png" alt="SSNN framework" loading="lazy">
+    </a>
   </div>
   <div class="body">
     <div class="title">
@@ -224,7 +232,9 @@ breadcrumbs: true
 
 <div class="pub">
   <div class="thumb">
-    <img src="/images/SNLM.png" alt="SNLM denoising outsourcing" loading="lazy">
+    <a href="/images/SNLM.png" title="SNLM denoising outsourcing">
+      <img src="/images/SNLM.png" alt="SNLM denoising outsourcing" loading="lazy">
+    </a>
   </div>
   <div class="body">
     <div class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things</div>
