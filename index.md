@@ -5,6 +5,7 @@ layout: page
   .hero-section, .hero-section * {
     font-family: 'PT Serif', serif !important;
     color: #333332;
+    font-style: normal !important;
   }
   .hero-section {
     background: transparent !important;
@@ -28,6 +29,22 @@ layout: page
   .styled-list li::before {
     display: none !important;
   }
+  /* About Me 图片响应式 */
+  .about-me-photo {
+    float: right;
+    width: 300px;
+    margin: 0 0 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    opacity: 0.95;
+    filter: brightness(0.98);
+  }
+  @media (max-width: 600px) {
+    .about-me-photo {
+      width: 30% !important;
+      margin: 0 0 10px 15px !important;
+    }
+  }
 </style>
 <div class="hero-section">
   <div class="hero-content">
@@ -48,7 +65,7 @@ layout: page
 
 # About Me
 
-<img src="/images/2.jpg" alt="Profile Picture" style="float: right; width: 300px; margin: 0 0 20px 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); opacity: 0.95; filter: brightness(0.98);">
+<img src="/images/2.jpg" alt="Profile Picture" class="about-me-photo">
 
 I am currently a **Master’s student at {{ site.owner.university }}**, working in the *{{ site.owner.lab }}* at the {{ site.owner.department }}, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}).
 Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en)(a recipient of the National Excellent Young Scientist Award), where I worked on trustworthy diffusion models and content security in AIGC. I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems. These experiences equipped me with solid research training in cybersecurity and trustworthy AI, providing a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.

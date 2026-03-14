@@ -8,6 +8,7 @@ title: 主页中文版
   .hero-section, .hero-section * {
     font-family: 'PT Serif', serif !important;
     color: #333332;
+    font-style: normal !important;
   }
   .hero-section {
     background: transparent !important;
@@ -31,6 +32,22 @@ title: 主页中文版
   .styled-list li::before {
     display: none !important;
   }
+  /* About Me 图片响应式 */
+  .about-me-photo {
+    float: right;
+    width: 300px;
+    margin: 0 0 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    opacity: 0.95;
+    filter: brightness(0.98);
+  }
+  @media (max-width: 600px) {
+    .about-me-photo {
+      width: 30% !important;
+      margin: 0 0 10px 15px !important;
+    }
+  }
 </style>
 <div class="hero-section">
   <div class="hero-content">
@@ -51,7 +68,7 @@ title: 主页中文版
 
 ### 个人介绍
 
-<img src="/images/2.jpg" alt="Profile Picture" style="float: right; width: 300px; margin: 0 0 20px 30px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); opacity: 0.95; filter: brightness(0.98);">
+<img src="/images/2.jpg" alt="Profile Picture" class="about-me-photo">
 
 我是胡齐齐，2002年生，目前就读于**{{ site.owner.university_cn }}{{ site.owner.department_cn }}**，攻读环境科学与新能源技术专业硕士学位，师从[**{{ site.owner.advisor_cn }}**]({{ site.owner.advisor_url }})，在**{{ site.owner.lab_cn }}**开展研究。我目前的研究聚焦于**人工智能与可持续能源系统的交叉领域（AI for Energy Systems & Low-carbon Innovation）**，探索利用数据驱动与优化方法推动低碳能源技术创新。  
 
