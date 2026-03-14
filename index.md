@@ -4,29 +4,34 @@ layout: page
 <div class="hero-section">
   <div class="hero-content">
     <h1>Hi, I'm {{ site.owner.name }} 👋</h1>
-    <p>
-      <strong>{{ site.owner.bio }}</strong><br>
-      📍 Master’s student at {{ site.owner.university }}
-    </p>
-    <div class="meta-container" style="margin-top: 15px;">
+    <ul class="styled-list" style="margin-top: 20px;">
+      <li>🎓 <em>Master’s student at Tsinghua University (SIGS), working on AI for Energy & Sustainability</em></li>
+      <li>🔬 <em>Research:</em> thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning</li>
+      <li>🧰 <em>Technical strengths:</em> PyTorch, scientific ML, optimization, thermal modeling and multiphysics simulation</li>
+      <li>🎯 <strong>Seeking PhD (Fall 2027)</strong> in <em>Energy-AI, Battery Safety & Thermal Modeling, Scientific ML for Multiphysics Systems, and Physical Generative Models</em></li>
+      <li>📧 <strong>Email:</strong> chelseyhu111@gmail.com</li>
+    </ul>
+    <div class="meta-container" style="margin-top: 25px;">
       <span class="chip chip-journal">🔬 AI-accelerated Energy Systems</span>
       <span class="chip chip-if">🎯 Seeking PhD (Fall 2027)</span>
     </div>
-  </div>
-  <div class="hero-image">
-    <img src="/images/2.jpg" alt="Profile Picture">
   </div>
 </div>
 
 # About Me
 
-I am currently a **Master’s student at {{ site.owner.university }}**, working in the *{{ site.owner.lab }}* at the {{ site.owner.department }}, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}).
-
-Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en)(a recipient of the National Excellent Young Scientist Award), where I worked on trustworthy diffusion models and content security in AIGC. I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems. These experiences equipped me with solid research training in cybersecurity and trustworthy AI, providing a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.
-
----
+<div style="display: flex; gap: 40px; align-items: flex-start; margin-bottom: 2em; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 300px;">
+    I am currently a **Master’s student at {{ site.owner.university }}**, working in the *{{ site.owner.lab }}* at the {{ site.owner.department }}, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}).
+    <br><br>
+    Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en)(a recipient of the National Excellent Young Scientist Award), where I worked on trustworthy diffusion models and content security in AIGC. I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems. These experiences equipped me with solid research training in cybersecurity and trustworthy AI, providing a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.
 
 > 🧭 *I am seeking **PhD opportunities（2027 fall）** to advance research in **energy system modeling** and **machine-learning optimization** toward achieving **carbon-neutral and sustainable energy systems.***
+  </div>
+  <div style="flex: 0 0 300px;">
+    <img src="/images/2.jpg" alt="Profile Picture" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+  </div>
+</div>
 
 I am always open to discussions and collaborations — feel free to [**email me**](mailto:{{ site.owner.email }}).
 
