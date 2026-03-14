@@ -3925,19 +3925,22 @@ body .top-navigation li a {
   padding: 40px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.03);
-  font-family: inherit;
+  font-family: 'PT Serif', serif !important;
+}
+
+/* 强制 hero 内所有元素继承正文字体 */
+.hero-section * {
+  font-family: inherit !important;
 }
 
 .hero-content {
   flex: 1;
-  font-family: inherit;
 }
 
 .hero-content h1 {
   margin-top: 0;
   font-size: 2.2rem;
   color: #2c3e50;
-  font-family: inherit;
 }
 
 .hero-content p {
