@@ -1,6 +1,26 @@
 ---
 layout: page
 ---
+<style>
+  .hero-section, .hero-section * {
+    font-family: 'PT Serif', serif !important;
+    color: #333332;
+  }
+  .hero-section h1 {
+    color: #2c3e50;
+  }
+  .styled-list {
+    list-style: disc !important;
+    padding-left: 20px !important;
+  }
+  .styled-list li {
+    padding-left: 0 !important;
+    color: #333332 !important;
+  }
+  .styled-list li::before {
+    display: none !important;
+  }
+</style>
 <div class="hero-section">
   <div class="hero-content">
     <h1>Hi, I'm {{ site.owner.name }} 👋</h1>
