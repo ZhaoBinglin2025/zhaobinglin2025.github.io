@@ -1,9 +1,28 @@
 ---
-layout: page
+layout: single
 title: Publications
 permalink: /publications/
 author_profile: false
 ---
+<style>
+  /* Hide the author profile sidebar on this page */
+  .sidebar { 
+    display: none !important; 
+  }
+  
+  /* Make the main page content take up exactly 75% width and center it */
+  .page {
+    width: 75% !important;
+    max-width: 75% !important;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-right: 0 !important;
+  }
+  
+  .page__inner-wrap {
+    width: 100% !important;
+  }
+</style>
 <div class="pub-wrap">
   <h2>Publications / Projects</h2>
   <p><a href="/">← Back to Home</a></p>

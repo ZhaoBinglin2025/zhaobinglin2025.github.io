@@ -31,15 +31,6 @@ title: Hobbies
       <p>Finding peace in the movement and the changing light of the day.</p>
     </div>
   </div>
-  <div class="hobby-item">
-    <a href="/images/cycling2.jpg" class="image-popup" title="Stay Active">
-      <img src="/images/cycling2.jpg" alt="Cycling in the city" loading="lazy">
-    </a>
-    <div class="hobby-content">
-      <h3>Stay Active</h3>
-      <p>Cycling and jogging are key to maintaining my physical and mental energy.</p>
-    </div>
-  </div>
 </div>
 
 ## Playing guitar
