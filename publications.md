@@ -1,8 +1,9 @@
 ---
-layout: page
-title: Publications / Projects
+layout: single
+title: Publications
 permalink: /publications/
-author_profile: false
+author_profile: true
+breadcrumbs: true
 ---
 
 <style>
@@ -31,6 +32,12 @@ author_profile: false
   margin: 0 auto;
 }
 
+.pub-wrap > h2 { 
+  margin: 0 0 12px; 
+  font-weight: 800; 
+  font-size: 2em;
+  color: #1a1a1a;
+}
 .pub-wrap > p { margin: 0 0 24px; font-size: 1.1em; }
 .pub-wrap > p a { 
   color: #2a59ff; 
@@ -99,7 +106,30 @@ author_profile: false
 }
 
 /* 作者/Advisor标签更小更柔和 */
-/* 删除这部分因为我们将使用全局的chip-advisor */
+.pub .advisor-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  background-color: #f1f5f9;
+  color: #475569;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  transition: all 0.2s ease;
+}
+
+.pub .advisor-tag i {
+  margin-right: 4px;
+  color: #64748b;
+}
+
+.pub .advisor-tag:hover {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
 .pub .meta { 
   margin: 0.3rem 0 1.2rem; 
   font-style: italic; 
@@ -151,6 +181,8 @@ author_profile: false
 </style>
 
 <div class="pub-wrap">
+  <h2>Publications / Projects</h2>
+  <p><a href="/">← Back to Home</a></p>
 
   <div class="pub">
     <div class="thumb">
@@ -163,7 +195,7 @@ author_profile: false
         <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
           Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
         </a><br>
-        <span class="chip chip-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span>
+        <span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span>
       </p>
       <div class="meta">
         <span class="chip chip-journal">Journal Article</span>
@@ -188,7 +220,7 @@ author_profile: false
       </a>
     </div>
     <div class="body">
-      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><span class="chip chip-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span></p>
+      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span></p>
       <div class="meta">
         <span class="chip chip-journal">Journal Article</span>
         <span class="chip chip-year">2025.09-2025.12</span>
@@ -210,7 +242,7 @@ author_profile: false
         <a href="https://github.com/HU-Qiqi/WM_encoder_decoder">
           WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)
         </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a><br>
-        <span class="chip chip-advisor"><i class="fas fa-user-tie"></i> Advisor: Feng Zheng</span>
+        <span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Feng Zheng</span>
       </p>
       <div class="meta">
         <span class="chip chip-journal">Project / Code</span>
@@ -231,7 +263,7 @@ author_profile: false
       <p class="title">
         <a href="https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things">
           Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in Internet of Things
-        </a><br><span class="chip chip-advisor"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span>
+        </a><br><span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span>
       </p>
       <div class="meta">
         <span class="chip chip-journal">Research Project</span>
@@ -248,7 +280,7 @@ author_profile: false
       </a>
     </div>
     <div class="body">
-      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><span class="chip chip-advisor"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span></p>
+      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span></p>
       <div class="meta">
         <span class="chip chip-journal">Degree Thesis</span>
       </div>
