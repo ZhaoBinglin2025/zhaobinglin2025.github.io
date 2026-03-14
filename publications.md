@@ -226,7 +226,7 @@ breadcrumbs: true
         <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
           Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
         </a><br>
-        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Minqiang Wu, Hongda Du</span>
+        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span>
       </p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-file-alt"></i> Journal Article</span>
@@ -252,7 +252,7 @@ breadcrumbs: true
       </a>
     </div>
     <div class="body">
-      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Minqiang Wu, Hongda Du</span></p>
+      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span></p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-file-alt"></i> Journal Article</span>
         <span class="badge badge-venue"><i class="fas fa-book"></i> Applied Thermal Engineering</span>
@@ -275,7 +275,7 @@ breadcrumbs: true
         <a href="https://github.com/HU-Qiqi/WM_encoder_decoder">
           WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)
         </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a><br>
-        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Feng Zheng</span>
+        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Feng Zheng</span>
       </p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-code"></i> Project / Code</span>
@@ -296,7 +296,7 @@ breadcrumbs: true
       <p class="title">
         <a href="https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things">
           Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in Internet of Things
-        </a><br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Hanlin Zhang</span>
+        </a><br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span>
       </p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-flask"></i> Research Project</span>
@@ -313,7 +313,7 @@ breadcrumbs: true
       </a>
     </div>
     <div class="body">
-      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Hanlin Zhang</span></p>
+      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span></p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-graduation-cap"></i> Degree Thesis</span>
       </div>
