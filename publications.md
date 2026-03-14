@@ -3,140 +3,246 @@ layout: single
 title: Publications
 permalink: /publications/
 author_profile: false
+breadcrumbs: true
 ---
+
 <style>
-  /* Hide the author profile sidebar on this page */
-  .sidebar { 
-    display: none !important; 
-  }
-  
-  /* Make the main page content take up exactly 75% width and center it */
-  .page {
-    width: 75% !important;
-    max-width: 75% !important;
-    margin: 0 auto !important;
-    float: none !important;
-    padding-right: 0 !important;
-  }
-  
-  .page__inner-wrap {
-    width: 100% !important;
-  }
+/* ===== Hide Sidebar on this page entirely ===== */
+.sidebar { 
+  display: none !important; 
+}
+
+/* ===== Center the page to 75% width ===== */
+.page {
+  width: 75% !important;
+  max-width: 960px !important;
+  margin: 0 auto !important;
+  float: none !important;
+  padding-right: 0 !important;
+}
+
+.page__inner-wrap {
+  width: 100% !important;
+}
+
+/* ===== Publications Container ===== */
+.pub-wrap {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.pub-wrap > h2 { 
+  margin: 0 0 12px; 
+  font-weight: 800; 
+  font-size: 2em;
+  color: #1a1a1a;
+}
+.pub-wrap > p { margin: 0 0 24px; font-size: 1.1em; }
+.pub-wrap > p a { 
+  color: #2a59ff; 
+  text-decoration: none; 
+  border-bottom: 2px dashed rgba(42,89,255,.3); 
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.pub-wrap > p a:hover { opacity: 0.8; border-bottom: 2px solid rgba(42,89,255,.8); }
+
+/* ===== 重点：卡片式UI设计 ===== */
+.pub {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin: 0 auto 40px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* 柔和阴影 */
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* 悬停动画：卡片轻微上浮并加深阴影 */
+.pub:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+.pub .thumb {
+  flex: 0 0 440px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.pub .thumb img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  transition: transform 0.5s ease;
+}
+
+/* 悬停动画：图片轻微放大 */
+.pub:hover .thumb img {
+  transform: scale(1.03);
+}
+
+.pub .body {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.6;
+}
+
+/* 标题样式 */
+.pub .body .title { 
+  margin: 0 0 0.5rem; 
+  font-size: 1.25rem;
+  font-weight: 700; 
+  color: #2c3e50;
+  line-height: 1.4;
+}
+
+/* 作者/Advisor标签更小更柔和 */
+.pub .body .title em {
+  font-weight: 500;
+  font-size: 0.85em;
+  color: #7f8c8d;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.pub .meta { 
+  margin: 0.3rem 0 1.2rem; 
+  font-style: italic; 
+  color: #6c757d; 
+  font-size: 0.95em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 12px;
+}
+
+/* 链接视觉统一 */
+.pub .body a { 
+  color: #2a59ff; 
+  text-decoration: none; 
+  border-bottom: 2px solid transparent; 
+  transition: border-color 0.2s ease, opacity 0.2s ease; 
+}
+.pub .body a:hover { 
+  border-bottom-color: rgba(42,89,255,1); 
+  opacity: 0.9; 
+}
+.pub .body a:visited { 
+  color: #1e40b5; 
+}
+
+/* 正文对其 */
+.pub .body p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.pub .body p:last-child {
+  margin-bottom: 0;
+}
+
+/* 手机端响应式堆叠 */
+@media (max-width: 768px) {
+  .page { width: 95% !important; max-width: 100% !important; }
+  .pub { flex-direction: column; padding: 20px; gap: 20px; }
+  .pub .thumb { flex: auto; width: 100%; margin-bottom: 8px; }
+  .pub .body .title { font-size: 1.15rem; }
+}
 </style>
+
 <div class="pub-wrap">
   <h2>Publications / Projects</h2>
   <p><a href="/">← Back to Home</a></p>
 
-
-<div class="pub">
-  <div class="thumb">
-    <a href="/images/thermal_runaway_ml.png" class="image-popup" title="Thermal runaway severity ML framework">
+  <div class="pub">
+    <div class="thumb">
       <img src="/images/thermal_runaway_ml.png" alt="Thermal runaway severity ML framework" loading="lazy">
-    </a>
-  </div>
-  <div class="body">
-    <div class="title">
-      <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
-        Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
-      </a>
     </div>
-    <div class="meta-container">
-      <span class="chip chip-journal">Journal Article / PSEP</span>
-      <span class="chip chip-if">IF=7.8</span>
-      <span class="chip chip-year">2025.11-2026.02</span>
-      <span class="chip chip-advisor">Advisor: Minqiang Wu, Hongda Du</span>
-    </div>
-    <p>
-      Proposed an <strong>interpretable machine-learning framework</strong> for <strong>pre-event prediction</strong> of lithium-ion battery thermal runaway severity using only structural and engineering metadata. 
-      Constructed a hazard-oriented <strong>Severity Index</strong> integrating heat release and material ejection indicators, and developed a <strong>CatBoost-based classifier</strong> achieving <strong>81% accuracy</strong> with <strong>100% recall for High-severity events</strong>.
-    </p>
-    <div class="text-cn">
-      提出一种基于结构与工程元数据的锂离子电池<strong>热失控事前严重度预测框架</strong>，构建危险导向严重度指数，实现了 <strong>81%</strong> 的预测准确率与 <strong>100%</strong> 的高危事件识别率。
+    <div class="body">
+      <p class="title">
+        <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
+          Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
+        </a><br>
+        <em>(Advisor: Minqiang Wu, Hongda Du)</em>
+      </p>
+      <p class="meta">Journal Article · 2025.11-2026.02 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
+      <p>
+        Proposed an <strong>interpretable machine-learning framework</strong> for <strong>pre-event prediction</strong> of lithium-ion battery thermal runaway severity using only structural and engineering metadata. 
+        Constructed a hazard-oriented <strong>Severity Index</strong> integrating heat release and material ejection indicators, and developed a <strong>CatBoost-based classifier</strong> achieving <strong>81% accuracy</strong> with <strong>100% recall for High-severity events</strong>. 
+        SHAP analysis provides physics-consistent interpretability to support safety-oriented decision-making.
+      </p>
+      <p>
+        提出一种基于<strong>结构与工程元数据</strong>的锂离子电池<strong>热失控事前严重度预测框架</strong>，构建融合放热与喷射特征的<strong>危险导向严重度指数（Severity Index）</strong>，并基于 <strong>CatBoost</strong> 实现多分类预测，整体准确率达 <strong>81%</strong>，对高危事件识别率 <strong>100%</strong>。通过 SHAP 可解释分析揭示关键安全影响因素，支持风险导向电池安全评估。
+      </p>
     </div>
   </div>
-</div>
 
-<div class="pub">
-  <div class="thumb">
-    <a href="/images/BTMS.png" class="image-popup" title="Hybrid BTMS">
+  <div class="pub">
+    <div class="thumb">
       <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
-    </a>
-  </div>
-  <div class="body">
-    <div class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy</div>
-    <div class="meta-container">
-      <span class="chip chip-journal">Journal Article / ATE</span>
-      <span class="chip chip-if">IF=6.9</span>
-      <span class="chip chip-year">2025.09-2025.12</span>
-      <span class="chip chip-advisor">Advisor: Minqiang Wu, Hongda Du</span>
     </div>
-    <p>
-      Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization ensures a balance between cooling performance and lightweight design.
-    </p>
-    <div class="text-cn">
-      提出一种相变材料–风冷混合热管理系统（BTMS），使电池最高温度降低 <strong>43.3%</strong>，并通过 <strong>TOPSIS 优化</strong>平衡了散热性能与轻量化需求。
+    <div class="body">
+      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><em>(Advisor: Minqiang Wu, Hongda Du)</em></p>
+      <p class="meta">Journal Article · 2025.09-2025.12 · Submitted to Applied Thermal Engineering (IF=6.9)</p>
+      <p>Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature (below 46.8 °C)</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization using an <strong>entropy–TOPSIS</strong> framework ensures a balance between cooling performance and lightweight design.</p>
+      <p>提出了一种用于无人机锂离子电池的<strong>相变材料–风冷混合热管理系统（BTMS）</strong>，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 且保持低于 46.8 °C；通过 TOPSIS 优化实现轻量化与散热性能的平衡。</p>
     </div>
   </div>
-</div>
 
-<div class="pub">
-  <div class="thumb">
-    <a href="/images/WM_encoder_decoder.png" class="image-popup" title="WM encoder-decoder schematic">
+  <div class="pub">
+    <div class="thumb">
       <img src="/images/WM_encoder_decoder.png" alt="WM encoder-decoder schematic" loading="lazy">
-    </a>
-  </div>
-  <div class="body">
-    <div class="title">
-      <a href="https://github.com/HU-Qiqi/WM_encoder_decoder">
-        WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)
-      </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a>
     </div>
-    <div class="meta-container">
-      <span class="chip chip-journal">Project / Code</span>
-      <span class="chip chip-year">2024.03-2024.12</span>
-      <span class="chip chip-advisor">Advisor: Feng Zheng</span>
+    <div class="body">
+      <p class="title">
+        <a href="https://github.com/HU-Qiqi/WM_encoder_decoder">
+          WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)
+        </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a><br>
+        <em>(Advisor: Feng Zheng)</em>
+      </p>
+      <p class="meta">Project / Code · 2024.03-2024.12 </p>
+      <p>Dual-protection scheme combining <strong>digital watermarking</strong> and <strong>adversarial perturbations</strong> in the latent space; precise embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.</p>
+      <p>提出<strong>数字水印 + 对抗扰动</strong>的双重保护方案，在隐空间抑制篡改与生成操控；无需微调、具有良好迁移性与鲁棒性。</p>
     </div>
-    <p>Dual-protection scheme combining <strong>digital watermarking</strong> and <strong>adversarial perturbations</strong> in the latent space; precise embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.</p>
-    <div class="text-cn">结合数字水印与对抗扰动的双重保护方案，在隐空间实现篡改抑制，具有良好的迁移性与鲁棒性。</div>
   </div>
-</div>
 
-<div class="pub">
-  <div class="thumb">
-    <a href="/images/SSNN.png" class="image-popup" title="SSNN framework">
+  <div class="pub">
+    <div class="thumb">
       <img src="/images/SSNN.png" alt="SSNN framework" loading="lazy">
-    </a>
-  </div>
-  <div class="body">
-    <div class="title">
-      <a href="https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things">
-        Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in Internet of Things
-      </a>
     </div>
-    <div class="meta-container">
-      <span class="chip chip-journal">Research Project</span>
-      <span class="chip chip-advisor">Advisor: Hanlin Zhang</span>
+    <div class="body">
+      <p class="title">
+        <a href="https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things">
+          Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in Internet of Things
+        </a><br><em>(Advisor: Hanlin Zhang)</em>
+      </p>
+      <p class="meta">Research Project</p>
+      <p>Cloud-assisted, privacy-preserving <strong>SNN clustering</strong> using <strong>orthogonal matrix transformation</strong> and lightweight verification; cuts the most complex step from <strong>10.859 s → 1.183 s</strong> while preserving accuracy.</p>
+      <p>云辅助的<strong>隐私保护 SNN 聚类</strong>，外包前以正交矩阵加密并可验证返回结果；在保持精度下显著降低本地计算开销。</p>
     </div>
-    <p>Cloud-assisted, privacy-preserving <strong>SNN clustering</strong> using <strong>orthogonal matrix transformation</strong> and lightweight verification; cuts calculation time from <strong>10.859 s → 1.183 s</strong> while preserving accuracy.</p>
-    <div class="text-cn">云辅助的隐私保护 SNN 聚类，采用正交矩阵加密技术，显著降低了本地计算开销。</div>
   </div>
-</div>
 
-<div class="pub">
-  <div class="thumb">
-    <a href="/images/SNLM.png" class="image-popup" title="SNLM denoising outsourcing">
+  <div class="pub">
+    <div class="thumb">
       <img src="/images/SNLM.png" alt="SNLM denoising outsourcing" loading="lazy">
-    </a>
-  </div>
-  <div class="body">
-    <div class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things</div>
-    <div class="meta-container">
-      <span class="chip chip-journal">Degree Thesis</span>
-      <span class="chip chip-advisor">Advisor: Hanlin Zhang</span>
     </div>
-    <p>Secure outsourcing for image denoising using <strong>Householder transformation</strong> and optimal-probability verification; maintains accuracy (<strong>PSNR ≈ 20–21 dB</strong>) while greatly reducing client computation.</p>
-    <div class="text-cn">面向物联网的图像去噪安全外包方案，利用豪斯霍尔德变换保护隐私，并实现高效可验证性。</div>
+    <div class="body">
+      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><em>(Advisor: Hanlin Zhang)</em></p>
+      <p class="meta">Degree Thesis</p>
+      <p>Secure outsourcing for image denoising using <strong>Householder transformation</strong> and optimal-probability verification; maintains accuracy (<strong>PSNR ≈ 20–21 dB</strong>) while greatly reducing client computation.</p>
+      <p>面向物联网图像去噪的<strong>安全外包方案</strong>，以豪斯霍尔德变换保护隐私并可验证结果；在 <strong>PSNR 约 20–21 dB</strong> 下显著降低端侧计算。</p>
+    </div>
   </div>
-</div>
 
 </div>
