@@ -20,8 +20,8 @@ layout: page
 
 # About Me
 
-<div style="display: flex; gap: 40px; align-items: flex-start; margin-bottom: 2em; flex-wrap: wrap;">
-  <div style="flex: 1; min-width: 300px;">
+<div style="display: flex; gap: 40px; align-items: flex-start; margin-bottom: 2em; flex-wrap: wrap;" markdown="1">
+  <div style="flex: 1; min-width: 300px;" markdown="1">
     I am currently a **Master’s student at {{ site.owner.university }}**, working in the *{{ site.owner.lab }}* at the {{ site.owner.department }}, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}).
     <br><br>
     Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en)(a recipient of the National Excellent Young Scientist Award), where I worked on trustworthy diffusion models and content security in AIGC. I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems. These experiences equipped me with solid research training in cybersecurity and trustworthy AI, providing a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.
@@ -29,7 +29,7 @@ layout: page
 > 🧭 *I am seeking **PhD opportunities（2027 fall）** to advance research in **energy system modeling** and **machine-learning optimization** toward achieving **carbon-neutral and sustainable energy systems.***
   </div>
   <div style="flex: 0 0 300px;">
-    <img src="/images/2.jpg" alt="Profile Picture" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+    <img src="/images/2.jpg" alt="Profile Picture" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); filter: grayscale(20%) brightness(0.9) contrast(0.95);">
   </div>
 </div>
 
