@@ -3945,7 +3945,7 @@ body .top-navigation li a {
 
 .hero-content p {
   font-size: 1.1rem;
-  color: #4a5568;
+  color: #333332;
   line-height: 1.7;
 }
 
@@ -3980,25 +3980,14 @@ body .top-navigation li a {
 
 /* ===== Styled Lists / Timeline ===== */
 .styled-list {
-  list-style: none;
-  padding: 0;
+  list-style: disc;
+  padding-left: 20px;
   margin: 0;
 }
 
 .styled-list li {
   position: relative;
-  padding-left: 20px;
   margin-bottom: 15px;
-  color: #4a5568;
+  color: #333332;
   line-height: 1.6;
-}
-
-.styled-list li::before {
-  content: '·';
-  position: absolute;
-  left: 0;
-  color: #3498db;
-  font-weight: bold;
-  font-size: 1.5rem;
-  line-height: 1.5;
 }
