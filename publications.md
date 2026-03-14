@@ -291,14 +291,12 @@ breadcrumbs: true
 
 </div>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function() {
   // Wait a tiny bit for the main.js to run its default bindings
   setTimeout(function() {
     // Unbind the single-image popup behavior from the publication images
-    $('.pub-wrap .image-popup').off('click');
-    $('.pub-wrap').unbind('click');
+    $('.pub-wrap .image-popup').off('click.magnificPopup');
     
     // Explicitly re-initialize as a grouped gallery
     $('.pub-wrap').magnificPopup({
