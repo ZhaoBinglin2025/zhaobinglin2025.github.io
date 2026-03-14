@@ -1,66 +1,73 @@
-# 🚀 Antigravity Guide: Zero-Code Web Mastery
+# 🚀 Antigravity 指南：零代码掌控网页开发
 
-Welcome! This document is not just a configuration guide—it's a tutorial on the **modern web development workflow**. 
+欢迎！这份文档不仅是一个配置指南，更是一场关于**现代网页开发工作流**的教程。
 
-This template was meticulously crafted and refined using **Antigravity**, an agentic AI coding assistant. Because the underlying CSS variables are centralized and the layouts are modular, it is incredibly easy for an AI to understand and modify this site for you.
+本模板是使用 **Antigravity**（一个代理式 AI 编程助手）精心打造和优化的。由于底层的 CSS 变量经过了集中化处理，且布局采用了模块化设计，因此 AI 能够非常容易地理解并为你修改网站。
 
-You **do not** need to learn HTML, CSS, or Ruby to use this template. You only need to learn how to talk to your AI.
-
----
-
-## 💡 The Core Principle: "Describe the Goal, Not the Code"
-
-When asking an AI like Antigravity to modify your site, focus on the **visual outcome** and provide **references**. Let the AI handle the specific class names and CSS properties.
-
-**❌ Bad Prompt:** 
-> *"Go to `main.css` line 3400 and change the `max-width` to 80% and add `float: none`."*
-
-**✅ Good Prompt:** 
-> *"My Publications page feels too wide on my large monitor. I want it to be a single, focused column in the center of the screen, taking up about 75% of the width. Please remove any sidebars and ensure it is perfectly centered."*
+你**不需要**为了使用这个模板而去学习 HTML、CSS 或 Ruby。你只需要学会如何与你的 AI 交流。
 
 ---
 
-## 🛠️ Practical Antigravity Prompts
+## 📥 开始使用 (针对国内用户)
 
-Here are real-world examples of how to maintain and upgrade your portfolio using Antigravity:
-
-### Scenario 1: Adding a New Publication
-Instead of copying and pasting Markdown blocks and manually tweaking formatting, just give the AI the raw text.
-
-> **Prompt:** 
-> *"I have a new paper accepted! Here is the abstract and info: [Paste Raw Info]. Please add this to the top of my `publications.md`. Format it as a card like the others. Use an 'Emerald Green' chip to highlight its Impact Factor of 12.5, and add a link to this PDF: [URL]."*
-
-### Scenario 2: Changing the Theme Accent Color
-This template uses SCSS variables. The AI knows exactly where to find them.
-
-> **Prompt:** 
-> *"I want to change the primary accent color of the entire website from its current blue to a sophisticated 'Stanford Red' (or #8C1515). Please update the CSS variables, ensuring that hover states and Dark Mode variants look harmonious and accessible."*
-
-### Scenario 3: Creating a "Teaching" Section
-You can ask the AI to steal layouts from your own site to create new pages.
-
-> **Prompt:** 
-> *"I need a new 'Teaching' page. Please create `teaching.md` and add it to the top navigation bar. For the layout, I want it to look exactly like the 'Hobbies' grid layout, but instead of photos, it will feature cards for the 3 courses I've TA'd. Here are the course names and descriptions: [Paste courses]."*
-
-### Scenario 4: Writing a Blog Post with Automated Lightbox
-Our template automatically makes images in blog posts zoomable. 
-
-> **Prompt:** 
-> *"I want to write a new blog post titled 'Reflections on CVPR 2026'. Here are my raw thoughts: [Paste thoughts]. Please format this into a professional Markdown blog post in the `blog` directory. I have three photos I want to include (pic1.jpg, pic2.jpg, pic3.jpg). Just insert them normally; I know the template's Lightbox script will automatically make them zoomable."*
+如果你在下载、安装或登录 Antigravity 过程中遇到困难，可以参考这篇详细的知乎实战教程：
+👉 [Antigravity 下载与登录教程](https://zhuanlan.zhihu.com/p/1997103854802736481)
 
 ---
 
-## ⚙️ The "Quick Config" Settings
+## 💡 核心原则：“描述目标，而非代码”
 
-If you prefer to make minor manual tweaks without AI, almost all of your personal data lives in one file: `_config.yml`.
+当请求像 Antigravity 这样的 AI 修改你的网站时，请专注于**视觉效果**并提供**参考信息**。让 AI 去处理具体的类名（Class Name）和 CSS 属性。
 
-1. Open `_config.yml`.
-2. Find the `owner:` block.
-3. Update `name`, `bio`, `university`, and social links.
-4. The changes will automatically propagate to the navigation bar, footer, and sidebars across the entire site.
+**❌ 错误的 Prompt (提示词):** 
+> *“去 `main.css` 的第 3400 行，把 `max-width` 改成 80%，并添加 `float: none`。”*
+
+**✅ 正确的 Prompt (提示词):** 
+> *“我的发表论文页面（Publications）在大显示器上看起来太宽了。我希望它能变成屏幕中央的一个单列，宽度大约占 75%。请移除侧边栏并确保它完美居中。”*
 
 ---
 
-## 🎓 Conclusion
+## 🛠️ 实战 Antigravity 提示词示例
 
-By treating Antigravity as your senior frontend engineer, you can spend less time wrestling with CSS grids and more time focusing on your actual research. Have fun building your digital presence!
+以下是利用 Antigravity 维护和升级你的作品集的真实场景：
+
+### 场景 1：新增论文
+与其手动复制粘贴 Markdown 代码块并调整格式，不如直接把原始信息给 AI。
+
+> **提示词：** 
+> *“我有一篇新论文被录用了！这是摘要和信息：[粘贴原始信息]。请帮我把它添加到 `publications.md` 的最上方。像其他的论文项一样把它做成卡片格式。用‘翡翠绿’色的标签高亮它的影响因子（12.5），并添加这个 PDF 的链接：[URL]。”*
+
+### 场景 2：修改全站主题色
+本模板使用了 CSS 变量。AI 知道在哪里可以找到它们。
+
+> **提示词：** 
+> *“我想把整个网站的主题色从蓝色改成更有质感的‘斯坦福红’（#8C1515）。请帮我更新全局 CSS 变量，并确保悬浮状态和深色模式（如果启用）看起来依然和谐且符合无障碍标准。”*
+
+### 场景 3：新增“教学经历”页面
+你可以让 AI 借鉴现有布局来创建新页面。
+
+> **提示词：** 
+> *“我需要一个新的‘教学经历（Teaching）’页面。请创建 `teaching.md` 并将其添加到顶部的导航栏中。布局方面，我希望它看起来和‘爱好（Hobbies）’页面的网格布局一模一样，但把照片换成我担任助教的 3 门课程的卡片。这是课程名称和描述：[粘贴课程信息]。”*
+
+### 场景 4：利用自动化灯箱撰写博客
+我们的模板会自动让博客文章中的图片变得可缩放。
+
+> **提示词：** 
+> *“我想写一篇题为‘CVPR 2026 见闻’的新博客。这是我的感悟：[粘贴文字]。请帮我把它排版成专业的 Markdown 博客存放在 `_posts`（或对应的 blog 目录）中。我有三张照片想放进去（pic1.jpg, pic2.jpg, pic3.jpg）。你只需要正常插入图片即可，我知道模板的灯箱脚本会自动让它们支持点击放大。”*
+
+---
+
+## ⚙️ “快速配置”手动设置
+
+如果你更倾向于手动进行微调，几乎所有的个人数据都存储在一个文件中：`_config.yml`。
+
+1. 打开 `_config.yml`。
+2. 找到 `owner:` 代码块。
+3. 更新 `name`（姓名）、`bio`（简介）、`university`（大学）以及社交媒体链接。
+4. 这些更改将自动同步到全站的导航栏、页脚和侧边栏。
+
+---
+
+## 🎓 结语
+
+通过将 Antigravity 视为你的“高级前端工程师”，你可以减少在 CSS 网格布局上挣扎的时间，从而将更多精力投入到你的科研工作中。祝你构建数字空间愉快！
