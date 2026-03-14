@@ -290,3 +290,34 @@ breadcrumbs: true
   </div>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+  // Wait a tiny bit for the main.js to run its default bindings
+  setTimeout(function() {
+    // Unbind the single-image popup behavior from the publication images
+    $('.pub-wrap .image-popup').off('click');
+    $('.pub-wrap').unbind('click');
+    
+    // Explicitly re-initialize as a grouped gallery
+    $('.pub-wrap').magnificPopup({
+      delegate: '.image-popup',
+      type: 'image',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1]
+      },
+      image: {
+        titleSrc: function(item) {
+          return item.el.attr('title') || item.el.find('img').attr('alt') || '';
+        }
+      },
+      removalDelay: 300,
+      mainClass: 'mfp-fade',
+      fixedContentPos: true
+    });
+  }, 500);
+});
+</script>
