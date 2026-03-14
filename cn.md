@@ -9,6 +9,14 @@ title: 主页中文版
     font-family: 'PT Serif', serif !important;
     color: #333332;
   }
+  .hero-section {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin-bottom: 30px;
+  }
   .hero-section h1 {
     color: #2c3e50;
   }
