@@ -34,7 +34,7 @@ title: 主页中文版
 </style>
 <div class="hero-section">
   <div class="hero-content">
-    <h1>你好，我是{{ site.owner.name_cn }} 👋</h1>
+    <h1>你好，我是{{ site.owner.name_cn }} </h1>
     <ul class="styled-list" style="margin-top: 20px;">
       <li>🎓 <em>清华大学深圳国际研究生院硕士在读，研究数字能源与低碳可持续方向</em></li>
       <li>🔬 <em>研究领域：</em> 电池热安全建模、AI赋能的低碳能源系统、扩散模型、可信机器学习</li>

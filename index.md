@@ -31,7 +31,7 @@ layout: page
 </style>
 <div class="hero-section">
   <div class="hero-content">
-    <h1>Hi, I'm {{ site.owner.name }} 👋</h1>
+    <h1>Hi, I'm {{ site.owner.name }} </h1>
     <ul class="styled-list" style="margin-top: 20px;">
       <li>🎓 <em>Master’s student at Tsinghua University (SIGS), working on AI for Energy & Sustainability</em></li>
       <li>🔬 <em>Research:</em> thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning</li>
