@@ -2,7 +2,7 @@
 layout: single
 title: Publications
 permalink: /publications/
-author_profile: false
+author_profile: true
 breadcrumbs: true
 ---
 
@@ -106,12 +106,28 @@ breadcrumbs: true
 }
 
 /* 作者/Advisor标签更小更柔和 */
-.pub .body .title em {
-  font-weight: 500;
-  font-size: 0.85em;
-  color: #7f8c8d;
+.pub .advisor-tag {
   display: inline-block;
-  margin-top: 4px;
+  margin-top: 8px;
+  padding: 4px 10px;
+  background-color: #f1f5f9;
+  color: #475569;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+  transition: all 0.2s ease;
+}
+
+.pub .advisor-tag i {
+  margin-right: 4px;
+  color: #64748b;
+}
+
+.pub .advisor-tag:hover {
+  background-color: #e2e8f0;
+  color: #334155;
 }
 
 .pub .meta { 
@@ -174,7 +190,7 @@ breadcrumbs: true
         <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
           Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
         </a><br>
-        <em>(Advisor: Minqiang Wu, Hongda Du)</em>
+        <span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span>
       </p>
       <p class="meta">Journal Article · 2025.11-2026.02 · Submitted to Process Safety and Environmental Protection (IF=7.8)</p>
       <p>
@@ -193,7 +209,7 @@ breadcrumbs: true
       <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
     </div>
     <div class="body">
-      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><em>(Advisor: Minqiang Wu, Hongda Du)</em></p>
+      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span></p>
       <p class="meta">Journal Article · 2025.09-2025.12 · Submitted to Applied Thermal Engineering (IF=6.9)</p>
       <p>Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature (below 46.8 °C)</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization using an <strong>entropy–TOPSIS</strong> framework ensures a balance between cooling performance and lightweight design.</p>
       <p>提出了一种用于无人机锂离子电池的<strong>相变材料–风冷混合热管理系统（BTMS）</strong>，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 且保持低于 46.8 °C；通过 TOPSIS 优化实现轻量化与散热性能的平衡。</p>
@@ -209,7 +225,7 @@ breadcrumbs: true
         <a href="https://github.com/HU-Qiqi/WM_encoder_decoder">
           WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)
         </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a><br>
-        <em>(Advisor: Feng Zheng)</em>
+        <span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Feng Zheng</span>
       </p>
       <p class="meta">Project / Code · 2024.03-2024.12 </p>
       <p>Dual-protection scheme combining <strong>digital watermarking</strong> and <strong>adversarial perturbations</strong> in the latent space; precise embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.</p>
@@ -225,7 +241,7 @@ breadcrumbs: true
       <p class="title">
         <a href="https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things">
           Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in Internet of Things
-        </a><br><em>(Advisor: Hanlin Zhang)</em>
+        </a><br><span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span>
       </p>
       <p class="meta">Research Project</p>
       <p>Cloud-assisted, privacy-preserving <strong>SNN clustering</strong> using <strong>orthogonal matrix transformation</strong> and lightweight verification; cuts the most complex step from <strong>10.859 s → 1.183 s</strong> while preserving accuracy.</p>
@@ -238,7 +254,7 @@ breadcrumbs: true
       <img src="/images/SNLM.png" alt="SNLM denoising outsourcing" loading="lazy">
     </div>
     <div class="body">
-      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><em>(Advisor: Hanlin Zhang)</em></p>
+      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><span class="advisor-tag"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span></p>
       <p class="meta">Degree Thesis</p>
       <p>Secure outsourcing for image denoising using <strong>Householder transformation</strong> and optimal-probability verification; maintains accuracy (<strong>PSNR ≈ 20–21 dB</strong>) while greatly reducing client computation.</p>
       <p>面向物联网图像去噪的<strong>安全外包方案</strong>，以豪斯霍尔德变换保护隐私并可验证结果；在 <strong>PSNR 约 20–21 dB</strong> 下显著降低端侧计算。</p>
