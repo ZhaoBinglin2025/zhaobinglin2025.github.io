@@ -32,7 +32,7 @@
 1. **Fork 本仓库**：点击右上角的 `Fork` 按钮将其复制到USERNAME/USERNAME.github.io，其中USERNAME是你的github用户名。
 2. **个性化配置**：打开 `_config.yml` 文件，更新 `owner` 部分的信息（姓名、学校、邮箱、简介等）。
 3. **极速部署**：进入仓库设置 (`Settings`) -> `Pages`，选择从 `main` 分支部署，你的个人主页将在几分钟内上线。
-4. **AI 维护**：阅读 [**ANTIGRAVITY_GUIDE**](./ANTIGRAVITY_GUIDE.md)，学习如何使用 AI 代理来维护你的网站。
+4. **AI 维护**：阅读 [**Antigravity 指南：零代码掌控网页开发**](./ANTIGRAVITY_GUIDE.md)，学习如何使用 AI 代理来维护你的网站。
 
 ---
 
