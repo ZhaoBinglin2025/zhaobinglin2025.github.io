@@ -291,31 +291,115 @@ breadcrumbs: true
 
 </div>
 
+<!-- ===== 自建全功能灯箱（不依赖任何第三方库） ===== -->
+<div id="pub-lightbox" style="display:none; position:fixed; inset:0; z-index:99999; background:rgba(0,0,0,.88); justify-content:center; align-items:center; opacity:0; transition:opacity .3s ease;">
+  <!-- 关闭按钮 ✕ -->
+  <button id="pub-lb-close" style="position:absolute; top:18px; right:24px; z-index:100001; background:none; border:none; color:#fff; font-size:36px; cursor:pointer; line-height:1; padding:8px; opacity:.85; transition:opacity .2s;" title="Close (Esc)">✕</button>
+  <!-- 左箭头 -->
+  <button id="pub-lb-prev" style="position:absolute; left:16px; top:50%; transform:translateY(-50%); z-index:100001; background:rgba(255,255,255,.15); border:none; color:#fff; font-size:32px; width:52px; height:52px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(4px); transition:background .2s;" title="Previous">❮</button>
+  <!-- 右箭头 -->
+  <button id="pub-lb-next" style="position:absolute; right:16px; top:50%; transform:translateY(-50%); z-index:100001; background:rgba(255,255,255,.15); border:none; color:#fff; font-size:32px; width:52px; height:52px; border-radius:50%; cursor:pointer; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(4px); transition:background .2s;" title="Next">❯</button>
+  <!-- 图片 -->
+  <img id="pub-lb-img" src="" alt="" style="max-width:88vw; max-height:88vh; border-radius:8px; box-shadow:0 8px 40px rgba(0,0,0,.5); object-fit:contain; transition:opacity .25s ease;">
+  <!-- 标题 -->
+  <div id="pub-lb-caption" style="position:absolute; bottom:20px; left:50%; transform:translateX(-50%); color:#ddd; font-size:14px; text-align:center; max-width:80vw; pointer-events:none;"></div>
+  <!-- 计数器 -->
+  <div id="pub-lb-counter" style="position:absolute; top:22px; left:24px; color:#aaa; font-size:14px; pointer-events:none;"></div>
+</div>
+
+<style>
+  #pub-lb-close:hover { opacity:1; }
+  #pub-lb-prev:hover, #pub-lb-next:hover { background:rgba(255,255,255,.3); }
+</style>
+
 <script>
-$(document).ready(function() {
-  // Wait a tiny bit for the main.js to run its default bindings
-  setTimeout(function() {
-    // Unbind the single-image popup behavior from the publication images
-    $('.pub-wrap .image-popup').off('click.magnificPopup');
-    
-    // Explicitly re-initialize as a grouped gallery
-    $('.pub-wrap').magnificPopup({
-      delegate: '.image-popup',
-      type: 'image',
-      gallery: {
-        enabled: true,
-        navigateByImgClick: true,
-        preload: [0, 1]
-      },
-      image: {
-        titleSrc: function(item) {
-          return item.el.attr('title') || item.el.find('img').attr('alt') || '';
-        }
-      },
-      removalDelay: 300,
-      mainClass: 'mfp-fade',
-      fixedContentPos: true
+(function() {
+  // 收集所有 .pub-wrap 里的灯箱图片
+  var images = [];
+  var currentIndex = 0;
+
+  function collectImages() {
+    images = [];
+    var links = document.querySelectorAll('.pub-wrap .image-popup');
+    links.forEach(function(a) {
+      images.push({
+        src: a.getAttribute('href'),
+        title: a.getAttribute('title') || a.querySelector('img').getAttribute('alt') || ''
+      });
     });
-  }, 500);
-});
+  }
+
+  var overlay  = document.getElementById('pub-lightbox');
+  var img      = document.getElementById('pub-lb-img');
+  var caption  = document.getElementById('pub-lb-caption');
+  var counter  = document.getElementById('pub-lb-counter');
+  var btnClose = document.getElementById('pub-lb-close');
+  var btnPrev  = document.getElementById('pub-lb-prev');
+  var btnNext  = document.getElementById('pub-lb-next');
+
+  function showImage(idx) {
+    if (idx < 0) idx = images.length - 1;
+    if (idx >= images.length) idx = 0;
+    currentIndex = idx;
+    img.style.opacity = '0';
+    setTimeout(function() {
+      img.src = images[idx].src;
+      caption.textContent = images[idx].title;
+      counter.textContent = (idx + 1) + ' / ' + images.length;
+      img.style.opacity = '1';
+    }, 150);
+  }
+
+  function openLightbox(idx) {
+    collectImages();
+    overlay.style.display = 'flex';
+    // 强制 reflow 让 transition 生效
+    void overlay.offsetWidth;
+    overlay.style.opacity = '1';
+    document.body.style.overflow = 'hidden';
+    showImage(idx);
+  }
+
+  function closeLightbox() {
+    overlay.style.opacity = '0';
+    setTimeout(function() {
+      overlay.style.display = 'none';
+      document.body.style.overflow = '';
+    }, 300);
+  }
+
+  // 绑定所有图片链接的点击事件
+  document.addEventListener('click', function(e) {
+    var link = e.target.closest('.pub-wrap .image-popup');
+    if (link) {
+      e.preventDefault();
+      e.stopPropagation();
+      // 找到它在列表中的索引
+      collectImages();
+      var href = link.getAttribute('href');
+      var idx = 0;
+      for (var i = 0; i < images.length; i++) {
+        if (images[i].src === href) { idx = i; break; }
+      }
+      openLightbox(idx);
+    }
+  }, true); // useCapture = true 来抢先拦截
+
+  btnClose.addEventListener('click', closeLightbox);
+  btnPrev.addEventListener('click', function() { showImage(currentIndex - 1); });
+  btnNext.addEventListener('click', function() { showImage(currentIndex + 1); });
+
+  // 点击背景关闭
+  overlay.addEventListener('click', function(e) {
+    if (e.target === overlay) closeLightbox();
+  });
+
+  // 键盘导航
+  document.addEventListener('keydown', function(e) {
+    if (overlay.style.display !== 'flex') return;
+    if (e.key === 'Escape' || e.key === 'Esc') closeLightbox();
+    if (e.key === 'ArrowLeft')  showImage(currentIndex - 1);
+    if (e.key === 'ArrowRight') showImage(currentIndex + 1);
+  });
+})();
 </script>
