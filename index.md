@@ -66,13 +66,14 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 ---
 
 ## 🗞 News and Updates
-<ul class="styled-list">
-  <li><strong>2026.02</strong> – Started preparing a comprehensive review on phase-change-material-based thermal management strategies for lithium-ion batteries</li>
-  <li><strong>2025.11</strong> – Initiated research on AI-driven early warning of lithium-ion battery thermal runaway</li>
-  <li><strong>2025.09</strong> – Studied thermal management of lithium-ion batteries under high-rate discharge using PCM and air-cooling coupling</li>
-  <li><strong>2025.05</strong> – Investigated effects of PCM-assisted air cooling on thermal runaway propagation in LIB modules</li>
-  <li><strong>2024.03</strong> – Explored copyright protection in diffusion-based image-to-image generation</li>
-</ul>
+- 2026.02 – Started preparing a comprehensive review on phase-change-material-based thermal management strategies for lithium-ion batteries
+- 2025.11 – Initiated research on AI-driven early warning of lithium-ion battery thermal runaway
+- 2025.09 – Studied thermal management of lithium-ion batteries under high-rate discharge using PCM and air-cooling coupling  
+- 2025.05 – Investigated effects of PCM-assisted air cooling on thermal runaway propagation in LIB modules  
+- 2024.03 – Explored copyright protection in diffusion-based image-to-image generation  
+
+
+
 
 ---
 
