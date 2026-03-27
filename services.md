@@ -1,17 +1,17 @@
 ---
 layout: page
 permalink: /services/index.html
-title: Services
+title: Skills
 
 ---
 
-> Open to paper review for all top-level journals and conferences!
+> Welcome to see all my skills in design science research!
 >
-> I am always open to reviewing manuscripts in areas related to LLMs, 5G/6G communications, networking, security, machine learning and the broader field of artificial intelligence. If you have any relevant review requests, please feel free to invite me at - hc663[at]cam.ac.uk
+> My research expertise integrates human‑centered interaction design, empirical research methods, and interactive system development, with hands‑on experience in clinical and real‑world settings, experimental design (eye‑tracking, behavioral), quantitative analysis (SPSS, Python), and custom interactive system development (Unity)
 
-## Academic Services
+## Academic Skills
 
-### Reviewer
+### Research Methods & Experimental Design
 
 - **Journals**
 - IEEE Communications Letters (2025)
