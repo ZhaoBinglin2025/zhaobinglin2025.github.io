@@ -28,11 +28,10 @@ I hold a Master’s in Design Science from Harbin Institute of Technology. My th
 
 ## News and Updates
 
-- **Mar 2026**：Succeeded in designing a game for psychology experiment!
-- **Feb 2026**：Delighted to be selected as a designer of a game!
-- **June 2024**：Very excited to be selected as [KDD UC Scholar](https://kdd2024.kdd.org/undergraduate-consortium/). See you in Spain!
-- **April 2024：**Our work *BLEGuard* has been accepted to [MobiSys 2024](https://www.sigmobile.org/mobisys/2024/) as a poster paper. See you in Japan!
-- **March 2024：**Happy to receive a MPhil offer from Department of Engineering at Cambridge!
-- **Dec 2023：**Very excited to be selected as [AAAI UC Scholar](https://aaai.org/aaai-conference/undergraduate-consortium-program/). See you in Canada!
+- **Mar 2026**：Glad to be entrusted by a former colleague to develop a Unity experimental paradigm simulation for her new project!
+- **Sep 2025**：excited to have successfully interviewed for a Research Assistant position in Psychology at Beijing Normal University, I will be working at Shandong Daizhuang Hospital—a truly interdisciplinary research experience!
+- **June 2025**：delighted that my master’s thesis RESEARCH ON INTERFACE DESIGN OF SPINAL 
+SURGERY ROBOT BASED ON COGNITIVE LOAD passed the review—I’ve officially graduated!
+- **Sep 2023：Thrilled to receive the offer for the Master of Design program at Harbin Institute of Technology!
 
 <br>
