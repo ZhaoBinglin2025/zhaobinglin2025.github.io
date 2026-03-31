@@ -65,9 +65,9 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: Researchs
-    url: /publications/
   - title: Projects
+    url: /publications/
+  - title: Researchs
     url: /awards/
   - title: Explorations
     url: /hobbies/
