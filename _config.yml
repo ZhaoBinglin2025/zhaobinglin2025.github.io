@@ -1,34 +1,32 @@
 # --------------------------------------------------
 #  BASIC SITE INFO
 # --------------------------------------------------
-title: Qiqi Hu 胡齐齐  # Main site title (appears in browser tab & RSS)
-tagline: Here is personal website of Qiqi Hu. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
+title: Binglin Zhao 赵冰琳  # Main site title (appears in browser tab & RSS)
+tagline: Here is personal website of Binglin Zhao. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
 # description: Two roads diverged in woods, I took the one less traveled by.  # Strongly recommended for SEO & social cards
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-url: https://huqiqi.net
+url: https://zhaobinglin2025.github.io/
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
 # --------------------------------------------------
 owner:
-  name: Qiqi Hu
-  name_cn: 胡齐齐
-  nickname: Chelsey
+  name: Binglin Zhao
+  name_cn: 赵冰琳
+  nickname: Lynley
   avatar: Huqiqi.jpg
-  bio: Master @ Tsinghua SIGS | AI for Energy Systems & Low-Carbon Innovation
-  bio_cn: 清华大学深圳国际研究生院硕士生，关注能源系统智能化与低碳可持续方向
-  university: Tsinghua University
-  university_cn: 清华大学
-  department: Shenzhen International Graduate School
-  department_cn: 深圳国际研究生院
-  lab: Guangdong Provincial Key Laboratory of Thermal Management Engineering and Materials
-  lab_cn: 广东省热管理工程与材料重点实验室
-  advisor: Prof. Hongda Du
-  advisor_cn: 杜鸿达副研究员
+  bio: Master @ Harbin Institute of Technology | HCI, Human-Centered Design,Game-based Experiment design
+  bio_cn: 哈尔滨工业大学硕士生，关注人机交互、以人为中心的设计、基于游戏的实验设计
+  university: Harbin Institute of Technology
+  university_cn: 哈尔滨工业大学
+  department: School of Architecture and Design
+  department_cn: 建筑与设计学院
+  advisor: Prof. Lei Zhu
+  advisor_cn: 朱磊副教授
   advisor_url: https://www.sigs.tsinghua.edu.cn/dhd/list.htm
-  email: chelseyhu111@gmail.com
+  email: bulingzhao2@gmail.com
   cv: https://huqiqi.net/file/CV_Huqiqi1.pdf
   cv2: https://huqiqi.net/file/CV_Huqiqi2.pdf
   # cv: https://github.com/HU-Qiqi/huqiqi.net/blob/main/file/CV-QiqiHu.pdf
@@ -36,7 +34,7 @@ owner:
 
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
-  github: HU-Qiqi
+  github: ZhaoBinglin2025
   # twitter: chelsey91302
   # uri: "https://sites.google.com/view/huqiqi"
 
@@ -67,14 +65,12 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: Publications
+  - title: Researchs
     url: /publications/
-  - title: Awards
+  - title: Projects
     url: /awards/
-  - title: Hobbies
+  - title: Explorations
     url: /hobbies/
-  - title: Blogs
-    url: /blogs/
   - title: 中文
     url: /cn/
 
@@ -82,7 +78,7 @@ links:
 # --------------------------------------------------
 #  BUILD & RENDERING OPTIONS
 # --------------------------------------------------
-timezone: Asia/Shanghai          # IANA time-zone ID (China/Beijing is invalid)
+timezone: Asia/Beijing         # IANA time-zone ID (China/Beijing is invalid)
 future: true                     # Render posts dated in the future
 highlighter: rouge               # Code highlighter; Rouge is default in MM
 # markdown: kramdown             # Jekyll default; uncomment to force
