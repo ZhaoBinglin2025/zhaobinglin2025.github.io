@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Publications
+title: Projects
 permalink: /publications/
 author_profile: true
 breadcrumbs: true
@@ -217,14 +217,14 @@ breadcrumbs: true
 
   <div class="pub">
     <div class="thumb">
-      <a href="/images/thermal_runaway_ml.png" class="image-popup" title="Thermal runaway severity ML framework">
-        <img src="/images/thermal_runaway_ml.png" alt="Thermal runaway severity ML framework" loading="lazy">
+      <a href="/images/haibao.png" class="image-popup" title="Game Poster">
+        <img src="/images/haibao.png" alt="Thermal runaway severity ML framework" loading="lazy">
       </a>
     </div>
     <div class="body">
       <p class="title">
-        <a href="https://github.com/HU-Qiqi/thermal-runaway-severity-prediction">
-          Safety-Oriented Pre-Event Severity Prediction of Lithium-Ion Battery Thermal Runaway
+        <a href="https://play.unity.com/en/games/cffe7fc3-3328-4355-adb2-bfec9b601934/running-choosing">
+          Game-Based Psychological Experiment Variants for Epileptic Patients
         </a><br>
         <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span>
       </p>
