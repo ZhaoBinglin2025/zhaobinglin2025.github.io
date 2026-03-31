@@ -217,7 +217,7 @@ breadcrumbs: true
 
   <div class="pub">
     <div class="thumb">
-      <a href="/images/haibao.png" class="image-popup" title="Game Poster">
+      <a href="/images/haibao.png" class="image-popup" title="Running & Choosing">
         <img src="/images/haibao.png" alt="Thermal runaway severity ML framework" loading="lazy">
       </a>
     </div>
@@ -226,21 +226,19 @@ breadcrumbs: true
         <a href="https://play.unity.com/en/games/cffe7fc3-3328-4355-adb2-bfec9b601934/running-choosing">
           Game-Based Psychological Experiment Variants for Epileptic Patients
         </a><br>
-        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span>
+        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Qianqian Yu, Hongxiao Li</span>
       </p>
       <div class="meta">
-        <span class="badge badge-type"><i class="fas fa-file-alt"></i> Journal Article</span>
-        <span class="badge badge-venue"><i class="fas fa-book"></i> Process Safety and Environmental Protection</span>
-        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2025.11–2026.02</span>
-        <span class="badge badge-if"><i class="fas fa-chart-line"></i> IF 7.8</span>
+        <span class="badge badge-type"><i class="fas fa-file-alt"></i> An experimental game demo</span>
+        <span class="badge badge-venue"><i class="fas fa-book"></i> To enhance the engagement and experience of the subjects</span>
+        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2026.03–2026.04</span>
+        <span class="badge badge-if"><i class="fas fa-chart-line"></i> Unity, C#, Blender</span>
       </div>
       <p>
-        Proposed an <strong>interpretable machine-learning framework</strong> for <strong>pre-event prediction</strong> of lithium-ion battery thermal runaway severity using only structural and engineering metadata. 
-        Constructed a hazard-oriented <strong>Severity Index</strong> integrating heat release and material ejection indicators, and developed a <strong>CatBoost-based classifier</strong> achieving <strong>81% accuracy</strong> with <strong>100% recall for High-severity events</strong>. 
-        SHAP analysis provides physics-consistent interpretability to support safety-oriented decision-making.
+        Psychological experiments demand extensive active repetitive operations from participants, while their <strong>mental condition is often unstable</strong>.This <strong>3D game</strong> adapts a classic paradigm rooted in the theory of <strong>persistent bias in episodic memory decisions</strong>.Participants rapidly classify stimuli as new, exact repetitions, or similar variants via key presses.Its core mechanism models the <strong>competition between pattern separation and pattern completion in memory processing</strong>.
       </p>
       <p>
-        提出一种基于<strong>结构与工程元数据</strong>的锂离子电池<strong>热失控事前严重度预测框架</strong>，构建融合放热与喷射特征的<strong>危险导向严重度指数（Severity Index）</strong>，并基于 <strong>CatBoost</strong> 实现多分类预测，整体准确率达 <strong>81%</strong>，对高危事件识别率 <strong>100%</strong>。通过 SHAP 可解释分析揭示关键安全影响因素，支持风险导向电池安全评估。
+        心理学实验需要被试主动进行大量的重复操作，但是<strong>被试的精神状况往往无法维持稳定</strong>。为了优化被试的体验，我基于<strong>情景记忆决策的持续偏倚理论</strong>设计了<strong>3D游戏变式</strong>Running & Choosing，玩家需快速判断图形是“全新”“完全重复”还是“相似变体”，并按下对应方向键。核心机制模拟了<strong>模式分离（区分重叠刺激）</strong>与<strong>模式完成（通过部分线索激活完整记忆）</strong>的竞争过程。
       </p>
     </div>
   </div>
