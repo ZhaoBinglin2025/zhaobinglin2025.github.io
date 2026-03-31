@@ -50,15 +50,15 @@ layout: page
   <div class="hero-content">
     <h1>Hi, I'm {{ site.owner.name }} </h1>
     <ul class="styled-list" style="margin-top: 20px;">
-      <li>🎓 <em>Master’s student at Tsinghua University (SIGS), working on AI for Energy & Sustainability</em></li>
-      <li>🔬 <em>Research:</em> thermal safety modeling, AI-accelerated low-carbon energy systems, diffusion models, trustworthy machine learning</li>
-      <li>🧰 <em>Technical strengths:</em> PyTorch, scientific ML, optimization, thermal modeling and multiphysics simulation</li>
-      <li>🎯 <strong>Seeking PhD (Fall 2027)</strong> in <em>Energy-AI, Battery Safety & Thermal Modeling, Scientific ML for Multiphysics Systems, and Physical Generative Models</em></li>
-      <li>📧 <strong>Email:</strong> chelseyhu111@gmail.com</li>
+      <li>🎓 <em>Master’s student at Harbin Institue of Technology, working on HCI and human-centered design</em></li>
+      <li>🔬 <em>Research & Project:</em> Spinal Surgery Robot Interface Design Based on Cognitive Load, Unity-Based Game Paradigms for Psychology and Design Experiments</li>
+      <li>🧰 <em>Technical strengths:</em> Unity, C#, Python, Rhino, Blender, Data Anaysis</li>
+      <li>🎯 <strong>Seeking PhD (Fall 2026)</strong> in <em>HCI, immersive design</em></li>
+      <li>📧 <strong>Email:</strong> bulingzhao2@gmail.com</li>
     </ul>
     <div class="meta-container" style="margin-top: 25px;">
-      <span class="chip chip-journal">🔬 AI-accelerated Energy Systems</span>
-      <span class="chip chip-if">🎯 Seeking PhD (Fall 2027)</span>
+      <span class="chip chip-journal">🔬 HCI</span>
+      <span class="chip chip-if">🎯 Seeking PhD (Fall 2026)</span>
     </div>
   </div>
 </div>
@@ -67,8 +67,8 @@ layout: page
 
 <img src="/images/2.jpg" alt="Profile Picture" class="about-me-photo">
 
-I am currently a **Master’s student at {{ site.owner.university }}**, working in the *{{ site.owner.lab }}* at the {{ site.owner.department }}, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}).
-Previously, I was a visiting research student at the Southern University of Science and Technology (SUSTech), advised by [**Prof. Feng Zheng**](https://faculty.sustech.edu.cn/?tagid=fengzheng&iscss=1&snapid=1&orderby=date&go=1&lang=en)(a recipient of the National Excellent Young Scientist Award), where I worked on trustworthy diffusion models and content security in AIGC. I received my Bachelor’s degree in Information Security from Qingdao University, where I conducted research under [**Prof. Hanlin Zhang**](https://cst.qdu.edu.cn/info/1072/7423.htm) — who completed his Ph.D. under [**Prof. Wei Yu**](https://www.towson.edu/fcsm/departments/computerinfosci/facultystaff/wyu.html), an NSF CAREER Awardee — focusing on privacy-preserving outsourcing computation and secure IoT systems. These experiences equipped me with solid research training in cybersecurity and trustworthy AI, providing a strong algorithmic foundation that now supports my interdisciplinary work in **AI for Energy and Sustainability**.
+I am a **Master’s student in Design Science at {{ site.owner.university }}**, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}), where I studied interface design strategies for minimizing surgeons' cognitive load during spinal surgery robot operation.
+Previously, I worked as a research assistant at the DaiZhuang Hospital (Jining Mental Health Center), supervised by [**Dr. Qianqian Yu**](https://psy.scnu.edu.cn/a/20260306/167.html)(an Interdisciplinary Research Practice), where I worked on analysis of large-scale eye-tracking Data and game variants for psychological experiments. I received my Bachelor’s degree in Industrial Design from Hebei University of Technology, where I conducted research on how to improve mobility aids for the elderly from the perspective of Kansei Engineering under [**Dr. Xinxin Zhang**](https://yjs.hebut.edu.cn/xwgz/xxcx2/dsxx/ssyjsds/jzyyssjxy/1403sjx/1c4adcb7f1ac49f89180e6909e2d692b.htm). These experiences equipped me with solid research training in user research, prototype making and design evaluation, providing a strong foundation that now supports my interdisciplinary work in **HCI**.
 
 I am always open to discussions and collaborations — feel free to [**email me**](mailto:{{ site.owner.email }}).
 
