@@ -235,7 +235,7 @@ breadcrumbs: true
         <span class="badge badge-if"><i class="fas fa-chart-line"></i> Unity, C#, Blender</span>
       </div>
       <p>
-        Psychological experiments demand extensive active repetitive operations from participants, while their <strong>mental condition is often unstable</strong>.This <strong>3D game</strong> adapts a classic paradigm rooted in the theory of <strong>persistent bias in episodic memory decisions</strong>.Participants rapidly classify stimuli as new, exact repetitions, or similar variants via key presses.Its core mechanism models the <strong>competition between pattern separation and pattern completion in memory processing</strong>.
+        There consists to be a clinical challenges of high participant attrition and low task engagement due to traditional repetitive neuropsychological tests.Considering the unstable mental condition of participants, There is a need to change the form of experiments.This <strong>3D game</strong> adapts a classic paradigm rooted in the theory of <strong>persistent bias in episodic memory decisions</strong>.Participants rapidly classify stimuli as new, exact repetitions, or similar variants via key presses.Its core mechanism models the <strong>competition between pattern separation and pattern completion in memory processing</strong>.
       </p>
       <p>
         心理学实验需要被试主动进行大量的重复操作，但是<strong>被试的精神状况往往无法维持稳定</strong>。为了优化被试的体验，我基于<strong>情景记忆决策的持续偏倚理论</strong>设计了<strong>3D游戏变式</strong>Running & Choosing，玩家需快速判断图形是“全新”“完全重复”还是“相似变体”，并按下对应方向键。核心机制模拟了<strong>模式分离（区分重叠刺激）</strong>与<strong>模式完成（通过部分线索激活完整记忆）</strong>的竞争过程。
