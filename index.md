@@ -74,11 +74,6 @@ I am always open to discussions and collaborations — feel free to [**email me*
 
 ---
 
-## 🎯 Research Vision
-My overarching goal is to harness **artificial intelligence and optimization** to accelerate innovation in **low-carbon and sustainable energy systems**.  
-I aim to bridge the gap between *materials, systems, and decision-making* through **trustworthy, data-driven, and interpretable AI frameworks**.
-
----
 
 ## 🔬 Research Interests
 
@@ -103,9 +98,8 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 ---
 
 ## 🧩 Academic Background
-- **M.Eng. in Environmental Science and New Energy Technology**, Shenzhen International Graduate School, Tsinghua University  
-- Visiting Research Student, Department of Computer Science and Engineering, SUSTech  
-- **B.Eng. in Information Security**, School of Computer Science and Technology, Qingdao University
+- **M.Eng. in Designology**, Shenzhen International Graduate School, Harbin Institute of Technology  
+- **B.Eng. in Industrial Design**, School of Architecture & Art Design, HeBei University of Technology
 
 ---
 
