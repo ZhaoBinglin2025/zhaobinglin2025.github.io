@@ -66,11 +66,11 @@ links:
   - title: About Me
     url: /
   - title: Projects
-    url: /projects/
-  - title: Researches
-    url: /researches/
+    url: /publications/
+  - title: Researchs
+    url: /awards/
   - title: Explorations
-    url: /explorations/
+    url: /hobbies/
   - title: 中文
     url: /cn/
 
