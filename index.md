@@ -64,6 +64,7 @@ layout: page
 </div>
 
 # My Experiences
+
 I was a **Master’s student in Design Science at {{ site.owner.university }}**, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}), where I studied interface design strategies for minimizing surgeons' cognitive load during spinal surgery robot operation.
 
 Previously, I worked as a research assistant at the DaiZhuang Hospital (Jining Mental Health Center), supervised by [**Prof. Qianqian Yu**](https://psy.scnu.edu.cn/a/20260306/167.html)(an Interdisciplinary Research Practice), where I worked on analysis of large-scale eye-tracking Data and game variants for psychological experiments. 
