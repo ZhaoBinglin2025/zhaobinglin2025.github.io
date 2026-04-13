@@ -1,7 +1,7 @@
 # --------------------------------------------------
 #  BASIC SITE INFO
 # --------------------------------------------------
-title: Binglin Zhao 赵冰琳  # Main site title (appears in browser tab & RSS)
+title: Binglin Zhao # Main site title (appears in browser tab & RSS)
 tagline: Here is personal website of Binglin Zhao. Powered by Jekyll, based on the Minimal Mistakes theme.  # Optional short tagline, used by some layouts
 # description: Two roads diverged in woods, I took the one less traveled by.  # Strongly recommended for SEO & social cards
 
@@ -66,11 +66,11 @@ links:
   - title: About Me
     url: /
   - title: Projects
-    url: /publications/
-  - title: Researchs
-    url: /awards/
+    url: /projects/
+  - title: Researches
+    url: /researches/
   - title: Explorations
-    url: /hobbies/
+    url: /explorations/
   - title: 中文
     url: /cn/
 
