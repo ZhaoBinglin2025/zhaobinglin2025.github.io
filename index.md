@@ -48,14 +48,14 @@ layout: page
 </style>
 <div class="hero-section">
   <div class="hero-content">
-    <h1>Hi, I'm {{ site.owner.name }} </h1>
+ <!--    <h1>Hi, I'm {{ site.owner.name }} </h1>
     <ul class="styled-list" style="margin-top: 20px;">
       <li>🎓 <em>Master’s student at Harbin Institue of Technology, working on HCI and human-centered design</em></li>
       <li>🔬 <em>Research & Project:</em> Spinal Surgery Robot Interface Design Based on Cognitive Load, Unity-Based Game Paradigms for Psychology and Design Experiments</li>
       <li>🧰 <em>Technical strengths:</em> Unity, C#, Python, Rhino, Blender, Data Anaysis</li>
       <li>🎯 <strong>Seeking PhD (Fall 2026)</strong> in <em>HCI, immersive design</em></li>
       <li>📧 <strong>Email:</strong> bulingzhao2@gmail.com</li>
-    </ul>
+    </ul> -->
     <div class="meta-container" style="margin-top: 25px;">
       <span class="chip chip-journal">🔬 HCI</span>
       <span class="chip chip-if">🎯 Seeking PhD (Fall 2026)</span>
