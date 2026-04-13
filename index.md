@@ -65,8 +65,6 @@ layout: page
 
 # About Me
 
-<img src="/images/2.jpg" alt="Profile Picture" class="about-me-photo">
-
 I am a **Master’s student in Design Science at {{ site.owner.university }}**, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}), where I studied interface design strategies for minimizing surgeons' cognitive load during spinal surgery robot operation.
 Previously, I worked as a research assistant at the DaiZhuang Hospital (Jining Mental Health Center), supervised by [**Dr. Qianqian Yu**](https://psy.scnu.edu.cn/a/20260306/167.html)(an Interdisciplinary Research Practice), where I worked on analysis of large-scale eye-tracking Data and game variants for psychological experiments. I received my Bachelor’s degree in Industrial Design from Hebei University of Technology, where I conducted research on how to improve mobility aids for the elderly from the perspective of Kansei Engineering under [**Dr. Xinxin Zhang**](https://yjs.hebut.edu.cn/xwgz/xxcx2/dsxx/ssyjsds/jzyyssjxy/1403sjx/1c4adcb7f1ac49f89180e6909e2d692b.htm). These experiences equipped me with solid research training in user research, prototype making and design evaluation, providing a strong foundation that now supports my interdisciplinary work in **HCI**.
 
