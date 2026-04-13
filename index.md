@@ -78,7 +78,7 @@ I am always open to discussions and collaborations — feel free to [**email me*
 ---
 
 
-## 🔬 Research Interests
+## Research Interests
 
 ### Cognitive and Psychological disicpline with design
 Previously, my research focused on thermal management of lithium-ion batteries, which naturally motivated my current interest in **AI-driven energy systems**.
@@ -100,13 +100,13 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 
 ---
 
-## 🧩 Academic Background
+## Academic Background
 - **M.Eng. in Designology**, Shenzhen International Graduate School, Harbin Institute of Technology  
 - **B.Eng. in Industrial Design**, School of Architecture & Art Design, HeBei University of Technology
 
 ---
 
-## 🗞 News and Updates
+## News and Updates
 - 2026.03 – Took IELTS exam and got a 7.0 score! 
 - 2026.03 – Delighted to be invited by my former colleague to develop a game-based experiment for their project!
 - 2026.01 – I went to my mother high school to give them a lecture on the study I used to do----really enjoyed chatting and sharing my experience with them!
