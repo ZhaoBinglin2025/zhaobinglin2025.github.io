@@ -80,20 +80,20 @@ I am always open to discussions and collaborations — feel free to [**email me*
 
 ## 🔬 Research Interests
 
-### Thermal Management and Energy Safety
+### Cognitive and Psychological disicpline with design
 Previously, my research focused on thermal management of lithium-ion batteries, which naturally motivated my current interest in **AI-driven energy systems**.
 - Investigating mechanisms for suppressing thermal runaway in lithium-ion batteries and developing **PCM-based hybrid cooling strategies**  
 - Thermal management of LIBs under high-power discharge conditions using **finite element modeling** and **multiphysics simulation**  
 - Applications in energy storage and electronic thermal control  
 
-### AI for Energy Systems & Battery Storage
+### Emotional and inclusive design
 - Data-driven modeling and intelligent prediction of **battery energy storage safety**
 - Intelligent optimization for **low-carbon, safe, and stable energy operation**
 - ML-based modeling and optimization of energy systems and multi-energy networks 
 - Scientific ML & generative models for physical processes in energy devices  
 
 
-### Trustworthy AI & Secure Generative Models
+### Ergonomics
 - **Content safety for AIGC** using diffusion models — PGD-based adversarial defense and encoder–decoder watermarking  
 - **Privacy-preserving in cloud computing and Internet of Things**, including cloud-assisted and IoT security with matrix transformation methods for image denoising and segmentation  
 - Extending **trustworthy machine learning** and robust optimization techniques toward **digital low-carbon energy applications**
@@ -107,11 +107,11 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 ---
 
 ## 🗞 News and Updates
-- 2026.02 – Started preparing a comprehensive review on phase-change-material-based thermal management strategies for lithium-ion batteries
-- 2025.11 – Initiated research on AI-driven early warning of lithium-ion battery thermal runaway
-- 2025.09 – Studied thermal management of lithium-ion batteries under high-rate discharge using PCM and air-cooling coupling  
-- 2025.05 – Investigated effects of PCM-assisted air cooling on thermal runaway propagation in LIB modules  
-- 2024.03 – Explored copyright protection in diffusion-based image-to-image generation  
+- 2026.03 – Took IELTS exam and got a 7.0 score! 
+- 2026.03 – Delighted to be invited by my former colleague to develop a game-based experiment for their project!
+- 2026.01 – I went to my mother high school to give them a lecture on the study I used to do----really enjoyed chatting and sharing my experience with them!
+- 2025.09 – Really glad to be chosen as a research assistant in Beijing Brain Insititute, it is a totally disiplinary experience for me!
+- 2025.06 – My master's thesis passed the evaluation and I graduated!
 
 
 
@@ -119,9 +119,8 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 ---
 
 ## 🧠 Skills / Research Toolkit
-- **Programming:** Python, MATLAB, C, LaTeX  
-- **Frameworks:** PyTorch, TensorFlow (for deep learning), scikit-learn (for machine learning) 
-- **Tools:** Linux, VSCode, Anaconda, COMSOL, Microsoft Office  
+- **Programming:** Python, LaTeX, C# 
+- **Tools:** VSCode, Anaconda, Unity, Figma
 - **Languages:** Chinese (Native), English (Fluent)
 
 
