@@ -255,64 +255,6 @@ breadcrumbs: true
     </div>
   </div>
 
-  <div class="pub">
-    <div class="thumb">
-      <a href="/images/WM_encoder_decoder.png" class="image-popup" title="WM encoder-decoder schematic">
-        <img src="/images/WM_encoder_decoder.png" alt="WM encoder-decoder schematic" loading="lazy">
-      </a>
-    </div>
-    <div class="body">
-      <p class="title">
-        <a href="https://github.com/HU-Qiqi/WM_encoder_decoder">
-          WM_encoder_decoder for Copyright Protection in Image-to-Image Tasks (Diffusion)
-        </a> · <a href="https://huqiqi.net/file/WM_encoder_decoder.pptx">PPT</a><br>
-        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Feng Zheng</span>
-      </p>
-      <div class="meta">
-        <span class="badge badge-type"><i class="fas fa-code"></i> Project / Code</span>
-        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2024.03–2024.12</span>
-      </div>
-      <p>Dual-protection scheme combining <strong>digital watermarking</strong> and <strong>adversarial perturbations</strong> in the latent space; precise embed/extract via a pre-trained encoder–decoder; robust, transferable, and high-quality without model fine-tuning.</p>
-      <p>提出<strong>数字水印 + 对抗扰动</strong>的双重保护方案，在隐空间抑制篡改与生成操控；无需微调、具有良好迁移性与鲁棒性。</p>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="thumb">
-      <a href="/images/SSNN.png" class="image-popup" title="SSNN framework">
-        <img src="/images/SSNN.png" alt="SSNN framework" loading="lazy">
-      </a>
-    </div>
-    <div class="body">
-      <p class="title">
-        <a href="https://www.researchgate.net/publication/385489004_Privacy-Preserving_Secure_Shared_Nearest_Neighbor_Clustering_Scheme_in_Internet_of_Things">
-          Privacy-Preserving Secure Shared Nearest Neighbor Clustering Scheme in Internet of Things
-        </a><br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span>
-      </p>
-      <div class="meta">
-        <span class="badge badge-type"><i class="fas fa-flask"></i> Research Project</span>
-      </div>
-      <p>Cloud-assisted, privacy-preserving <strong>SNN clustering</strong> using <strong>orthogonal matrix transformation</strong> and lightweight verification; cuts the most complex step from <strong>10.859 s → 1.183 s</strong> while preserving accuracy.</p>
-      <p>云辅助的<strong>隐私保护 SNN 聚类</strong>，外包前以正交矩阵加密并可验证返回结果；在保持精度下显著降低本地计算开销。</p>
-    </div>
-  </div>
-
-  <div class="pub">
-    <div class="thumb">
-      <a href="/images/SNLM.png" class="image-popup" title="SNLM denoising outsourcing">
-        <img src="/images/SNLM.png" alt="SNLM denoising outsourcing" loading="lazy">
-      </a>
-    </div>
-    <div class="body">
-      <p class="title">Secure and Efficient Image Denoising Algorithm in Internet of Things<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Hanlin Zhang</span></p>
-      <div class="meta">
-        <span class="badge badge-type"><i class="fas fa-graduation-cap"></i> Degree Thesis</span>
-      </div>
-      <p>Secure outsourcing for image denoising using <strong>Householder transformation</strong> and optimal-probability verification; maintains accuracy (<strong>PSNR ≈ 20–21 dB</strong>) while greatly reducing client computation.</p>
-      <p>面向物联网图像去噪的<strong>安全外包方案</strong>，以豪斯霍尔德变换保护隐私并可验证结果；在 <strong>PSNR 约 20–21 dB</strong> 下显著降低端侧计算。</p>
-    </div>
-  </div>
-
 </div>
 
 <!-- ===== 自建全功能灯箱（不依赖任何第三方库） ===== -->
