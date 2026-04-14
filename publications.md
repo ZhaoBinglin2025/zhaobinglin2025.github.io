@@ -212,7 +212,7 @@ breadcrumbs: true
 </style>
 
 <div class="pub-wrap">
-  <h2>Publications / Projects</h2>
+  <h2>Projects</h2>
   <p><a href="/">← Back to Home</a></p>
 
   <div class="pub">
