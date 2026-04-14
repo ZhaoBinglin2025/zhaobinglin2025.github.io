@@ -229,8 +229,6 @@ breadcrumbs: true
         <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Qianqian Yu, Hongxiao Li</span>
       </p>
       <div class="meta">
-        <span class="badge badge-type"><i class="fas fa-file-alt"></i> An experimental game demo</span>
-        <span class="badge badge-venue"><i class="fas fa-book"></i> To enhance the engagement and experience of the subjects</span>
         <span class="badge badge-date"><i class="fas fa-calendar"></i> 2026.03–2026.04</span>
         <span class="badge badge-if"><i class="fas fa-chart-line"></i> Unity, C#, Blender</span>
       </div>
@@ -242,20 +240,18 @@ breadcrumbs: true
 
   <div class="pub">
     <div class="thumb">
-      <a href="/images/BTMS.png" class="image-popup" title="Hybrid BTMS">
-        <img src="/images/BTMS.png" alt="Hybrid BTMS" loading="lazy">
+      <a href="/images/interface_sample.png" class="image-popup" title="Hybrid BTMS">
+        <img src="/images/interface_sample.png" alt="Hybrid BTMS" loading="lazy">
       </a>
     </div>
     <div class="body">
-      <p class="title">Design and Multi-Objective Optimization of Efficient UAV Battery Thermal Management System Using PCM–Air Synergistic Cooling Strategy<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Minqiang Wu, Hongda Du</span></p>
+      <p class="title">Spine Robot Interface Research for Cognitive Load Reduction<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Lei Zhu</span></p>
       <div class="meta">
-        <span class="badge badge-type"><i class="fas fa-file-alt"></i> Journal Article</span>
-        <span class="badge badge-venue"><i class="fas fa-book"></i> Applied Thermal Engineering</span>
-        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2025.09–2025.12</span>
-        <span class="badge badge-if"><i class="fas fa-chart-line"></i> IF 6.9</span>
+        <span class="badge badge-type"><i class="fas fa-file-alt"></i> Master's Thesis</span>
+        <span class="badge badge-venue"><i class="fas fa-book"></i> HCI, Surgical User Interface</span>
+        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2024.09–2025.04</span>
       </div>
-      <p>Developed a <strong>PCM–air hybrid battery thermal management system (BTMS)</strong> for UAV lithium-ion batteries, achieving <strong>43.3% lower peak temperature (below 46.8 °C)</strong> with only <strong>22.2 wt% mass increase</strong>. Multi-factor optimization using an <strong>entropy–TOPSIS</strong> framework ensures a balance between cooling performance and lightweight design.</p>
-      <p>提出了一种用于无人机锂离子电池的<strong>相变材料–风冷混合热管理系统（BTMS）</strong>，在总质量仅增加约 22 wt% 的情况下，使电池最高温度降低 43.3% 且保持低于 46.8 °C；通过 TOPSIS 优化实现轻量化与散热性能的平衡。</p>
+      <p> Applied cognitive load theory to analyze workflows in spine surgery assisted by a robot and derive design strategies for interface optimization.Designed and conducted controlled experiments comparing interface conditions, integrating eye-tracking, behavioral measures, and subjective evaluation (NASA-TLX) to assess cognitive load.Demonstrated that the optimized interface significantly reduced cognitive load by 39.9\% (p=0.025) and improved task performance by 16.9% (p=0.048)</p>
     </div>
   </div>
 
