@@ -191,6 +191,7 @@ breadcrumbs: true
 }
 
 
+
 </style>
 
 <div class="pub-wrap">
@@ -208,6 +209,7 @@ breadcrumbs: true
         <a href="/images/game_1.jpg" class="image-popup" title="Running & Choosing Demo2">
           <img src="/images/game_1.jpg" alt="Running&Choosing2" loading="lazy">
         </a>
+      </div>
     </div>
     <div class="body">
       <p class="title">
