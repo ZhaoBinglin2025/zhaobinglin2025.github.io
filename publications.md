@@ -247,11 +247,11 @@ breadcrumbs: true
           Spine Robot Interface Research for Cognitive Load Reduction
         </a><br>
         <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Lei Zhu</span>
+        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2024.09–2025.04</span>
       </p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-file-alt"></i> Master's Thesis</span>
         <span class="badge badge-venue"><i class="fas fa-book"></i> HCI, Surgical User Interface</span>
-        <span class="badge badge-date"><i class="fas fa-calendar"></i> 2024.09–2025.04</span>
       </div>
       <p> This research investigates how interface design influences cognitive load in complex, high-stakes environments, focusing on robot-assisted spinal surgery.I applied <strong>Cognitive Load Theory (CLT)</strong> to analyze surgical workflows and derive design strategies for optimizing user interfaces. A series of controlled experiments were conducted, integrating <strong>eye-tracking, behavioral measures, and NASA-TLX</strong> to systematically evaluate the impact of visual design factors.The results show that the optimized interface significantly reduced cognitive load by <strong>39.9% (p = 0.025)</strong> and improved task performance by <strong>16.9% (p = 0.048)</strong>.This work provides a <strong>validated, theory-driven framework</strong> for designing human-centered interfaces in complex medical systems.</p>
     </div>
