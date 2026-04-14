@@ -63,7 +63,7 @@ layout: page
   </div>
 </div>
 
-# My Experiences
+# Experiences
 ---
 I was a **Master’s student in Design Science at {{ site.owner.university }}**, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}), where I studied interface design strategies for minimizing surgeons' cognitive load during spinal surgery robot operation.
 
@@ -81,8 +81,8 @@ I am always open to discussions and collaborations — feel free to [**email me*
 ## Research Interests
 
 ### Cognitive and Psychological disicpline with design
-Previously, my research focused on thermal management of lithium-ion batteries, which naturally motivated my current interest in **AI-driven energy systems**.
-- Investigating mechanisms for suppressing thermal runaway in lithium-ion batteries and developing **PCM-based hybrid cooling strategies**  
+Previously, my research focused on cognitive load,then I went to psychology health teaching department to be an assistant, where i explore my research interest to real people with mental health.
+- Focusing on the potential factors that may influence the cognitive 
 - Thermal management of LIBs under high-power discharge conditions using **finite element modeling** and **multiphysics simulation**  
 - Applications in energy storage and electronic thermal control  
 
@@ -124,4 +124,4 @@ Previously, my research focused on thermal management of lithium-ion batteries, 
 - **Languages:** Chinese (Native), English (Fluent)
 
 
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=uv82N_7dV3rkBt0dfztE_3a8xjOEZQwsnE6OqptIpDE&cl=ffffff&w=a"></script>
+<!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=uv82N_7dV3rkBt0dfztE_3a8xjOEZQwsnE6OqptIpDE&cl=ffffff&w=a"></script> -->
