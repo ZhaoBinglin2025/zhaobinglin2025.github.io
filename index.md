@@ -48,7 +48,7 @@ layout: page
 </style>
 
 
-## Hi, I'm Binglin Zhao.
+## Hi, I'm Binglin Zhao（赵冰琳）.
 ---
 Really glad that you show interest in me! I am a researcher in design,holding a master's degree in design and a bachelor's degree in industrial design.I have a strong interest in HCI, human-centered design and ergonomics.
 
