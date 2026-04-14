@@ -245,7 +245,12 @@ breadcrumbs: true
       </a>
     </div>
     <div class="body">
-      <p class="title">Spine Robot Interface Research for Cognitive Load Reduction<br><span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Lei Zhu</span></p>
+      <p class="title">
+        <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">
+          Spine Robot Interface Research for Cognitive Load Reduction
+        </a><br>
+        <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Lei Zhu</span>
+      </p>
       <div class="meta">
         <span class="badge badge-type"><i class="fas fa-file-alt"></i> Master's Thesis</span>
         <span class="badge badge-venue"><i class="fas fa-book"></i> HCI, Surgical User Interface</span>
