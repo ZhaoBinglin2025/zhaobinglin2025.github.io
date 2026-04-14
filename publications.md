@@ -221,6 +221,11 @@ breadcrumbs: true
         <img src="/images/haibao_true.png" alt="Thermal runaway severity ML framework" loading="lazy">
       </a>
     </div>
+        <div class="thumb">
+      <a href="/images/game_1.jpg" class="image-popup" title="Running & Choosing Demo">
+        <img src="/images/game_1.jpg" alt="Thermal runaway severity ML framework" loading="lazy">
+      </a>
+    </div>
     <div class="body">
       <p class="title">
         <a href="https://play.unity.com/en/games/cffe7fc3-3328-4355-adb2-bfec9b601934/running-choosing">
