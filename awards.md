@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /awards/index.html
-title: Awards
+title: Experiences
 ---
 
 <style>
@@ -18,7 +18,7 @@ title: Awards
   }
 </style>
 
-## Experiences
+## What Have I done?
 ---
 
 I received my M.Eng. in Designology from {{ site.owner.university }}, where I was supervised by **[{{ site.owner.advisor }}]({{ site.owner.advisor_url }})**. My master's research investigated human-centered interface design strategies for reducing surgeons’ cognitive load in robot-assisted spinal surgery, combining cognitive theory with empirical evaluation.
