@@ -222,9 +222,7 @@ breadcrumbs: true
 .pub .thumb {
   flex: none;
 }
-.pub .thumb img {
-  width: 100%;
-}
+
 </style>
 
 <div class="pub-wrap">
