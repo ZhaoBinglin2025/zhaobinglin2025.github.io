@@ -233,7 +233,10 @@ breadcrumbs: true
         <span class="badge badge-if"><i class="fas fa-chart-line"></i> Unity, C#, Blender</span>
       </div>
       <p>
-        There consists to be a clinical challenges of high participant attrition and low task engagement due to traditional repetitive neuropsychological tests.Considering the unstable mental condition of participants, There is a need to change the form of experiments.This <strong>3D game</strong> adapts a classic paradigm rooted in the theory of <strong>persistent bias in episodic memory decisions</strong>.Participants rapidly classify stimuli as new, exact repetitions, or similar variants via key presses.Its core mechanism models the <strong>competition between pattern separation and pattern completion in memory processing</strong>.
+        This project addresses a common limitation in traditional neuropsychological experiments: low participant engagement and high attrition rates due to repetitive task structures, particularly in clinical populations.
+        I designed and developed a <strong>3D game-based experimental paradigm</strong> to improve engagement while preserving experimental validity. The system is grounded in the theory of <strong>episodic memory bias</strong>, modeling the interaction between <strong>pattern separation and pattern completion</strong> in memory processing.
+        Participants are required to rapidly classify stimuli as novel, repeated, or similar variants through interactive gameplay, enabling the collection of behavioral responses under more naturalistic and engaging conditions.
+        This work demonstrates how <strong>interactive system design can enhance experimental paradigms</strong>, bridging cognitive theory and real-world applicability in clinical research contexts.
       </p>
     </div>
   </div>

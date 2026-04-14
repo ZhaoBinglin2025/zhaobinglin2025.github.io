@@ -63,65 +63,71 @@ layout: page
   </div>
 </div>
 
-# Experiences
+## Experiences
 ---
-I was a **Master’s student in Design Science at {{ site.owner.university }}**, supervised by [**{{ site.owner.advisor }}**]({{ site.owner.advisor_url }}), where I studied interface design strategies for minimizing surgeons' cognitive load during spinal surgery robot operation.
 
-Previously, I worked as a research assistant at the DaiZhuang Hospital (Jining Mental Health Center), supervised by [**Prof. Qianqian Yu**](https://psy.scnu.edu.cn/a/20260306/167.html)(an Interdisciplinary Research Practice), where I worked on analysis of large-scale eye-tracking Data and game variants for psychological experiments. 
+I received my M.Eng. in Designology from {{ site.owner.university }}, where I was supervised by [{{ site.owner.advisor }}]({{ site.owner.advisor_url }}). My master's research investigated human-centered interface design strategies for reducing surgeons’ cognitive load in robot-assisted spinal surgery, combining cognitive theory with empirical evaluation.
 
-I received my Bachelor’s degree in Industrial Design from Hebei University of Technology, where I conducted research on how to improve mobility aids for the elderly from the perspective of Kansei Engineering under [**Prof. Xinxin Zhang**](https://yjs.hebut.edu.cn/xwgz/xxcx2/dsxx/ssyjsds/jzyyssjxy/1403sjx/1c4adcb7f1ac49f89180e6909e2d692b.htm). 
+I previously worked as a Research Assistant at DaiZhuang Hospital (Jining Mental Health Center), under the supervision of [Prof. Qianqian Yu](https://psy.scnu.edu.cn/a/20260306/167.html). My work focused on large-scale eye-tracking data analysis and the development of game-based experimental paradigms for psychological research.
 
-These experiences equipped me with solid research training in user research, prototype making and design evaluation, providing a strong foundation that now supports my interdisciplinary work in **HCI**.
+I obtained my B.Eng. in Industrial Design from Hebei University of Technology, where I conducted research on mobility aid design for older adults from a Kansei Engineering perspective, supervised by [Prof. Xinxin Zhang](https://yjs.hebut.edu.cn/xwgz/xxcx2/dsxx/ssyjsds/jzyyssjxy/1403sjx/1c4adcb7f1ac49f89180e6909e2d692b.htm).
 
-I am always open to discussions and collaborations — feel free to [**email me**](mailto:{{ site.owner.email }}).
+These experiences have provided me with systematic training in user-centered research, experimental design, and interactive system development, forming the foundation of my current research in Human–Computer Interaction (HCI).
+
+I welcome discussions and potential collaborations. Please feel free to contact me via [email](mailto:{{ site.owner.email }}).
 
 ---
 
 
 ## Research Interests
 
-### Cognitive and Psychological disicpline with design
-Previously, my research focused on cognitive load,then I went to psychology health teaching department to be an assistant, where i explore my research interest to real people with mental health.
-- Focusing on the potential factors that may influence the cognitive 
-- Thermal management of LIBs under high-power discharge conditions using **finite element modeling** and **multiphysics simulation**  
-- Applications in energy storage and electronic thermal control  
+My research lies at the intersection of Human–Computer Interaction (HCI), cognitive science, and interactive system design. I am particularly interested in how interface design influences human cognition and performance in complex and high-stakes environments(e.g.,surgury and high-risk driving).
 
-### Emotional and inclusive design
-- Data-driven modeling and intelligent prediction of **battery energy storage safety**
-- Intelligent optimization for **low-carbon, safe, and stable energy operation**
-- ML-based modeling and optimization of energy systems and multi-energy networks 
-- Scientific ML & generative models for physical processes in energy devices  
+### Cognitive Modeling in HCI
+- Cognitive load theory and its application in interface design  
+- Eye-tracking and behavioral metrics for cognitive evaluation  
+- Decision-making and attention mechanisms in interactive systems  
 
+### Human-Centered Interface Design & Ergonomics
+- Design and evaluation of interfaces for complex systems (e.g., medical robotics)  
+- Visual design strategies for reducing cognitive load and improving usability  
+- Integration of empirical findings into actionable design frameworks  
 
-### Ergonomics
-- **Content safety for AIGC** using diffusion models — PGD-based adversarial defense and encoder–decoder watermarking  
-- **Privacy-preserving in cloud computing and Internet of Things**, including cloud-assisted and IoT security with matrix transformation methods for image denoising and segmentation  
-- Extending **trustworthy machine learning** and robust optimization techniques toward **digital low-carbon energy applications**
+### Interactive Experimental Systems
+- Development of interactive experimental paradigms (e.g., game-based experiments)  
+- Combining system design with controlled cognitive experiments  
+- Bridging experimental research and real-world interaction scenarios  
+
+### Inclusive and Applied HCI
+- Designing for diverse user populations, including clinical contexts  
+- Translating cognitive and psychological insights into practical design solutions  
 
 ---
 
 ## Academic Background
-- **M.Eng. in Designology**, Shenzhen International Graduate School, Harbin Institute of Technology  
+- **M.Eng. in Designology**, School of Architecture and Design, Harbin Institute of Technology  
 - **B.Eng. in Industrial Design**, School of Architecture & Art Design, HeBei University of Technology
 
 ---
 
 ## News and Updates
-- 2026.03 – Took IELTS exam and got a 7.0 score! 
-- 2026.03 – Delighted to be invited by my former colleague to develop a game-based experiment for their project!
-- 2026.01 – I went to my mother high school to give them a lecture on the study I used to do----really enjoyed chatting and sharing my experience with them!
-- 2025.09 – Really glad to be chosen as a research assistant in Beijing Brain Insititute, it is a totally disiplinary experience for me!
-- 2025.06 – My master's thesis passed the evaluation and I graduated!
-
+- Mar 2026 – Achieved IELTS overall score of 7.0  
+- Mar 2026 – Invited to collaborate on a game-based experimental project  
+- Sep 2025 – Joined Beijing Institute for Brain Research as a Research Assistant  
+- Jun 2025 – Graduated with M.Eng. in Designology  
+- Jun 2023 – Graduated with B.Eng. in Industrial Design  
 
 
 
 ---
 
 ## 🧠 Skills / Research Toolkit
-- **Programming:** Python, LaTeX, C# 
-- **Tools:** VSCode, Anaconda, Unity, Figma
-- **Languages:** Chinese (Native), English (Fluent)
+- **Programming:** Python, C#  
+- **Data Analysis:** SPSS, Python (NumPy, Pandas)  
+- **Experimental Tools:** PsychoPy, Tobii Eye Tracker  
+- **Design & Development:** Unity, Figma  
+- **Scientific Writing:** LaTeX  
+- **Languages:** Chinese (Native), English (Fluent)  
 
 
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=uv82N_7dV3rkBt0dfztE_3a8xjOEZQwsnE6OqptIpDE&cl=ffffff&w=a"></script> -->
