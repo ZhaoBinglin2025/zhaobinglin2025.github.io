@@ -209,6 +209,22 @@ breadcrumbs: true
   .pub .thumb { flex: auto; width: 100%; margin-bottom: 8px; }
   .pub .body .title { font-size: 1.15rem; }
 }
+
+/* 🔥让两张图片竖着排 */
+.pub .thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 440px;
+}
+
+/* 防止图片乱挤 */
+.pub .thumb {
+  flex: none;
+}
+.pub .thumb img {
+  width: 100%;
+}
 </style>
 
 <div class="pub-wrap">
@@ -218,7 +234,12 @@ breadcrumbs: true
   <div class="pub">
     <div class="thumb">
       <a href="/images/haibao_true.png" class="image-popup" title="Running & Choosing Demo">
-        <img src="/images/haibao_true.png" alt="Thermal runaway severity ML framework" loading="lazy">
+        <img src="/images/haibao_true.png" alt="Running&Choosing1" loading="lazy">
+      </a>
+    </div>
+    <div class="thumb">
+      <a href="/images/game_1.jpg" class="image-popup" title="Running & Choosing Demo2">
+        <img src="/images/game_1.jpg" alt="Running&Choosing2" loading="lazy">
       </a>
     </div>
     <div class="body">
