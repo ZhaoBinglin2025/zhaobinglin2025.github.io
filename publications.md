@@ -217,7 +217,7 @@ breadcrumbs: true
 
   <div class="pub">
     <div class="thumb">
-      <a href="/images/haibao_true.png" class="image-popup" title="Running & Choosing">
+      <a href="/images/haibao_true.png" class="image-popup" title="Running & Choosing Demo">
         <img src="/images/haibao_true.png" alt="Thermal runaway severity ML framework" loading="lazy">
       </a>
     </div>
@@ -243,7 +243,7 @@ breadcrumbs: true
 
   <div class="pub">
     <div class="thumb">
-      <a href="/images/interface_sample.png" class="image-popup" title="Hybrid BTMS">
+      <a href="/images/interface_sample.png" class="image-popup" title="Spine robot interface prototype">
         <img src="/images/interface_sample.png" alt="Hybrid BTMS" loading="lazy">
       </a>
     </div>
@@ -259,7 +259,7 @@ breadcrumbs: true
         <span class="badge badge-venue"><i class="fas fa-book"></i> HCI, Surgical User Interface</span>
         <span class="badge badge-date"><i class="fas fa-calendar"></i> 2024.09–2025.04</span>
       </div>
-      <p> Applied cognitive load theory to analyze workflows in spine surgery assisted by a robot and derive design strategies for interface optimization.Designed and conducted controlled experiments comparing interface conditions, integrating eye-tracking, behavioral measures, and subjective evaluation (NASA-TLX) to assess cognitive load.Demonstrated that the optimized interface significantly reduced cognitive load by 39.9% (p=0.025) and improved task performance by 16.9% (p=0.048)</p>
+      <p> This research investigates how interface design influences cognitive load in complex, high-stakes environments, focusing on robot-assisted spinal surgery.I applied <strong>Cognitive Load Theory (CLT)</strong> to analyze surgical workflows and derive design strategies for optimizing user interfaces. A series of controlled experiments were conducted, integrating <strong>eye-tracking, behavioral measures, and NASA-TLX</strong> to systematically evaluate the impact of visual design factors.The results show that the optimized interface significantly reduced cognitive load by <strong>39.9% (p = 0.025)</strong> and improved task performance by <strong>16.9% (p = 0.048)</strong>.This work provides a <strong>validated, theory-driven framework</strong> for designing human-centered interfaces in complex medical systems.</p>
     </div>
   </div>
 
