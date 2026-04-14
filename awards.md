@@ -18,20 +18,12 @@ title: Awards
   }
 </style>
 
-## Honors
+## My Timeline
 <ul class="styled-list" style="max-width: 900px; margin-bottom: 40px;">
-  <li><strong>Top Graduate (1st place)</strong>, School of Computer Science and Technology, Qingdao University, Class of 2023  <strong>(Recognized in the School’s Annual Talent Development Report)</strong> <span class="chip chip-year" style="float: right;">2023</span><div style="clear: both;"></div></li>
-  <li><strong>Qingdao University Star Award</strong> — Highest university-wide honor <span class="chip chip-year" style="float: right;">2023</span><div style="clear: both;"></div></li>
-  <li><strong>Project Lead</strong>, Shandong Provincial Innovation & Entrepreneurship Program <span class="chip chip-year" style="float: right;">2021</span><div style="clear: both;"></div></li>
-  <li>Academic Progress Award, Qingdao University <span class="chip chip-year" style="float: right;">2022</span><div style="clear: both;"></div></li>
-  <li>Second-Class Academic Scholarship, Qingdao University <span class="chip chip-year" style="float: right;">2020</span><div style="clear: both;"></div></li>
+   <li><strong>Lecturer</strong>, Ningjin County No.1 High School,giving a lecture on insudtrial design and HCI,sharing advanced technology in design.<span class="chip chip-year" style="float: right;">2026.01</span><div style="clear: both;"></div></li>
+  <li><strong>Research Assistant</strong>,including recruiting patients, conducting psychological and nuero experiments, analyzing eye-tracking data, <strong>DaiZhuang Hospital (Jining Mental Health Center) & Beijing Institute for Brain Research,</strong><span class="chip chip-year" style="float: right;">2025.09-2025.12</span><div style="clear: both;"></div></li>
+   <li><strong>Master's Thesis research</strong>, including demand research, designing controlled experiments and materials, conducting experiments and writing research fruits, <strong>Advanced technology research institute,Harbin institute of technology</strong><span class="chip chip-year" style="float: right;">2024.09-2025.04</span><div style="clear: both;"></div></li>
+  <li><strong>Assistanct in School Mental Department</strong>,receiving students who were suffering mental problems,Harbin Institute of Technology <span class="chip chip-year" style="float: right;">2024.06-2024.12</span><div style="clear: both;"></div></li>
 </ul>
 
-## Competitions
-<ul class="styled-list" style="max-width: 900px;">
-  <li>2nd Prize, MathorCup National Competition <span class="chip chip-year" style="float: right;">2021</span><div style="clear: both;"></div></li>
-  <li>Honorable Mention, International Mathematical Contest in Modeling (MCM) <span class="chip chip-year" style="float: right;">2021</span><div style="clear: both;"></div></li>
-  <li>1st Prize, Qingdao University Competition <span class="chip chip-year" style="float: right;">2021</span><div style="clear: both;"></div></li>
-  <li>2nd Prize, Asia-Pacific Mathematical Modeling Competition <span class="chip chip-year" style="float: right;">2020</span><div style="clear: both;"></div></li>
-</ul>
 <br>
