@@ -71,7 +71,11 @@ breadcrumbs: true
   flex-shrink: 0;
   width: 440px;
 }
-
+.pub .thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 .pub .thumbs .thumb {
   width: 100%;
 }
