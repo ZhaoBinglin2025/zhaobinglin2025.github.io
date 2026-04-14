@@ -71,7 +71,7 @@ breadcrumbs: true
 }
 
 .pub .thumb {
-  flex: 0 0 440px;
+  flex:none;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.06);
@@ -223,6 +223,12 @@ breadcrumbs: true
   flex: none;
 }
 
+.pub .thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 440px;
+}
 </style>
 
 <div class="pub-wrap">
@@ -230,15 +236,16 @@ breadcrumbs: true
   <p><a href="/">← Back to Home</a></p>
 
   <div class="pub">
-    <div class="thumb">
-      <a href="/images/haibao_true.png" class="image-popup" title="Running & Choosing Demo">
-        <img src="/images/haibao_true.png" alt="Running&Choosing1" loading="lazy">
-      </a>
-    </div>
-    <div class="thumb">
-      <a href="/images/game_1.jpg" class="image-popup" title="Running & Choosing Demo2">
-        <img src="/images/game_1.jpg" alt="Running&Choosing2" loading="lazy">
-      </a>
+    <div class="thumbs">
+      <div class="thumb">
+        <a href="/images/haibao_true.png" class="image-popup" title="Running & Choosing Demo">
+          <img src="/images/haibao_true.png" alt="Running&Choosing1" loading="lazy">
+        </a>
+      </div>
+      <div class="thumb">
+        <a href="/images/game_1.jpg" class="image-popup" title="Running & Choosing Demo2">
+          <img src="/images/game_1.jpg" alt="Running&Choosing2" loading="lazy">
+        </a>
     </div>
     <div class="body">
       <p class="title">
@@ -250,7 +257,7 @@ breadcrumbs: true
       <div class="meta">
         <span class="badge badge-date"><i class="fas fa-calendar"></i> 2026.03–2026.04</span>
         <span class="badge badge-if"><i class="fas fa-chart-line"></i> Unity, C#, Blender</span>
-      </div>
+  </div>
       <p>
         This project addresses a common limitation in traditional neuropsychological experiments: low participant engagement and high attrition rates due to repetitive task structures, particularly in clinical populations.
         I designed and developed a <strong>3D game-based experimental paradigm</strong> to improve engagement while preserving experimental validity. The system is grounded in the theory of <strong>episodic memory bias</strong>, modeling the interaction between <strong>pattern separation and pattern completion</strong> in memory processing.
