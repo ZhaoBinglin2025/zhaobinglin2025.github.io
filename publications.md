@@ -48,33 +48,32 @@ breadcrumbs: true
 }
 .pub-wrap > p a:hover { opacity: 0.8; border-bottom: 2px solid rgba(42,89,255,.8); }
 
-/* ===== 重点：卡片式UI设计 ===== */
+/* ===== 卡片UI ===== */
 .pub {
   display: flex;
   align-items: flex-start;
   gap: 32px;
+  width: 100%;
   margin: 0 auto 40px;
   padding: 30px;
   background: #ffffff;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* 柔和阴影 */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
-/* 悬停动画：卡片轻微上浮并加深阴影 */
-.pub:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+.pub .thumb,
+.pub .thumbs {
+  flex-shrink: 0;
+  width: 440px;
 }
 
-.pub .thumb {
-  flex:none;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+.pub .thumbs .thumb {
+  width: 100%;
 }
 
 .pub .thumb img {
@@ -85,18 +84,12 @@ breadcrumbs: true
   transition: transform 0.5s ease;
 }
 
-/* 悬停动画：图片轻微放大 */
-.pub:hover .thumb img {
-  transform: scale(1.03);
-}
-
 .pub .body {
   flex: 1;
   min-width: 0;
   line-height: 1.6;
 }
 
-/* 标题样式 */
 .pub .body .title { 
   margin: 0 0 0.5rem; 
   font-size: 1.25rem;
@@ -105,7 +98,6 @@ breadcrumbs: true
   line-height: 1.4;
 }
 
-/* 作者/Advisor 徽章 — 青色 */
 .pub .badge-advisor {
   display: inline-flex;
   align-items: center;
@@ -119,9 +111,7 @@ breadcrumbs: true
   border-radius: 20px;
   border: 1px solid #ccfbf1;
 }
-.pub .badge-advisor i { color: #14b8a6; }
 
-/* 元数据行 */
 .pub .meta {
   display: flex;
   flex-wrap: wrap;
@@ -131,7 +121,6 @@ breadcrumbs: true
   border-bottom: 1px solid #f1f5f9;
 }
 
-/* 通用 badge 基础 */
 .pub .badge {
   display: inline-flex;
   align-items: center;
@@ -143,52 +132,43 @@ breadcrumbs: true
   letter-spacing: 0.01em;
   white-space: nowrap;
 }
-.pub .badge i, .pub .badge .badge-icon { font-size: 0.72rem; opacity: 0.85; }
 
-/* Type 类型 — 蓝色 */
 .pub .badge-type {
   background: #eff6ff;
   color: #1d4ed8;
   border: 1px solid #dbeafe;
 }
 
-/* Venue 期刊/会议 — 紫色 */
 .pub .badge-venue {
   background: #f5f3ff;
   color: #6d28d9;
   border: 1px solid #ede9fe;
 }
 
-/* Date 日期 — 暖色 */
 .pub .badge-date {
   background: #fffbeb;
   color: #b45309;
   border: 1px solid #fef3c7;
 }
 
-/* IF 影响因子 — 翡翠绿 */
 .pub .badge-if {
   background: #ecfdf5;
   color: #047857;
   border: 1px solid #d1fae5;
 }
 
-/* 链接视觉统一 */
 .pub .body a { 
   color: #2a59ff; 
   text-decoration: none; 
   border-bottom: 2px solid transparent; 
   transition: border-color 0.2s ease, opacity 0.2s ease; 
 }
+
 .pub .body a:hover { 
   border-bottom-color: rgba(42,89,255,1); 
   opacity: 0.9; 
 }
-.pub .body a:visited { 
-  color: #1e40b5; 
-}
 
-/* 正文对其 */
 .pub .body p {
   text-align: justify;
   text-justify: inter-word;
@@ -210,25 +190,7 @@ breadcrumbs: true
   .pub .body .title { font-size: 1.15rem; }
 }
 
-/* 🔥让两张图片竖着排 */
-.pub .thumbs {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 440px;
-}
 
-/* 防止图片乱挤 */
-.pub .thumb {
-  flex: none;
-}
-
-.pub .thumbs {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  width: 440px;
-}
 </style>
 
 <div class="pub-wrap">
