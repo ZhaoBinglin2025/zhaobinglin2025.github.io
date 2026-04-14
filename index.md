@@ -46,6 +46,13 @@ layout: page
     }
   }
 </style>
+
+
+## Hi, I'm Binglin Zhao.
+---
+Really glad that you show interest in me! I am a researcher in design,holding a master's degree in design and a bachelor's degree in industrial design.I have a strong interest in HCI, human-centered design and ergonomics.
+
+---
 <div class="hero-section">
   <div class="hero-content">
  <!--    <h1>Hi, I'm {{ site.owner.name }} </h1>
@@ -62,8 +69,6 @@ layout: page
     </div>
   </div>
 </div>
-
-
 ## Research Interests
 
 My research lies at the intersection of Human–Computer Interaction (HCI), cognitive science, and interactive system design. I am particularly interested in how interface design influences human cognition and performance in complex and high-stakes environments(e.g.,surgury and high-risk driving).
