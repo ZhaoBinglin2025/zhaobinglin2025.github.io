@@ -66,7 +66,7 @@ layout: page
 ## Experiences
 ---
 
-I received my M.Eng. in Designology from {{ site.owner.university }}, where I was supervised by [{{ site.owner.advisor }}]({{ site.owner.advisor_url }}). My master's research investigated human-centered interface design strategies for reducing surgeons’ cognitive load in robot-assisted spinal surgery, combining cognitive theory with empirical evaluation.
+I received my M.Eng. in Designology from {{ site.owner.university }}, where I was supervised by **[{{ site.owner.advisor }}]({{ site.owner.advisor_url }})**. My master's research investigated human-centered interface design strategies for reducing surgeons’ cognitive load in robot-assisted spinal surgery, combining cognitive theory with empirical evaluation.
 
 I previously worked as a Research Assistant at DaiZhuang Hospital (Jining Mental Health Center), under the supervision of [Dr. Qianqian Yu](https://psy.scnu.edu.cn/a/20260306/167.html). My work focused on large-scale eye-tracking data analysis and the development of game-based experimental paradigms for psychological research.
 
