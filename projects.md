@@ -217,7 +217,7 @@ breadcrumbs: true
     </div>
     <div class="body">
       <p class="title">
-        <a href="https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/goonline">
+        <a href="https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose">
           Game-Based Psychological Experiment Variants for Epileptic Patients
         </a><br>
         <span class="badge-advisor"><i class="fas fa-user-tie"></i> Advisor: Qianqian Yu, Hongxiao Li</span>
