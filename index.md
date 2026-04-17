@@ -62,6 +62,10 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
   align-items: baseline;
   gap: 20px;
 }
+.edu-place-pro {
+  font-weight: 600;
+  font-size: 18pt;
+}
 .edu-place {
   font-weight: 600;
 }
