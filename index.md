@@ -101,7 +101,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 </div>
 
 </div>
-
+---
 <div class="edu-section">
 <span class="edu-place-pro">M.Eng. in Design</span>
 <div class="edu-row">
@@ -126,7 +126,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 
 </div>
-
+---
 <div class="edu-section">
 <span class="edu-place-pro">B.Eng. in Industrial Design</span>
 <div class="edu-row">
