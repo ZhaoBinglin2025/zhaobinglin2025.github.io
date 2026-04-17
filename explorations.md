@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 permalink: /explorations/index.html
 title: Explorations
@@ -49,3 +49,4 @@ title: Explorations
 
 ## Chat with me
 Welcome to chat with me about research, life, or any of these hobbies!
+ -->
