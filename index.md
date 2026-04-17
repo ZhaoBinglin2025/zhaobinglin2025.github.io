@@ -74,6 +74,9 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 .edu-links {
   margin-top: 6px;
 }
+.edu-thesis {
+  font-size: 20pt
+}
 </style>
 
 <div class="edu-section">
@@ -103,7 +106,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
 </div>
 <div class="edu-row">
- <span class="edu-place">Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</span>
+ <span class="edu-thesis">Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</span>
 </div>
 <div class="edu-row">
   <span class="edu-place"><strong>Master's Thesis, 40,518 words</strong></span>
