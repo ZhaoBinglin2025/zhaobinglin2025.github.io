@@ -103,8 +103,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 </div>
 
 <div class="edu-section">
-
-<strong>M.Eng. in Design</strong>  
+<span class="edu-place-pro">M.Eng. in Design</span>
 <div class="edu-row">
   <span class="edu-place">Harbin Institute of Technology (Harbin, China)</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
@@ -129,8 +128,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 </div>
 
 <div class="edu-section">
-
-<strong>B.Eng. in Industrial Design</strong>
+<span class="edu-place-pro">B.Eng. in Industrial Design</span>
 <div class="edu-row">
   <span class="edu-place">Hebei University of Technology (Tianjin, China)</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
