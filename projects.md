@@ -74,7 +74,7 @@ breadcrumbs: true
 .pub .thumbs {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 .pub .thumbs .thumb {
   width: 100%;
