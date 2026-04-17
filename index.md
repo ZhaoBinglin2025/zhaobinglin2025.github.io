@@ -81,7 +81,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 <div class="edu-section">
 
-<h3>Research Assistant</h3>
+<h2>Research Assistant</h2>
 <div class="edu-row">
   <span class="edu-place">Beijing Institute for Brain Research & DaiZhuang Hospital (Shandong, China)</span>
 </div>
@@ -106,7 +106,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
 </div>
 <div class="edu-row">
- <span class="edu-thesis"><h2>Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</h2></span>
+ <span class="edu-thesis">Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</span>
 </div>
 <div class="edu-row">
   <span class="edu-place"><strong>Master's Thesis, 40,518 words</strong></span>
