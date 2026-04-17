@@ -70,6 +70,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 }
 .edu-section {
   margin-bottom: 28px;
+  font-size: 18pt;
 }
 .edu-links {
   margin-top: 2px;
