@@ -81,7 +81,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 <div class="edu-section">
 
-<h3>Research Assistant</h3>
+<strong>Research Assistant</strong>
 <div class="edu-row">
   <span class="edu-place">Beijing Institute for Brain Research & DaiZhuang Hospital (Shandong, China)</span>
 </div>
@@ -100,7 +100,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 <div class="edu-section">
 
-<h3>M.Eng. in Design</h3>  
+<strong>M.Eng. in Design</strong>  
 <div class="edu-row">
   <span class="edu-place">Harbin Institute of Technology (Harbin, China)</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
@@ -126,7 +126,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 <div class="edu-section">
 
-<h3>B.Eng. in Industrial Design</h3>
+<strong>B.Eng. in Industrial Design</strong>
 <div class="edu-row">
   <span class="edu-place">Hebei University of Technology (Tianjin, China)</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
