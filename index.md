@@ -50,7 +50,25 @@ layout: page
 
 ## Hi, I'm Binglin Zhao（赵冰琳）.
 ---
-Really glad that you show interest in me! I am a researcher in design,holding a master's degree in design and a bachelor's degree in industrial design.I have a strong interest in HCI, human-centered design and ergonomics.
+## Academic Background
+---
+
+**Research Assistant**  
+Beijing Institute for Brain Research & DaiZhuang Hospital (Jining Mental Health Center), Shandong, China  
+- Involved in experimental design, participant recruitment, and neurocognitive and psychological experiments  
+- Conducted eye-tracking data collection and analysis  
+- Developed interactive experimental environments using Unity  
+- Experimental demo: https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose  
+
+**M.Eng. in Design**  
+Harbin Institute of Technology, Harbin, China  
+GPA: 3.61/4.0  
+- Thesis: *Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory* (40,518 words)  
+- Writing sample: https://zhaobinglin2025.github.io/pdf/writing_sample.pdf  
+
+**B.Eng. in Industrial Design**  
+Hebei University of Technology, Tianjin, China  
+GPA: 3.43/4.0  
 
 ---
 <div class="hero-section">
