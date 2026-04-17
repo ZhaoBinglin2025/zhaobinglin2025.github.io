@@ -139,25 +139,23 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 ---
 ## Research Interests
 
-### Cognitive Modeling in HCI
-- Cognitive load theory and its application in interface design  
-- Eye-tracking and behavioral metrics for cognitive evaluation  
-- Decision-making and attention mechanisms in interactive systems  
+### Human-Centered HCI in High-Stakes Contexts
+- Interested in interface design for safety-critical environments (e.g., surgical systems, aviation, high-risk operations), where small design decisions can have significant consequences
+- Focus on ergonomics and data-driven design to reduce cognitive load and support reliable performance under pressure
 
-### Human-Centered Interface Design & Ergonomics
-- Design and evaluation of interfaces for complex systems (e.g., medical robotics)  
-- Visual design strategies for reducing cognitive load and improving usability  
-- Integration of empirical findings into actionable design frameworks  
+### Cognitive-Informed Design & Interdisciplinary Research
+- Motivated by how design influences human cognition, especially in terms of cognitive load, attention, and decision-making
+- Interested in integrating insights from cognitive psychology and neuroscience into HCI
+Aim to use measurable cognitive and behavioral data to inform interface evaluation and development
 
-### Interactive Experimental Systems
-- Development of interactive experimental paradigms (e.g., game-based experiments)  
-- Combining system design with controlled cognitive experiments  
-- Bridging experimental research and real-world interaction scenarios  
+### Experimental Systems & Data-Driven Design
+- Enjoy designing experiments and building interactive systems to study human behavior
+Particularly interested in developing Unity-based experimental paradigms
+- Combine controlled experimental design with system development, using behavioral and eye-tracking data for evidence-based design
 
-### Inclusive and Applied HCI
-- Designing for diverse user populations, including clinical contexts  
-- Translating cognitive and psychological insights into practical design solutions  
-
+### User Experience & Applied HCI
+- Care about user experience across the full interaction process, from requirement elicitation to real-world use
+- Interested in translating empirical findings into practical and usable design solutions across different user groups and contexts
 ---
 
 ## Skills / Research Toolkit
