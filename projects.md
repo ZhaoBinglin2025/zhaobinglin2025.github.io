@@ -205,8 +205,8 @@ breadcrumbs: true
   <div class="pub">
     <div class="thumbs">
       <div class="thumb">
-        <a href="/images/haibao_true.png" class="image-popup" title="Running & Choosing Demo">
-          <img src="/images/haibao_true.png" alt="Running&Choosing1" loading="lazy">
+        <a href="/images/haibao_true.jpg" class="image-popup" title="Running & Choosing Demo">
+          <img src="/images/haibao_true.jpg" alt="Running&Choosing1" loading="lazy">
         </a>
       </div>
       <div class="thumb">
