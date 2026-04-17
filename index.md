@@ -66,16 +66,15 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 
 ### M.Eng. in Design  
-**Harbin Institute of Technology, Harbin, China**  **GPA:** 3.61 / 4.0  
+**Harbin Institute of Technology, (Harbin, China)**   **GPA:** 3.61 / 4.0  
 
-- Thesis: *Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory* (40,518 words)  
+- Thesis: *Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory* (40,518 words)    🔗 [Writing Sample](https://zhaobinglin2025.github.io/pdf/writing_sample.pdf)
 
-🔗 [Writing Sample](https://zhaobinglin2025.github.io/pdf/writing_sample.pdf)
+
 
 
 ### B.Eng. in Industrial Design  
-**Hebei University of Technology, Tianjin, China**  
-**GPA:** 3.43 / 4.0  
+**Hebei University of Technology, (Tianjin, China)**   **GPA:** 3.43 / 4.0  
 
 ---
 ## Research Interests
