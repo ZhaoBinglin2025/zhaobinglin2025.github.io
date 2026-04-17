@@ -18,7 +18,7 @@ title: Experiences
   }
 </style>
 
-## What Have I done?
+## My Experiences
 ---
 
 I received my M.Eng. in Designology from {{ site.owner.university }}, where I was supervised by **[{{ site.owner.advisor }}]({{ site.owner.advisor_url }})**. My master's research investigated human-centered interface design strategies for reducing surgeons’ cognitive load in robot-assisted spinal surgery, combining cognitive theory with empirical evaluation.
