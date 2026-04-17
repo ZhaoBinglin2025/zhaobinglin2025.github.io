@@ -81,7 +81,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 <div class="edu-section">
 
-<h2>Research Assistant</h2>
+<h3>Research Assistant</h3>
 <div class="edu-row">
   <span class="edu-place">Beijing Institute for Brain Research & DaiZhuang Hospital (Shandong, China)</span>
 </div>
@@ -109,7 +109,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
  <span class="edu-thesis"><strong>Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</strong></span>
 </div>
 <div class="edu-row">
-  <span class="edu-place"><strong>Master's Thesis, 40,518 words</strong></span>
+  <span class="edu-place">Master's Thesis, 40,518 words</span>
   <div class="edu-links">
 🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">Writing Sample</a>
   </div>
