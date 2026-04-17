@@ -76,7 +76,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 }
 .edu-thesis {
   font-size: 13pt
-  font-weight: 800
+  font-weight: 2000
 }
 </style>
 
