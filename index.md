@@ -49,10 +49,11 @@ layout: page
 
 
 ## Hi, I'm Binglin Zhao（赵冰琳）.
+
 My research lies at the intersection of Human–Computer Interaction (HCI), cognitive science, and interactive system design. I am particularly interested in how interface design influences human cognition and performance in complex and high-stakes environments(e.g.,surgury and high-risk driving).
+
 ---
 ## Academic Background
----
 
 ### Research Assistant  
 **Beijing Institute for Brain Research & DaiZhuang Hospital (Jining Mental Health Center), China**  
@@ -63,7 +64,6 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 🔗 [Experimental Demo](https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose)
 
----
 
 ### M.Eng. in Design  
 **Harbin Institute of Technology, Harbin, China**  
@@ -73,7 +73,6 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 🔗 [Writing Sample](https://zhaobinglin2025.github.io/pdf/writing_sample.pdf)
 
----
 
 ### B.Eng. in Industrial Design  
 **Hebei University of Technology, Tianjin, China**  
