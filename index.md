@@ -156,6 +156,7 @@ Particularly interested in developing Unity-based experimental paradigms
 ### User Experience & Applied HCI
 - Care about user experience across the full interaction process, from requirement elicitation to real-world use
 - Interested in translating empirical findings into practical and usable design solutions across different user groups and contexts
+
 ---
 
 ## Skills / Research Toolkit
