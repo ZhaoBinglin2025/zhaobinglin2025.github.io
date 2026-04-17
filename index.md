@@ -66,8 +66,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 
 ### M.Eng. in Design  
-**Harbin Institute of Technology, Harbin, China**  
-**GPA:** 3.61 / 4.0  
+**Harbin Institute of Technology, Harbin, China**  **GPA:** 3.61 / 4.0  
 
 - Thesis: *Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory* (40,518 words)  
 
@@ -79,22 +78,6 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 **GPA:** 3.43 / 4.0  
 
 ---
-<div class="hero-section">
-  <div class="hero-content">
- <!--    <h1>Hi, I'm {{ site.owner.name }} </h1>
-    <ul class="styled-list" style="margin-top: 20px;">
-      <li>🎓 <em>Master’s student at Harbin Institue of Technology, working on HCI and human-centered design</em></li>
-      <li>🔬 <em>Research & Project:</em> Spinal Surgery Robot Interface Design Based on Cognitive Load, Unity-Based Game Paradigms for Psychology and Design Experiments</li>
-      <li>🧰 <em>Technical strengths:</em> Unity, C#, Python, Rhino, Blender, Data Anaysis</li>
-      <li>🎯 <strong>Seeking PhD (Fall 2026)</strong> in <em>HCI, immersive design</em></li>
-      <li>📧 <strong>Email:</strong> bulingzhao2@gmail.com</li>
-    </ul> -->
-    <div class="meta-container" style="margin-top: 25px;">
-      <span class="chip chip-journal">🔬 HCI</span>
-      <span class="chip chip-if">🎯 Seeking PhD </span>
-    </div>
-  </div>
-</div>
 ## Research Interests
 
 ### Cognitive Modeling in HCI
@@ -115,23 +98,6 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 ### Inclusive and Applied HCI
 - Designing for diverse user populations, including clinical contexts  
 - Translating cognitive and psychological insights into practical design solutions  
-
----
-
-## Academic Background
-- **M.Eng. in Designology**, School of Architecture and Design, Harbin Institute of Technology  
-- **B.Eng. in Industrial Design**, School of Architecture & Art Design, HeBei University of Technology
-
----
-
-## News and Updates
-- Mar 2026 – Achieved IELTS overall score of 7.0  
-- Mar 2026 – Invited to collaborate on a game-based experimental project  
-- Sep 2025 – Joined Beijing Institute for Brain Research as a Research Assistant  
-- Jun 2025 – Graduated with M.Eng. in Designology  
-- Jun 2023 – Graduated with B.Eng. in Industrial Design  
-
-
 
 ---
 

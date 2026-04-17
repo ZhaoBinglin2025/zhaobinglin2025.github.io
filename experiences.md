@@ -32,6 +32,15 @@ These experiences have provided me with systematic training in user-centered res
 I welcome discussions and potential collaborations. Please feel free to contact me via [email](mailto:{{ site.owner.email }}).
 
 ---
+
+## News and Updates
+
+- Mar 2026 – Achieved an IELTS overall score of 7.0  
+- Mar 2026 – Invited to collaborate on a game-based experimental research project  
+- Sep 2025 – Joined the Beijing Institute for Brain Research as a Research Assistant  
+- Jun 2025 – Awarded M.Eng. in Design  
+- Jun 2023 – Awarded B.Eng. in Industrial Design  
+
 ## My Timeline
 <ul class="styled-list" style="max-width: 900px; margin-bottom: 40px;">
   <li><strong>Research Assistant</strong>,including recruiting patients, conducting psychological and nuero experiments, analyzing eye-tracking data, <strong>DaiZhuang Hospital (Jining Mental Health Center) & Beijing Institute for Brain Research,</strong><span class="chip chip-year" style="float: right;">2025.09-2025.12</span><div style="clear: both;"></div></li>
