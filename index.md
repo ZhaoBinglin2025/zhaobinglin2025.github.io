@@ -49,6 +49,7 @@ layout: page
 
 
 ## Hi, I'm Binglin Zhao（赵冰琳）.
+My research lies at the intersection of Human–Computer Interaction (HCI), cognitive science, and interactive system design. I am particularly interested in how interface design influences human cognition and performance in complex and high-stakes environments(e.g.,surgury and high-risk driving).
 ---
 ## Academic Background
 ---
@@ -96,8 +97,6 @@ layout: page
   </div>
 </div>
 ## Research Interests
-
-My research lies at the intersection of Human–Computer Interaction (HCI), cognitive science, and interactive system design. I am particularly interested in how interface design influences human cognition and performance in complex and high-stakes environments(e.g.,surgury and high-risk driving).
 
 ### Cognitive Modeling in HCI
 - Cognitive load theory and its application in interface design  
