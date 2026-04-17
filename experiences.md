@@ -41,11 +41,4 @@ I welcome discussions and potential collaborations. Please feel free to contact 
 - Jun 2025 – Awarded M.Eng. in Design  
 - Jun 2023 – Awarded B.Eng. in Industrial Design  
 
-## My Timeline
-<ul class="styled-list" style="max-width: 900px; margin-bottom: 40px;">
-  <li><strong>Research Assistant</strong>,including recruiting patients, conducting psychological and nuero experiments, analyzing eye-tracking data, <strong>DaiZhuang Hospital (Jining Mental Health Center) & Beijing Institute for Brain Research,</strong><span class="chip chip-year" style="float: right;">2025.09-2025.12</span><div style="clear: both;"></div></li>
-   <li><strong>Master's Thesis research</strong>, including demand research, designing controlled experiments and materials, conducting experiments and writing research fruits, <strong>Advanced technology research institute,Harbin institute of technology</strong><span class="chip chip-year" style="float: right;">2024.09-2025.04</span><div style="clear: both;"></div></li>
-  <li><strong>Assistanct in School Mental Department</strong>,receiving students who were suffering mental problems,Harbin Institute of Technology <span class="chip chip-year" style="float: right;">2024.06-2024.12</span><div style="clear: both;"></div></li>
-</ul>
-
 <br>
