@@ -104,14 +104,9 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 </div>
 <div class="edu-row">
  <span class="edu-place">Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</span>
-  <span class="edu-gpa"><strong>Master's Thesis, 40,518 words</strong></span>
-  <div class="edu-links">
-🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">Writing Sample</a>
-  </div>
 </div>
 <div class="edu-row">
- <span class="edu-place">Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</span>
-  <span class="edu-gpa"><strong>Master's Thesis, 40,518 words</strong></span>
+  <span class="edu-place"><strong>Master's Thesis, 40,518 words</strong></span>
   <div class="edu-links">
 🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">Writing Sample</a>
   </div>
