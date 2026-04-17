@@ -107,7 +107,8 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
   <li><em>Research on Interface Design of Spinal Surgery Robot Based on Cognitive Load Theory</em> (Master's Thesis, 40,518 words)</li>
   <li>Conducted a factorial experimental study grounded in Cognitive Load Theory (CLT) to systematically investigate the effects of key interface design factors (e.g., color, layout, and icon design) on cognitive load in spinal surgery robot interfaces.</li>
   <li>Derived a set of evidence-based interface design principles by synthesizing experimental findings from Experiment 1, translating CLT into actionable visual design strategies.</li>
-  </li>Designed and conducted a comparative evaluation study (Experiment 2) to assess the effectiveness of the optimized interface against a baseline system, using a multi-method approach including eye-tracking metrics, task completion time, and NASA-TLX to comprehensively evaluate cognitive load and performance.</li>
+  <li>Designed and conducted a comparative evaluation study (Experiment 2) to assess the effectiveness of the optimized interface against a baseline system, using a multi-method approach including eye-tracking metrics, task completion time, and NASA-TLX to </<li>comprehensively evaluate cognitive load and performance.</li>
+  Demonstrated that the optimized interface significantly reduced cognitive load by 39.9\% (p=0.025) and improved task performance by 16.9\% (p=0.048)</li>
 </ul>
 
 <div class="edu-links">
