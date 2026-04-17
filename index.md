@@ -85,7 +85,7 @@ My research lies at the intersection of Human–Computer Interaction (HCI), cogn
 
 <div class="edu-section">
 
-<strong>Research Assistant</strong>
+<span class="edu-place-pro">Research Assistant</span>
 <div class="edu-row">
   <span class="edu-place">Beijing Institute for Brain Research & DaiZhuang Hospital (Shandong, China)</span>
 </div>
