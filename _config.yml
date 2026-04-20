@@ -121,8 +121,6 @@ breadcrumbs: true
 #  INCLUDE / EXCLUDE Lists
 # --------------------------------------------------
 include: [".htaccess"]           # Files to force-include in the build
-include:
-  - gesture.js
 exclude:                         # Folders/files ignored during build
   - "lib"
   - "config.rb"
