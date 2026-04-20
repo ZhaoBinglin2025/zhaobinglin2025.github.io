@@ -167,15 +167,4 @@ Particularly interested in developing Unity-based experimental paradigms
 - **Scientific Writing:** LaTeX  
 - **Languages:** Chinese (Native), English (Fluent)  
 
-<iframe src="/gesture.html"
-style="
-position:fixed;
-bottom:20px;
-right:20px;
-width:260px;
-height:180px;
-border:none;
-z-index:9999;">
-</iframe>
-
 <!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=uv82N_7dV3rkBt0dfztE_3a8xjOEZQwsnE6OqptIpDE&cl=ffffff&w=a"></script> -->
