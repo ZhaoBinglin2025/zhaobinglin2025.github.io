@@ -65,7 +65,7 @@ lang: zh
   }
   .edu-place-pro {
     font-weight: 600;
-    font-size: 16pt;
+    font-size: 5pt;
   }
   .edu-place {
     font-weight: 600;
