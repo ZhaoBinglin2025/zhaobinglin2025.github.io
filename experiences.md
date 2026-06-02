@@ -1,10 +1,11 @@
 ---
 layout: page
 permalink: /experiences/index.html
-title: Experiences
+title: 经历
+lang: zh
 ---
 
-<style>
+&lt;style&gt;
   .styled-list {
     list-style: disc !important;
     padding-left: 20px !important;
@@ -16,29 +17,29 @@ title: Experiences
   .styled-list li::before {
     display: none !important;
   }
-</style>
+&lt;/style&gt;
 
-## My Experiences
+## 我的经历
 ---
 
-I received my M.Eng. in Designology from {{ site.owner.university }}, where I was supervised by **[{{ site.owner.advisor }}]**. My master's research investigated human-centered interface design strategies for reducing surgeons’ cognitive load in robot-assisted spinal surgery, combining cognitive theory with empirical evaluation.
+我于 {{ site.owner.university_cn }} 获得设计学硕士学位，师从 **[{{ site.owner.advisor_cn }}]**。我的硕士研究调查了机器人辅助脊柱手术中减少外科医生认知负荷的人本界面设计策略，结合认知理论与实证评估。
 
-I previously worked as a Research Assistant at DaiZhuang Hospital (Jining Mental Health Center), under the supervision of **[Dr. Qianqian Yu]**. My work focused on large-scale eye-tracking data analysis and the development of game-based experimental paradigms for psychological research.
+我曾在戴庄医院（济宁精神卫生中心）担任研究助理，师从 **[于倩倩博士]**。我的工作聚焦于大规模眼动数据分析与心理研究游戏化实验范式的开发。
 
-I obtained my B.Eng. in Industrial Design from Hebei University of Technology, where I conducted research on mobility aid design for older adults from a Kansei Engineering perspective, supervised by **[Dr. Xinxin Zhang]**.
+我于河北工业大学获得工业设计学士学位，师从 **[张欣欣博士]**，从感性工学角度开展老年人助行器具设计研究。
 
-These experiences have provided me with systematic training in user-centered research, experimental design, and interactive system development, forming the foundation of my current research in Human–Computer Interaction (HCI).
+这些经历为我提供了用户中心研究、实验设计与交互系统开发的系统训练，构成了我目前在**人机交互（HCI）**领域研究的基础。
 
-I welcome discussions and potential collaborations. Please feel free to contact me via [email](mailto:{{ site.owner.email }}).
+欢迎讨论与潜在合作。请通过 [邮件](mailto:{{ site.owner.email }}) 联系我。
 
 ---
 
-## News and Updates
+## 新闻与动态
 
-- Mar 2026 – Achieved an IELTS overall score of 7.0  
-- Mar 2026 – Invited to collaborate on a game-based experimental research project  
-- Sep 2025 – Joined the Beijing Institute for Brain Research as a Research Assistant  
-- Jun 2025 – Awarded M.Eng. in Design  
-- Jun 2023 – Awarded B.Eng. in Industrial Design  
+- 2026年3月 – 雅思总分 7.0  
+- 2026年3月 – 受邀参与一项游戏化实验研究项目  
+- 2025年9月 – 加入北京脑科学与类脑研究中心担任研究助理  
+- 2025年6月 – 获得设计学硕士学位  
+- 2023年6月 – 获得工业设计学士学位  
 
-<br>
+&lt;br&gt;
