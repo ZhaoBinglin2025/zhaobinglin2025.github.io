@@ -48,12 +48,13 @@ lang: zh
   }
 </style>
 
-## 你好，我是赵冰琳（Binglin Zhao）。
+## 你好，我是赵冰琳。
 
-我的研究位于人机交互（HCI）、认知科学与交互系统设计的交叉领域。我特别关注界面设计与多感官反馈如何塑造人类认知与感觉运动学习，尤其是在手术培训和高风险驾驶等复杂且高 stakes 的环境中。
+我的研究位于认知科学、交互系统设计与空间智能的交叉领域。我的研究兴趣聚焦于空间交互元素的定量化设计与人的认知之间的相互作用。
+我擅长以设计探索为目的的认知神经实验系统搭建，精通python、C#编程、机器学习。
 
 ---
-## 学术背景
+## 学术经历
 
 <style>
   .edu-row {
@@ -64,7 +65,7 @@ lang: zh
   }
   .edu-place-pro {
     font-weight: 600;
-    font-size: 18pt;
+    font-size: 16pt;
   }
   .edu-place {
     font-weight: 600;
@@ -87,7 +88,7 @@ lang: zh
 
 <span class="edu-place-pro">研究助理</span>
 <div class="edu-row">
-  <span class="edu-place">北京脑科学与类脑研究中心 & 戴庄医院（山东，中国）</span>
+  <span class="edu-place">北京脑科学与类脑研究中心 & 山东省戴庄医院</span>
 </div>
 
 <ul>
@@ -103,9 +104,9 @@ lang: zh
 </div>
 ---
 <div class="edu-section">
-<span class="edu-place-pro">设计学硕士</span>
+<span class="edu-place-pro">设计学</span><span class="edu-place-pro">工学硕士</span>
 <div class="edu-row">
-  <span class="edu-place">哈尔滨工业大学（哈尔滨，中国）</span>
+  <span class="edu-place">哈尔滨工业大学</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
 </div>
 <div class="edu-row">
