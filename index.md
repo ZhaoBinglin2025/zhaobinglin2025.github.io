@@ -46,16 +46,22 @@ lang: zh
       margin: 0 0 10px 15px !important;
     }
   }
+  .section-title {
+    font-size: 1.5em;        /* 默认 h2 约 1.95em，这里改小 */
+    font-weight: 600;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  }
 </style>
 
 ## 你好，我是赵冰琳。
-
+{:.section-title}
 我的研究位于认知科学、交互系统设计与空间智能的交叉领域。我的研究兴趣聚焦于空间交互元素的定量化设计与人的认知之间的相互作用。
 我擅长以设计探索为目的的认知神经实验系统搭建，精通python、C#编程、机器学习。
 
 ---
 ## 学术经历
-
+{:.section-title}
 <style>
   .edu-row {
     display: flex;
