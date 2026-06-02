@@ -28,6 +28,7 @@ owner:
   advisor_url: https://homepage.hit.edu.cn/leizcn
   email: bulingzhao2@gmail.com
   cv: https://zhaobinglin2025.github.io/cv/Binglin_Zhao_cv.pdf
+  cv_en: https://your-english-cv-github-page.github.io/cv/Binglin_Zhao_cv.pdf  # 请替换为实际英文 CV 地址
   # cv: https://github.com/HU-Qiqi/huqiqi.net/blob/main/file/CV-QiqiHu.pdf
 
 
@@ -58,16 +59,26 @@ owner:
 
 
 # --------------------------------------------------
-#  TOP NAVIGATION BAR
-#  `external: true` opens the link in a new tab.
+#  TOP NAVIGATION BAR - 中文导航
 # --------------------------------------------------
-links:
-  - title: About Me
+nav_zh:
+  - title: 关于我
     url: /
-  - title: Projects
+  - title: 项目
     url: /projects/
-  - title: Experiences
+  - title: 经历
     url: /experiences/
+
+# --------------------------------------------------
+#  TOP NAVIGATION BAR - 英文导航
+# --------------------------------------------------
+nav_en:
+  - title: About Me
+    url: /en/
+  - title: Projects
+    url: /en/projects/
+  - title: Experiences
+    url: /en/experiences/
 
 
 # --------------------------------------------------
@@ -149,4 +160,3 @@ params:
 assets:
    css:
      - assets/css/main.css
-
