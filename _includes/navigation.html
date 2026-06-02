@@ -1,8 +1,5 @@
 {% comment %}
-  Language detection:
-  - If page.lang is explicitly set, use it
-  - If URL starts with /en/, it's English
-  - Otherwise, default to Chinese (zh)
+  Language detection
 {% endcomment %}
 {% if page.lang %}
   {% assign current_lang = page.lang %}
@@ -23,8 +20,6 @@
 
 {% comment %}
   Build the counterpart URL for language switching
-  - Chinese page /projects/ -> English /en/projects/
-  - English page /en/projects/ -> Chinese /projects/
 {% endcomment %}
 {% if current_lang == 'zh' %}
   {% if page.url == '/' or page.url == '/index.html' %}
@@ -45,7 +40,7 @@
 {% endif %}
 
 {% comment %}
-  Check if counterpart page exists by looking for a page with the counterpart URL
+  Check if counterpart page exists
 {% endcomment %}
 {% assign counterpart_exists = false %}
 {% for p in site.pages %}
@@ -59,9 +54,9 @@
 <div class="navigation-wrapper">
 	<div class="site-name">
     {% if current_lang == 'en' %}
-      <a href="{{ site.url }}/en/">{{ site.title }}</a>
+      <a href="{{ '/' | relative_url }}en/">{{ site.title }}</a>
     {% else %}
-      <a href="{{ site.url }}/">{{ site.title }}</a>
+      <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
     {% endif %}
 	</div><!-- /.site-name -->
   {% capture url %}{{ page.url | remove:'index.html' }}{% endcapture %}
@@ -69,10 +64,10 @@
 		<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 		    <ul>
 		        {% for link in nav_links %}
-            <li><a href="{{ site.url }}{{ link.url }}" {% if url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
+            <li><a href="{{ link.url | relative_url }}" {% if url == link.url %}class="top-navigation-current"{% endif %}>{{ link.title }}</a></li>
 		        {% endfor %}
             {% if counterpart_exists %}
-            <li class="lang-switch"><a href="{{ site.url }}{{ counterpart_url }}" title="{{ switch_title }}" class="lang-switch-link">{{ switch_text }}</a></li>
+            <li class="lang-switch"><a href="{{ counterpart_url | relative_url }}" title="{{ switch_title }}" class="lang-switch-link">{{ switch_text }}</a></li>
             {% endif %}
 		    </ul>
 		</nav>
@@ -93,5 +88,3 @@
     opacity: 0.8;
   }
 </style>
-
-<!-- Lastly modified by Hanlin CAI in 2023/05/01 -->

@@ -7,7 +7,7 @@ tagline: Here is personal website of Binglin Zhao. Powered by Jekyll, based on t
 
 # TIP ── For local development you can comment out `url`
 # and build with relative paths. In production you want this set.
-url: https://zhaobinglin2025.github.io/
+url: https://zhaobinglin2025.github.io
 
 # --------------------------------------------------
 #  AUTHOR / PROFILE DATA
