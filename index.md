@@ -100,7 +100,7 @@ lang: zh
 <div class="edu-section">
 <span class="edu-place-pro">设计学</span><span class="edu-place-pro">工学硕士</span>
 <div class="edu-row">
-  <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">建筑与设计学院</span>
+  <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">设计学</span><span class="edu-place">工学硕士</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
 </div>
 <div class="edu-row">
