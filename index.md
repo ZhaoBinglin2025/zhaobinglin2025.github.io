@@ -83,57 +83,57 @@ lang: zh
   }
 </style>
 
-&lt;div class="edu-section"&gt;
+<div class="edu-section">
 
-&lt;span class="edu-place-pro"&gt;研究助理&lt;/span&gt;
-&lt;div class="edu-row"&gt;
-  &lt;span class="edu-place"&gt;北京脑科学与类脑研究中心 & 戴庄医院（山东，中国）&lt;/span&gt;
-&lt;/div&gt;
+<span class="edu-place-pro">研究助理</span>
+<div class="edu-row">
+  <span class="edu-place">北京脑科学与类脑研究中心 & 戴庄医院（山东，中国）</span>
+</div>
 
-&lt;ul&gt;
-  &lt;li&gt;实验设计、被试招募与神经认知研究&lt;/li&gt;
-  &lt;li&gt;眼动数据收集与分析&lt;/li&gt;
-  &lt;li&gt;基于 Unity 的实验环境开发&lt;/li&gt;
-&lt;/ul&gt;
+<ul>
+  <li>实验设计、被试招募与神经认知研究</li>
+  <li>眼动数据收集与分析</li>
+  <li>基于 Unity 的实验环境开发</li>
+</ul>
 
-&lt;div class="edu-links"&gt;
-🔗 &lt;a href="https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose"&gt;实验演示&lt;/a&gt;
-&lt;/div&gt;
+<div class="edu-links">
+🔗 <a href="https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose">实验演示</a>
+</div>
 
-&lt;/div&gt;
+</div>
 ---
-&lt;div class="edu-section"&gt;
-&lt;span class="edu-place-pro"&gt;设计学硕士&lt;/span&gt;
-&lt;div class="edu-row"&gt;
-  &lt;span class="edu-place"&gt;哈尔滨工业大学（哈尔滨，中国）&lt;/span&gt;
-  &lt;span class="edu-gpa"&gt;&lt;strong&gt;GPA:&lt;/strong&gt; 3.61 / 4.0&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="edu-row"&gt;
- &lt;span class="edu-thesis"&gt;&lt;strong&gt;基于认知负荷理论的脊柱手术机器人界面设计研究&lt;/strong&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="edu-row"&gt;
-  &lt;span class="edu-place"&gt;硕士论文&lt;/span&gt;
-  &lt;div class="edu-links"&gt;
-🔗 &lt;a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf"&gt;写作样本&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;基于认知负荷理论（CLT）开展了一项因子实验研究，系统探究关键界面设计因素（如颜色、布局与图标设计）对脊柱手术机器人界面认知负荷的影响。&lt;/li&gt;
-  &lt;li&gt;通过综合实验一的发现，将 CLT 转化为可操作的视觉设计策略，推导出一组基于证据的界面设计原则。&lt;/li&gt;
-  &lt;li&gt;设计并开展了一项对比评估研究（实验二），采用多方法途径（包括眼动指标、任务完成时间与 NASA-TLX）综合评估认知负荷与表现，以评估优化界面与基线系统的有效性。&lt;/li&gt;
-  &lt;li&gt;结果表明，优化界面显著降低了 39.9% 的认知负荷（p=0.025），并将任务表现提升了 16.9%（p=0.048）。&lt;/li&gt;
-&lt;/ul&gt;
+<div class="edu-section">
+<span class="edu-place-pro">设计学硕士</span>
+<div class="edu-row">
+  <span class="edu-place">哈尔滨工业大学（哈尔滨，中国）</span>
+  <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
+</div>
+<div class="edu-row">
+ <span class="edu-thesis"><strong>基于认知负荷理论的脊柱手术机器人界面设计研究</strong></span>
+</div>
+<div class="edu-row">
+  <span class="edu-place">硕士论文</span>
+  <div class="edu-links">
+🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">写作样本</a>
+  </div>
+</div>
+<ul>
+  <li>基于认知负荷理论（CLT）开展了一项因子实验研究，系统探究关键界面设计因素（如颜色、布局与图标设计）对脊柱手术机器人界面认知负荷的影响。</li>
+  <li>通过综合实验一的发现，将 CLT 转化为可操作的视觉设计策略，推导出一组基于证据的界面设计原则。</li>
+  <li>设计并开展了一项对比评估研究（实验二），采用多方法途径（包括眼动指标、任务完成时间与 NASA-TLX）综合评估认知负荷与表现，以评估优化界面与基线系统的有效性。</li>
+  <li>结果表明，优化界面显著降低了 39.9% 的认知负荷（p=0.025），并将任务表现提升了 16.9%（p=0.048）。</li>
+</ul>
 
-&lt;/div&gt;
+</div>
 ---
-&lt;div class="edu-section"&gt;
-&lt;span class="edu-place-pro"&gt;工业设计学士&lt;/span&gt;
-&lt;div class="edu-row"&gt;
-  &lt;span class="edu-place"&gt;河北工业大学（天津，中国）&lt;/span&gt;
-  &lt;span class="edu-gpa"&gt;&lt;strong&gt;GPA:&lt;/strong&gt; 3.43 / 4.0&lt;/span&gt;
-&lt;/div&gt;
+<div class="edu-section">
+<span class="edu-place-pro">工业设计学士</span>
+<div class="edu-row">
+  <span class="edu-place">河北工业大学（天津，中国）</span>
+  <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
+</div>
 
-&lt;/div&gt;
+</div>
 
 ---
 ## 研究兴趣
