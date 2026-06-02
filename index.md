@@ -103,8 +103,7 @@ lang: zh
   </ul>
 </div>
 ---
-<div class="edu-section">
-<span class="edu-place-pro">设计学</span><span class="edu-place-pro">工学硕士</span>
+
 <div class="edu-row">
   <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">设计学</span><span class="edu-place">工学硕士</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
@@ -112,8 +111,6 @@ lang: zh
 <div class="edu-row">
  <span class="edu-thesis"><strong>基于认知负荷理论的脊柱手术机器人界面设计研究</strong></span>
 </div>
-<div class="edu-row">
-  <span class="edu-place">硕士论文</span>
   <div class="edu-links">
 🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">写作样本</a>
   </div>
