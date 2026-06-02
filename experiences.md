@@ -5,7 +5,7 @@ title: 经历
 lang: zh
 ---
 
-&lt;style&gt;
+<style>
   .styled-list {
     list-style: disc !important;
     padding-left: 20px !important;
@@ -17,7 +17,7 @@ lang: zh
   .styled-list li::before {
     display: none !important;
   }
-&lt;/style&gt;
+</style>
 
 ## 我的经历
 ---
@@ -42,4 +42,4 @@ lang: zh
 - 2025年6月 – 获得设计学硕士学位  
 - 2023年6月 – 获得工业设计学士学位  
 
-&lt;br&gt;
+<br>
