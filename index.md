@@ -47,7 +47,7 @@ lang: zh
     }
   }
   .section-title {
-    font-size: 1.5em;        /* 默认 h2 约 1.95em，这里改小 */
+    font-size: 1em;        /* 默认 h2 约 1.95em，这里改小 */
     font-weight: 600;
     margin-top: 1.2em;
     margin-bottom: 0.6em;
