@@ -3,7 +3,7 @@ layout: page
 lang: zh
 ---
 
-&lt;style&gt;
+<style>
   .hero-section, .hero-section * {
     font-family: 'PT Serif', serif !important;
     color: #333332;
@@ -46,7 +46,7 @@ lang: zh
       margin: 0 0 10px 15px !important;
     }
   }
-&lt;/style&gt;
+</style>
 
 ## 你好，我是赵冰琳（Binglin Zhao）。
 
@@ -55,7 +55,7 @@ lang: zh
 ---
 ## 学术背景
 
-&lt;style&gt;
+<style>
   .edu-row {
     display: flex;
     justify-content: space-between;
@@ -81,7 +81,7 @@ lang: zh
   .edu-thesis {
     font-size: 14pt;
   }
-&lt;/style&gt;
+</style>
 
 &lt;div class="edu-section"&gt;
 
