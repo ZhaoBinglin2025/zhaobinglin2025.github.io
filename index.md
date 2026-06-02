@@ -2,6 +2,7 @@
 layout: page
 lang: zh
 ---
+
 &lt;style&gt;
   .hero-section, .hero-section * {
     font-family: 'PT Serif', serif !important;
@@ -55,31 +56,31 @@ lang: zh
 ## 学术背景
 
 &lt;style&gt;
-.edu-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 20px;
-}
-.edu-place-pro {
-  font-weight: 600;
-  font-size: 18pt;
-}
-.edu-place {
-  font-weight: 600;
-}
-.edu-gpa {
-  white-space: nowrap;
-}
-.edu-section {
-  margin-bottom: 28px;
-}
-.edu-links {
-  margin-top: 2px;
-}
-.edu-thesis {
-  font-size: 14pt;
-}
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 20px;
+  }
+  .edu-place-pro {
+    font-weight: 600;
+    font-size: 18pt;
+  }
+  .edu-place {
+    font-weight: 600;
+  }
+  .edu-gpa {
+    white-space: nowrap;
+  }
+  .edu-section {
+    margin-bottom: 28px;
+  }
+  .edu-links {
+    margin-top: 2px;
+  }
+  .edu-thesis {
+    font-size: 14pt;
+  }
 &lt;/style&gt;
 
 &lt;div class="edu-section"&gt;
