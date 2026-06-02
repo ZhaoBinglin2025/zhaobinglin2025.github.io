@@ -65,7 +65,7 @@ lang: zh
   }
   .edu-place-pro {
     font-weight: 600;
-    font-size: 5pt;
+    font-size: 16pt;
   }
   .edu-place {
     font-weight: 600;
@@ -85,18 +85,16 @@ lang: zh
 </style>
 
 <div class="edu-section">
+  <div class="edu-row">
+    <span class="edu-place-pro">认知神经科学研究助理</span>
+    <span class="edu-place">北京脑科学与类脑研究中心 & 山东省戴庄医院</span>
+  </div>
 
-<span class="edu-place-pro">认知神经科学研究助理</span>
-<div class="edu-row">
-  <span class="edu-place">北京脑科学与类脑研究中心 & 山东省戴庄医院</span>
-</div>
-
-<ul>
-  <li>运用python 对大规模（100+ 被试）眼动数据做预处理、前后对比差异检验以及结论分析</li>
-  <li>调试psychopy 代码，解决了其无法正常向眼动仪实时发送标签的问题</li>
-  <li>在山东省戴庄医院物理治疗科负责核磁MRI扫描、经颅超声治疗及认知实验的主试</li>
-</ul>
-
+  <ul>
+    <li>运用python 对大规模（100+ 被试）眼动数据做预处理、前后对比差异检验以及结论分析</li>
+    <li>调试psychopy 代码，解决了其无法正常向眼动仪实时发送标签的问题</li>
+    <li>在山东省戴庄医院物理治疗科负责核磁MRI扫描、经颅超声治疗及认知实验的主试</li>
+  </ul>
 </div>
 ---
 <div class="edu-section">
