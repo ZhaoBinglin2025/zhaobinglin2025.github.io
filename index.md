@@ -86,27 +86,23 @@ lang: zh
 
 <div class="edu-section">
 
-<span class="edu-place-pro">研究助理</span>
+<span class="edu-place-pro">认知神经科学研究助理</span>
 <div class="edu-row">
   <span class="edu-place">北京脑科学与类脑研究中心 & 山东省戴庄医院</span>
 </div>
 
 <ul>
-  <li>实验设计、被试招募与神经认知研究</li>
-  <li>眼动数据收集与分析</li>
-  <li>基于 Unity 的实验环境开发</li>
+  <li>运用python 对大规模（100+ 被试）眼动数据做预处理、前后对比差异检验以及结论分析</li>
+  <li>调试psychopy 代码，解决了其无法正常向眼动仪实时发送标签的问题</li>
+  <li>在山东省戴庄医院物理治疗科负责核磁MRI扫描、经颅超声治疗及认知实验的主试</li>
 </ul>
-
-<div class="edu-links">
-🔗 <a href="https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose">实验演示</a>
-</div>
 
 </div>
 ---
 <div class="edu-section">
 <span class="edu-place-pro">设计学</span><span class="edu-place-pro">工学硕士</span>
 <div class="edu-row">
-  <span class="edu-place">哈尔滨工业大学</span>
+  <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">建筑与设计学院</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
 </div>
 <div class="edu-row">
