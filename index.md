@@ -92,12 +92,12 @@ lang: zh
     font-size: 14pt;
   }
   .edu-place a {
-    color: #2c3e50;
+    color: #4680bb;
     font-weight: 600;
     text-decoration: none;
   }
   .edu-place a:hover {
-      color: #4a6a88;
+      color: #396795;
       text-decoration: underline;
   }
 </style>
