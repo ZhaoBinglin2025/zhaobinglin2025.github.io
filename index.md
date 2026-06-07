@@ -59,7 +59,6 @@ lang: zh
 </style>
 
 <h2 class="section-title">你好！我是赵冰琳。</h2>
-{:.section-title}
 我的研究位于认知科学、交互系统设计与空间智能的交叉领域。我的研究兴趣聚焦于空间交互元素的定量化设计与人的认知之间的相互作用。
 我擅长以设计探索为目的的认知神经实验系统搭建，精通python、C#编程、机器学习。
 
@@ -147,14 +146,11 @@ lang: zh
 </ul>
 
 ---
-<div class="edu-section">
-<span class="edu-place-pro">工业设计学士</span>
 <div class="edu-row">
-  <span class="edu-place">河北工业大学</span>
-  <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
+  <span class="edu-place">河北工业大学</span><span class="edu-place">工业设计</span><span class="edu-place">工学学士</span>
+  <span class="edu-gpa"><strong>GPA:</strong> 3.34 / 4.0</span>
 </div>
 
-</div>
 
 ---
 <h2 class="section-title">研究兴趣</h2>
