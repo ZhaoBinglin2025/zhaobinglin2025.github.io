@@ -91,6 +91,15 @@ lang: zh
   .edu-thesis {
     font-size: 14pt;
   }
+  .edu-place a {
+    color: #2c3e50;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .edu-place a:hover {
+      color: #4a6a88;
+      text-decoration: underline;
+  }
 </style>
 
 <div class="edu-row">
@@ -112,7 +121,7 @@ lang: zh
     <li>调试psychopy 代码，解决了其无法正常向眼动仪实时发送标签的问题</li>
     <li>在山东省戴庄医院物理治疗科负责核磁MRI扫描、经颅超声治疗及认知实验的主试</li>
   </ul>
-  
+
 ---
 
 <div class="edu-row">
