@@ -148,7 +148,7 @@ lang: zh
 ---
 <div class="edu-row">
   <span class="edu-place">河北工业大学</span><span class="edu-place">工业设计</span><span class="edu-place">工学学士</span>
-  <span class="edu-gpa"><strong>GPA:</strong> 3.34 / 4.0</span>
+  <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
 </div>
 
 
