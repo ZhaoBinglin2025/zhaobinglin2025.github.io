@@ -61,8 +61,7 @@ lang: zh
 我擅长以设计探索为目的的认知神经实验系统搭建，精通python、C#编程、机器学习。
 
 ---
-## 学术经历
-{:.section-title}
+<h2 class="section-title">学术经历</h2>
 <style>
   .edu-row {
     display: flex;
@@ -138,7 +137,7 @@ lang: zh
 </div>
 
 ---
-## 研究兴趣
+<h2 class="section-title">研究兴趣</h2>
 
 ### 高风险情境下的人本 HCI
 - 关注安全关键环境（如手术系统、航空、高风险操作）中的界面设计，其中微小的设计决策可能产生重大后果
@@ -160,7 +159,7 @@ lang: zh
 
 ---
 
-## 技能 / 研究工具箱
+<h2 class="section-title">技能 & 研究工具</h2>
 - **编程：** Python, C#  
 - **数据分析：** SPSS, Python (NumPy, Pandas)  
 - **实验工具：** PsychoPy, Tobii 眼动仪  
