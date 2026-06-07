@@ -52,7 +52,7 @@ lang: zh
     font-size: 1.5em !important;
     font-weight: 600 !important;
     letter-spacing: 0.03em;
-    color: #2c3e50;
+    color: #000000;
     margin-top: 1.5em !important;
     margin-bottom: 0.8em !important;
   }
