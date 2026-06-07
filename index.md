@@ -49,13 +49,15 @@ lang: zh
 
   h2.section-title {
     font-family: "Noto Serif SC", serif !important;
-    font-size: 1.5em !important;
+    font-size: 1.9em !important;
     font-weight: 600 !important;
-    letter-spacing: 0.03em;
-    color: #000000;
-    margin-top: 1.5em !important;
+    letter-spacing: 0.04em;
+    color: #2c3e50;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+    margin-top: 1.8em !important;
     margin-bottom: 0.8em !important;
-  }
+}
 </style>
 
 <h2 class="section-title">你好！我是赵冰琳。</h2>
