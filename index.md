@@ -98,7 +98,7 @@ lang: zh
 <div class="edu-section">
   <div class="edu-row">
     <span class="edu-place-pro">认知神经科学研究助理</span>
-    <span class="edu-place">北京脑科学与类脑研究中心 & 山东省戴庄医院</span>
+    <span class="edu-place"><a href="https://cibr.ac.cn/home">北京脑科学与类脑研究中心 & <a href="https://www.sdsdzyy.cn/">山东省戴庄医院</span>
   </div>
 
   <ul>
@@ -135,7 +135,7 @@ lang: zh
 <div class="edu-section">
 <span class="edu-place-pro">工业设计学士</span>
 <div class="edu-row">
-  <span class="edu-place">河北工业大学（天津，中国）</span>
+  <span class="edu-place">河北工业大学</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
 </div>
 
