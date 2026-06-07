@@ -124,7 +124,9 @@ lang: zh
     <li>在山东省戴庄医院物理治疗科负责核磁MRI扫描、经颅超声治疗及认知实验的主试</li>
   </ul>
 
+<h2 class="section-title">教育经历</h2>
 
+---
 <div class="edu-row">
   <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">设计学</span><span class="edu-place">工学硕士</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
