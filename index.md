@@ -2,7 +2,7 @@
 layout: page
 lang: zh
 ---
-
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   .hero-section, .hero-section * {
     font-family: 'PT Serif', serif !important;
@@ -48,10 +48,13 @@ lang: zh
   }
 
   h2.section-title {
+    font-family: "Noto Serif SC", serif !important;
     font-size: 1.5em !important;
     font-weight: 600 !important;
-    margin-top: 1.2em !important;
-    margin-bottom: 0.6em !important;
+    letter-spacing: 0.03em;
+    color: #2c3e50;
+    margin-top: 1.5em !important;
+    margin-bottom: 0.8em !important;
   }
 </style>
 
