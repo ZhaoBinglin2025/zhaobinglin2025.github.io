@@ -109,12 +109,16 @@ lang: zh
   <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">设计学</span><span class="edu-place">工学硕士</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.61 / 4.0</span>
 </div>
+
 <div class="edu-row">
- <span class="edu-thesis"><strong>基于认知负荷理论的脊柱手术机器人界面设计研究</strong></span>
+  <span class="edu-thesis">
+    <strong>基于认知负荷理论的脊柱手术机器人界面设计研究</strong>
+  </span>
+
+  <span class="edu-links">
+    🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">写作样本</a>
+  </span>
 </div>
-  <div class="edu-links">
-🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">写作样本</a>
-  </div>
 
 <ul>
   <li>基于认知负荷理论（CLT）开展了一项因子实验研究，系统探究关键界面设计因素（如颜色、布局与图标设计）对脊柱手术机器人界面认知负荷的影响。</li>
