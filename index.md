@@ -123,7 +123,6 @@ lang: zh
   <li>结果表明，优化界面显著降低了 39.9% 的认知负荷（p=0.025），并将任务表现提升了 16.9%（p=0.048）。</li>
 </ul>
 
-</div>
 ---
 <div class="edu-section">
 <span class="edu-place-pro">工业设计学士</span>
