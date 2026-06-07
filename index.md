@@ -115,7 +115,7 @@ lang: zh
   <div class="edu-links">
 🔗 <a href="https://zhaobinglin2025.github.io/pdf/writing_sample.pdf">写作样本</a>
   </div>
-</div>
+
 <ul>
   <li>基于认知负荷理论（CLT）开展了一项因子实验研究，系统探究关键界面设计因素（如颜色、布局与图标设计）对脊柱手术机器人界面认知负荷的影响。</li>
   <li>通过综合实验一的发现，将 CLT 转化为可操作的视觉设计策略，推导出一组基于证据的界面设计原则。</li>
