@@ -49,13 +49,11 @@ lang: zh
 
   h2.section-title {
     font-family: "Noto Serif SC", serif !important;
-    font-size: 1.9em !important;
+    font-size: 1.5em !important;
     font-weight: 600 !important;
-    letter-spacing: 0.04em;
-    color: #2c3e50;
-    border-bottom: 1px solid #e5e5e5;
-    padding-bottom: 8px;
-    margin-top: 1.8em !important;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-top: 1.5em !important;
     margin-bottom: 0.8em !important;
 }
 </style>
@@ -95,11 +93,19 @@ lang: zh
   }
 </style>
 
-<div class="edu-section">
-  <div class="edu-row">
+<div class="edu-row">
     <span class="edu-place-pro">认知神经科学研究助理</span>
-    <span class="edu-place"><a href="https://cibr.ac.cn/home">北京脑科学与类脑研究中心 & <a href="https://www.sdsdzyy.cn/">山东省戴庄医院</span>
-  </div>
+
+    <span class="edu-place">
+        <a href="https://cibr.ac.cn/home" target="_blank">
+            北京脑科学与类脑研究中心
+        </a>
+        &
+        <a href="https://www.sdsdzyy.cn/" target="_blank">
+            山东省戴庄医院
+        </a>
+    </span>
+</div>
 
   <ul>
     <li>运用python 对大规模（100+ 被试）眼动数据做预处理、前后对比差异检验以及结论分析</li>
