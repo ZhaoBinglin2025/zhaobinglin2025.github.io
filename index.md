@@ -59,10 +59,12 @@ lang: zh
 </style>
 
 <h2 class="section-title">你好！我是赵冰琳。</h2>
+
+---
 我的研究位于认知科学、交互系统设计与空间智能的交叉领域。我的研究兴趣聚焦于空间交互元素的定量化设计与人的认知之间的相互作用。
 我擅长以设计探索为目的的认知神经实验系统搭建，精通python、C#编程、机器学习。
 
----
+
 <h2 class="section-title">学术经历</h2>
 <style>
   .edu-row {
@@ -101,6 +103,7 @@ lang: zh
   }
 </style>
 
+---
 <div class="edu-row">
     <span class="edu-place-pro">认知神经科学研究助理</span>
 
@@ -121,7 +124,6 @@ lang: zh
     <li>在山东省戴庄医院物理治疗科负责核磁MRI扫描、经颅超声治疗及认知实验的主试</li>
   </ul>
 
----
 
 <div class="edu-row">
   <span class="edu-place">哈尔滨工业大学</span><span class="edu-place">设计学</span><span class="edu-place">工学硕士</span>
@@ -145,16 +147,16 @@ lang: zh
   <li>结果表明，优化界面显著降低了 39.9% 的认知负荷（p=0.025），并将任务表现提升了 16.9%（p=0.048）。</li>
 </ul>
 
----
 <div class="edu-row">
   <span class="edu-place">河北工业大学</span><span class="edu-place">工业设计</span><span class="edu-place">工学学士</span>
   <span class="edu-gpa"><strong>GPA:</strong> 3.43 / 4.0</span>
 </div>
 
 
----
+
 <h2 class="section-title">研究兴趣</h2>
 
+---
 ### 高风险情境下的人本 HCI
 - 关注安全关键环境（如手术系统、航空、高风险操作）中的界面设计，其中微小的设计决策可能产生重大后果
 - 聚焦人因工程与数据驱动设计，以降低认知负荷并支持压力下的可靠表现
@@ -173,9 +175,11 @@ lang: zh
 - 关注从需求获取到实际使用的完整交互过程中的用户体验
 - 有兴趣将实证发现转化为适用于不同用户群体和情境的实用且可用的设计解决方案
 
----
+
 
 <h2 class="section-title">技能 & 研究工具</h2>
+
+---
 - **编程：** Python, C#  
 - **数据分析：** SPSS, Python (NumPy, Pandas)  
 - **实验工具：** PsychoPy, Tobii 眼动仪  
