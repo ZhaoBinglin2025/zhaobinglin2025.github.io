@@ -194,9 +194,9 @@ lang: zh
 ---
 <ul>
   <li><strong>编程：</strong> Python, C#</li>
-  <li><strong>数据分析：** SPSS, Python (NumPy, Pandas)</li>
-  <li>**实验工具：** PsychoPy, Tobii 眼动仪, EEG（脑电设备）</li>
-  <li>**设计与开发：** Unity, Figma, Rhino, Keyshot, Blender</li>
-  <li>**学术写作：** LaTeX</li>
-  <li>**语言：** 英文（雅思 7.0）</li>
+  <li><strong>数据分析：SPSS, Python (NumPy, Pandas)</li>
+  <li>实验工具：PsychoPy, Tobii 眼动仪, EEG（脑电设备）</li>
+  <li>设计与开发：Unity, Figma, Rhino, Keyshot, Blender</li>
+  <li>学术写作: LaTeX</li>
+  <li>语言：英文（雅思 7.0）</li>
 </ul>
