@@ -49,7 +49,7 @@ lang: zh
 
   h2.section-title {
     font-family: "Noto Serif SC", serif !important;
-    font-size: 1em !important;
+    font-size: 1.4em !important;
     font-weight: 600 !important;
     letter-spacing: 0.03em;
     color: #000000;
