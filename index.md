@@ -133,6 +133,13 @@ lang: zh
 </div>
 
 <div class="edu-row">
+  <span class="edu-place">哈尔滨工业大学学业奖学金二等奖</span><span class="edu-gpa">2023.09</span>
+  <span class="edu-place">哈尔滨工业大学学业奖学金二等奖</span><span class="edu-gpa">2024.09</span>
+  <span class="edu-place">Community Toollink——社区共享工具车设计.全国大学生工业设计大赛黑龙江赛区三等奖</span><span class="edu-gpa">2024</span>
+  <span class="edu-place">废墟搜救机器人的概念设计.全国大学生工业设计大赛黑龙江赛区三等奖</span><span class="edu-gpa">2024</span>
+</div>
+
+<div class="edu-row">
   <span class="edu-thesis">
     <strong>基于认知负荷理论的脊柱手术机器人界面设计研究</strong>
   </span>
