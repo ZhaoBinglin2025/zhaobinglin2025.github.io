@@ -271,7 +271,7 @@ breadcrumbs: true
     </div>
     <div class="body">
       <p class="title">
-        <a href="https://play.unity.com/en/games/18f5213f-d543-4c63-a6df-090885327825/run-choose">
+        <a href="https://zhaobinglin2026.github.io/CE/">
           大运河文化遗产时空分异归因与交互仿真研究
         </a><br>
         <span class="badge badge-date"><i class="fas fa-calendar"></i> 参考文献：Research on the spatial distribution and influencing factors of hydronyms in cities along the Grand Canal</span>
