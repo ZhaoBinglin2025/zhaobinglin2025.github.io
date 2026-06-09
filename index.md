@@ -205,8 +205,10 @@ lang: zh
 <h2 class="section-title">新闻与动态</h2>
 
 ---
+<ul>
 <li><strong>2026年3月</strong> 雅思总分 7.0</li>
 <li><strong>2026年3月</strong> 与于倩倩博士合作一项游戏化的认知心理学实验项目</li>
 <li><strong>2026年3月</strong> 加入北京脑科学与类脑研究中心担任研究助理</li>
 <li><strong>2026年3月</strong> 获得设计学硕士学位</li>
 <li><strong>2026年3月</strong> 获得工业设计学士学位</li>
+</ul>
