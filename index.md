@@ -200,3 +200,13 @@ lang: zh
   <li><strong>学术写作: </strong>LaTeX</li>
   <li><strong>语言：</strong>英文（雅思 7.0）</li>
 </ul>
+
+
+<h2 class="section-title">新闻与动态</h2>
+
+---
+<li><strong>2026年3月</strong> 雅思总分 7.0</li>
+<li><strong>2026年3月</strong> 受邀参与一项游戏化实验研究项目</li>
+<li><strong>2026年3月</strong> 加入北京脑科学与类脑研究中心担任研究助理</li>
+<li><strong>2026年3月</strong> 获得设计学硕士学位</li>
+<li><strong>2026年3月</strong> 获得工业设计学士学位</li>
