@@ -259,12 +259,12 @@ breadcrumbs: true
   <div class="pub">
     <div class="thumbs">
       <div class="thumb">
-        <a href="https://zhaobinglin2026.github.io/CE/" class="image-popup" title="unity可视化">
+        <a href="/images/unity_screenshot_1.png" class="image-popup" title="unity可视化">
           <img src="/images/unity_screenshot_1.png" alt="unity可视化" loading="lazy">
         </a>
       </div>
       <div class="thumb">
-        <a href="https://zhaobinglin2025.github.io/cv/canalecho_rp.pdf" class="image-popup" title="本文研究技术框架">
+        <a href="/images/Technologyroadmap.png" class="image-popup" title="本文研究技术框架">
           <img src="/images/Technologyroadmap.png" alt="研究技术框架图" loading="lazy">
         </a>
       </div>
