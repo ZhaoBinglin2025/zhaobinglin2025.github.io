@@ -27,7 +27,7 @@ owner:
   advisor_cn: 朱磊副教授
   advisor_url: https://homepage.hit.edu.cn/leizcn
   email: bulingzhao2@gmail.com
-  cv: https://zhaobinglin2025.github.io/cv/Binglin_Zhao_cv.pdf
+  cv: https://zhaobinglin2025.github.io/cv/B.pdf
   cv_en: https://your-english-cv-github-page.github.io/cv/Binglin_Zhao_cv.pdf  # 请替换为实际英文 CV 地址
   # cv: https://github.com/HU-Qiqi/huqiqi.net/blob/main/file/CV-QiqiHu.pdf
 
@@ -66,8 +66,7 @@ nav_zh:
     url: /
   - title: 项目
     url: /projects/
-  - title: 经历
-    url: /experiences/
+
 
 # --------------------------------------------------
 #  TOP NAVIGATION BAR - 英文导航
