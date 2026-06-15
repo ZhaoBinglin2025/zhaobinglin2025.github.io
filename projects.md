@@ -259,13 +259,13 @@ breadcrumbs: true
   <div class="pub">
     <div class="thumbs">
       <div class="thumb">
-        <a href="/images/haibao_true.jpg" class="image-popup" title="Running & Choosing 演示">
-          <img src="/images/haibao_true.jpg" alt="Running&Choosing1" loading="lazy">
+        <a href="/images/unity_screenshot_1.png" class="image-popup" title="Running & Choosing 演示">
+          <img src="/images/unity_screenshot_1.png" alt="Running&Choosing1" loading="lazy">
         </a>
       </div>
       <div class="thumb">
-        <a href="/images/game_1.jpg" class="image-popup" title="Running & Choosing 演示2">
-          <img src="/images/game_1.jpg" alt="Running&Choosing2" loading="lazy">
+        <a href="/images/Technology_roadmap.png" class="image-popup" title="Running & Choosing 演示2">
+          <img src="/images/Technology_roadmap.png" alt="Running&Choosing2" loading="lazy">
         </a>
       </div>
     </div>
