@@ -259,19 +259,19 @@ breadcrumbs: true
   <div class="pub">
     <div class="thumbs">
       <div class="thumb">
-        <a href="/images/unity_screenshot_1.png" class="image-popup" title="unity可视化">
+        <a href="https://zhaobinglin2026.github.io/CE/" class="image-popup" title="unity可视化">
           <img src="/images/unity_screenshot_1.png" alt="unity可视化" loading="lazy">
         </a>
       </div>
       <div class="thumb">
-        <a href="/images/Technologyroadmap.png" class="image-popup" title="本文研究技术框架">
+        <a href="https://zhaobinglin2025.github.io/cv/canalecho_rp" class="image-popup" title="本文研究技术框架">
           <img src="/images/Technologyroadmap.png" alt="研究技术框架图" loading="lazy">
         </a>
       </div>
     </div>
     <div class="body">
       <p class="title">
-        <a href="https://zhaobinglin2026.github.io/CE/">
+        <a href="https://zhaobinglin2025.github.io/cv/canalecho_rp">
           大运河文化遗产时空分异归因与交互仿真研究
         </a><br>
         <span class="badge badge-date"><i class="fas fa-calendar"></i> 参考文献：Research on the spatial distribution and influencing factors of hydronyms in cities along the Grand Canal</span>
