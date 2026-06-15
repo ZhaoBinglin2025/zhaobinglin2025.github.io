@@ -98,7 +98,7 @@ lang: zh
     white-space: nowrap;
   }
   .edu-place a {
-    color: #6050db;
+    color: #1d4ed8;
     font-weight: 600;
     text-decoration: none;
   }
