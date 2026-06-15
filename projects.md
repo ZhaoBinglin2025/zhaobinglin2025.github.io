@@ -259,13 +259,13 @@ breadcrumbs: true
   <div class="pub">
     <div class="thumbs">
       <div class="thumb">
-        <a href="/images/unity_screenshot_1.png" class="image-popup" title="Running & Choosing 演示">
-          <img src="/images/unity_screenshot_1.png" alt="Running&Choosing1" loading="lazy">
+        <a href="/images/unity_screenshot_1.png" class="image-popup" title="unity可视化">
+          <img src="/images/unity_screenshot_1.png" alt="unity可视化" loading="lazy">
         </a>
       </div>
       <div class="thumb">
-        <a href="/images/Technology_roadmap.png" class="image-popup" title="Running & Choosing 演示2">
-          <img src="/images/Technology_roadmap.png" alt="Running&Choosing2" loading="lazy">
+        <a href="/images/Technologyroadmap.png" class="image-popup" title="本文研究技术框架">
+          <img src="/images/Technologyroadmap.png" alt="研究技术框架图" loading="lazy">
         </a>
       </div>
     </div>
